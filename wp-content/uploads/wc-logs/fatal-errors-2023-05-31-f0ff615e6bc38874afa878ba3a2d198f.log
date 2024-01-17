@@ -1,0 +1,112 @@
+2023-05-31T15:39:22+00:00 CRITICAL Uncaught TypeError: implode(): Argument #2 ($array) must be of type ?array, string given in /home/u820293657/domains/goltebbusters.store/public_html/wp-content/themes/botiga/inc/customizer/controls/select2/class_botiga_select2.php:96
+Stack trace:
+#0 /home/u820293657/domains/goltebbusters.store/public_html/wp-content/themes/botiga/inc/customizer/controls/select2/class_botiga_select2.php(96): implode()
+#1 /home/u820293657/domains/goltebbusters.store/public_html/wp-includes/class-wp-customize-control.php(430): Botiga_Select2_Control->render_content()
+#2 /home/u820293657/domains/goltebbusters.store/public_html/wp-includes/class-wp-customize-control.php(417): WP_Customize_Control->render()
+#3 /home/u820293657/domains/goltebbusters.store/public_html/wp-includes/class-wp-customize-control.php(381): WP_Customize_Control->maybe_render()
+#4 /home/u820293657/domains/goltebbusters.store/public_html/wp-includes/class-wp-customize-control.php(319): WP_Customize_Control->get_content()
+#5 /home/u820293657/domains/goltebbusters.store/public_html/wp-includes/class-wp-customize-control.php(337): WP_Customize_Control->to_json()
+#6 /home/u820293657/domains/goltebbusters.store/public_html/wp-includes/class-wp-customize-manager.php(5000): WP_Customize_Control->json()
+#7 /home/u820293657/domains/goltebbusters.store/public_html/wp-includes/class-wp-hook.php(308): WP_Customize_Manager->customize_pane_settings()
+#8 /home/u820293657/domains/goltebbusters.store/public_html/wp-includes/class-wp-hook.php(332): WP_Hook->apply_filters()
+#9 /home/u820293657/domains/goltebbusters.store/public_html/wp-includes/plugin.php(517): WP_Hook->do_action()
+#10 /home/u820293657/domains/goltebbusters.store/public_html/wp-admin/customize.php(302): do_action()
+#11 {main}
+  thrown in /home/u820293657/domains/goltebbusters.store/public_html/wp-content/themes/botiga/inc/customizer/controls/select2/class_botiga_select2.php on line 96
+
+2023-05-31T15:40:35+00:00 CRITICAL Uncaught TypeError: implode(): Argument #2 ($array) must be of type ?array, string given in /home/u820293657/domains/goltebbusters.store/public_html/wp-content/themes/botiga/inc/customizer/controls/select2/class_botiga_select2.php:96
+Stack trace:
+#0 /home/u820293657/domains/goltebbusters.store/public_html/wp-content/themes/botiga/inc/customizer/controls/select2/class_botiga_select2.php(96): implode()
+#1 /home/u820293657/domains/goltebbusters.store/public_html/wp-includes/class-wp-customize-control.php(430): Botiga_Select2_Control->render_content()
+#2 /home/u820293657/domains/goltebbusters.store/public_html/wp-includes/class-wp-customize-control.php(417): WP_Customize_Control->render()
+#3 /home/u820293657/domains/goltebbusters.store/public_html/wp-includes/class-wp-customize-control.php(381): WP_Customize_Control->maybe_render()
+#4 /home/u820293657/domains/goltebbusters.store/public_html/wp-includes/class-wp-customize-control.php(319): WP_Customize_Control->get_content()
+#5 /home/u820293657/domains/goltebbusters.store/public_html/wp-includes/class-wp-customize-control.php(337): WP_Customize_Control->to_json()
+#6 /home/u820293657/domains/goltebbusters.store/public_html/wp-includes/class-wp-customize-manager.php(5000): WP_Customize_Control->json()
+#7 /home/u820293657/domains/goltebbusters.store/public_html/wp-includes/class-wp-hook.php(308): WP_Customize_Manager->customize_pane_settings()
+#8 /home/u820293657/domains/goltebbusters.store/public_html/wp-includes/class-wp-hook.php(332): WP_Hook->apply_filters()
+#9 /home/u820293657/domains/goltebbusters.store/public_html/wp-includes/plugin.php(517): WP_Hook->do_action()
+#10 /home/u820293657/domains/goltebbusters.store/public_html/wp-admin/customize.php(302): do_action()
+#11 {main}
+  thrown in /home/u820293657/domains/goltebbusters.store/public_html/wp-content/themes/botiga/inc/customizer/controls/select2/class_botiga_select2.php on line 96
+
+2023-05-31T15:41:02+00:00 CRITICAL Uncaught TypeError: implode(): Argument #2 ($array) must be of type ?array, string given in /home/u820293657/domains/goltebbusters.store/public_html/wp-content/themes/botiga/inc/customizer/controls/select2/class_botiga_select2.php:96
+Stack trace:
+#0 /home/u820293657/domains/goltebbusters.store/public_html/wp-content/themes/botiga/inc/customizer/controls/select2/class_botiga_select2.php(96): implode()
+#1 /home/u820293657/domains/goltebbusters.store/public_html/wp-includes/class-wp-customize-control.php(430): Botiga_Select2_Control->render_content()
+#2 /home/u820293657/domains/goltebbusters.store/public_html/wp-includes/class-wp-customize-control.php(417): WP_Customize_Control->render()
+#3 /home/u820293657/domains/goltebbusters.store/public_html/wp-includes/class-wp-customize-control.php(381): WP_Customize_Control->maybe_render()
+#4 /home/u820293657/domains/goltebbusters.store/public_html/wp-includes/class-wp-customize-control.php(319): WP_Customize_Control->get_content()
+#5 /home/u820293657/domains/goltebbusters.store/public_html/wp-includes/class-wp-customize-control.php(337): WP_Customize_Control->to_json()
+#6 /home/u820293657/domains/goltebbusters.store/public_html/wp-includes/class-wp-customize-manager.php(5000): WP_Customize_Control->json()
+#7 /home/u820293657/domains/goltebbusters.store/public_html/wp-includes/class-wp-hook.php(308): WP_Customize_Manager->customize_pane_settings()
+#8 /home/u820293657/domains/goltebbusters.store/public_html/wp-includes/class-wp-hook.php(332): WP_Hook->apply_filters()
+#9 /home/u820293657/domains/goltebbusters.store/public_html/wp-includes/plugin.php(517): WP_Hook->do_action()
+#10 /home/u820293657/domains/goltebbusters.store/public_html/wp-admin/customize.php(302): do_action()
+#11 {main}
+  thrown in /home/u820293657/domains/goltebbusters.store/public_html/wp-content/themes/botiga/inc/customizer/controls/select2/class_botiga_select2.php on line 96
+
+2023-05-31T15:44:16+00:00 CRITICAL Uncaught TypeError: implode(): Argument #2 ($array) must be of type ?array, string given in /home/u820293657/domains/goltebbusters.store/public_html/wp-content/themes/botiga/inc/customizer/controls/select2/class_botiga_select2.php:96
+Stack trace:
+#0 /home/u820293657/domains/goltebbusters.store/public_html/wp-content/themes/botiga/inc/customizer/controls/select2/class_botiga_select2.php(96): implode()
+#1 /home/u820293657/domains/goltebbusters.store/public_html/wp-includes/class-wp-customize-control.php(430): Botiga_Select2_Control->render_content()
+#2 /home/u820293657/domains/goltebbusters.store/public_html/wp-includes/class-wp-customize-control.php(417): WP_Customize_Control->render()
+#3 /home/u820293657/domains/goltebbusters.store/public_html/wp-includes/class-wp-customize-control.php(381): WP_Customize_Control->maybe_render()
+#4 /home/u820293657/domains/goltebbusters.store/public_html/wp-includes/class-wp-customize-control.php(319): WP_Customize_Control->get_content()
+#5 /home/u820293657/domains/goltebbusters.store/public_html/wp-includes/class-wp-customize-control.php(337): WP_Customize_Control->to_json()
+#6 /home/u820293657/domains/goltebbusters.store/public_html/wp-includes/class-wp-customize-manager.php(5000): WP_Customize_Control->json()
+#7 /home/u820293657/domains/goltebbusters.store/public_html/wp-includes/class-wp-hook.php(308): WP_Customize_Manager->customize_pane_settings()
+#8 /home/u820293657/domains/goltebbusters.store/public_html/wp-includes/class-wp-hook.php(332): WP_Hook->apply_filters()
+#9 /home/u820293657/domains/goltebbusters.store/public_html/wp-includes/plugin.php(517): WP_Hook->do_action()
+#10 /home/u820293657/domains/goltebbusters.store/public_html/wp-admin/customize.php(302): do_action()
+#11 {main}
+  thrown in /home/u820293657/domains/goltebbusters.store/public_html/wp-content/themes/botiga/inc/customizer/controls/select2/class_botiga_select2.php on line 96
+
+2023-05-31T15:47:18+00:00 CRITICAL Uncaught TypeError: implode(): Argument #2 ($array) must be of type ?array, string given in /home/u820293657/domains/goltebbusters.store/public_html/wp-content/themes/botiga/inc/customizer/controls/select2/class_botiga_select2.php:96
+Stack trace:
+#0 /home/u820293657/domains/goltebbusters.store/public_html/wp-content/themes/botiga/inc/customizer/controls/select2/class_botiga_select2.php(96): implode()
+#1 /home/u820293657/domains/goltebbusters.store/public_html/wp-includes/class-wp-customize-control.php(430): Botiga_Select2_Control->render_content()
+#2 /home/u820293657/domains/goltebbusters.store/public_html/wp-includes/class-wp-customize-control.php(417): WP_Customize_Control->render()
+#3 /home/u820293657/domains/goltebbusters.store/public_html/wp-includes/class-wp-customize-control.php(381): WP_Customize_Control->maybe_render()
+#4 /home/u820293657/domains/goltebbusters.store/public_html/wp-includes/class-wp-customize-control.php(319): WP_Customize_Control->get_content()
+#5 /home/u820293657/domains/goltebbusters.store/public_html/wp-includes/class-wp-customize-control.php(337): WP_Customize_Control->to_json()
+#6 /home/u820293657/domains/goltebbusters.store/public_html/wp-includes/class-wp-customize-manager.php(5000): WP_Customize_Control->json()
+#7 /home/u820293657/domains/goltebbusters.store/public_html/wp-includes/class-wp-hook.php(308): WP_Customize_Manager->customize_pane_settings()
+#8 /home/u820293657/domains/goltebbusters.store/public_html/wp-includes/class-wp-hook.php(332): WP_Hook->apply_filters()
+#9 /home/u820293657/domains/goltebbusters.store/public_html/wp-includes/plugin.php(517): WP_Hook->do_action()
+#10 /home/u820293657/domains/goltebbusters.store/public_html/wp-admin/customize.php(302): do_action()
+#11 {main}
+  thrown in /home/u820293657/domains/goltebbusters.store/public_html/wp-content/themes/botiga/inc/customizer/controls/select2/class_botiga_select2.php on line 96
+
+2023-05-31T16:04:51+00:00 CRITICAL Uncaught TypeError: implode(): Argument #2 ($array) must be of type ?array, string given in /home/u820293657/domains/goltebbusters.store/public_html/wp-content/themes/botiga/inc/customizer/controls/select2/class_botiga_select2.php:96
+Stack trace:
+#0 /home/u820293657/domains/goltebbusters.store/public_html/wp-content/themes/botiga/inc/customizer/controls/select2/class_botiga_select2.php(96): implode()
+#1 /home/u820293657/domains/goltebbusters.store/public_html/wp-includes/class-wp-customize-control.php(430): Botiga_Select2_Control->render_content()
+#2 /home/u820293657/domains/goltebbusters.store/public_html/wp-includes/class-wp-customize-control.php(417): WP_Customize_Control->render()
+#3 /home/u820293657/domains/goltebbusters.store/public_html/wp-includes/class-wp-customize-control.php(381): WP_Customize_Control->maybe_render()
+#4 /home/u820293657/domains/goltebbusters.store/public_html/wp-includes/class-wp-customize-control.php(319): WP_Customize_Control->get_content()
+#5 /home/u820293657/domains/goltebbusters.store/public_html/wp-includes/class-wp-customize-control.php(337): WP_Customize_Control->to_json()
+#6 /home/u820293657/domains/goltebbusters.store/public_html/wp-includes/class-wp-customize-manager.php(5000): WP_Customize_Control->json()
+#7 /home/u820293657/domains/goltebbusters.store/public_html/wp-includes/class-wp-hook.php(308): WP_Customize_Manager->customize_pane_settings()
+#8 /home/u820293657/domains/goltebbusters.store/public_html/wp-includes/class-wp-hook.php(332): WP_Hook->apply_filters()
+#9 /home/u820293657/domains/goltebbusters.store/public_html/wp-includes/plugin.php(517): WP_Hook->do_action()
+#10 /home/u820293657/domains/goltebbusters.store/public_html/wp-admin/customize.php(302): do_action()
+#11 {main}
+  thrown in /home/u820293657/domains/goltebbusters.store/public_html/wp-content/themes/botiga/inc/customizer/controls/select2/class_botiga_select2.php on line 96
+
+2023-05-31T16:38:48+00:00 CRITICAL Uncaught TypeError: implode(): Argument #2 ($array) must be of type ?array, string given in /home/u820293657/domains/goltebbusters.store/public_html/wp-content/themes/botiga/inc/customizer/controls/select2/class_botiga_select2.php:96
+Stack trace:
+#0 /home/u820293657/domains/goltebbusters.store/public_html/wp-content/themes/botiga/inc/customizer/controls/select2/class_botiga_select2.php(96): implode()
+#1 /home/u820293657/domains/goltebbusters.store/public_html/wp-includes/class-wp-customize-control.php(430): Botiga_Select2_Control->render_content()
+#2 /home/u820293657/domains/goltebbusters.store/public_html/wp-includes/class-wp-customize-control.php(417): WP_Customize_Control->render()
+#3 /home/u820293657/domains/goltebbusters.store/public_html/wp-includes/class-wp-customize-control.php(381): WP_Customize_Control->maybe_render()
+#4 /home/u820293657/domains/goltebbusters.store/public_html/wp-includes/class-wp-customize-control.php(319): WP_Customize_Control->get_content()
+#5 /home/u820293657/domains/goltebbusters.store/public_html/wp-includes/class-wp-customize-control.php(337): WP_Customize_Control->to_json()
+#6 /home/u820293657/domains/goltebbusters.store/public_html/wp-includes/class-wp-customize-manager.php(5000): WP_Customize_Control->json()
+#7 /home/u820293657/domains/goltebbusters.store/public_html/wp-includes/class-wp-hook.php(308): WP_Customize_Manager->customize_pane_settings()
+#8 /home/u820293657/domains/goltebbusters.store/public_html/wp-includes/class-wp-hook.php(332): WP_Hook->apply_filters()
+#9 /home/u820293657/domains/goltebbusters.store/public_html/wp-includes/plugin.php(517): WP_Hook->do_action()
+#10 /home/u820293657/domains/goltebbusters.store/public_html/wp-admin/customize.php(302): do_action()
+#11 {main}
+  thrown in /home/u820293657/domains/goltebbusters.store/public_html/wp-content/themes/botiga/inc/customizer/controls/select2/class_botiga_select2.php on line 96
+

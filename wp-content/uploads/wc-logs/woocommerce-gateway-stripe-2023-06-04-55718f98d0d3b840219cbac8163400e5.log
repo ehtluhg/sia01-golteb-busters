@@ -1,0 +1,5389 @@
+2023-06-04T14:02:06+00:00 DEBUG 
+====Stripe Version: 7.4.1====
+====Start Log====
+payment_intents/pi_3NFH25HBYpPUI6mK16wpqdLn?expand[]=payment_method request: Array
+(
+)
+
+====End Log====
+
+
+2023-06-04T14:02:06+00:00 DEBUG 
+====Stripe Version: 7.4.1====
+====Start Log====
+customers/cus_O1JIBaoIPXwNAZ request: Array
+(
+    [email] => sia.dy.gabrielrhobert@gmail.com
+    [description] => Name: Gabriel Dy, Username: sia.dy.gabrielrhobert
+    [name] => Gabriel Dy
+    [metadata] => Array
+        (
+        )
+
+    [preferred_locales] => Array
+        (
+            [0] => en-US
+        )
+
+)
+
+====End Log====
+
+
+2023-06-04T14:02:07+00:00 DEBUG 
+====Stripe Version: 7.4.1====
+====Start Log====
+Info: Begin processing payment for order 78 for the amount of 499.99
+====End Log====
+
+
+2023-06-04T14:02:07+00:00 DEBUG 
+====Stripe Version: 7.4.1====
+====Start Log====
+payment_intents/pi_3NFH25HBYpPUI6mK16wpqdLn request: Array
+(
+    [payment_method] => pm_1NFGwZHBYpPUI6mKikPtQoP3
+    [payment_method_types] => Array
+        (
+            [0] => card
+        )
+
+)
+
+====End Log====
+
+
+2023-06-04T14:02:08+00:00 DEBUG 
+====Stripe Version: 7.4.1====
+====Start Log====
+payment_intents/pi_3NFH25HBYpPUI6mK16wpqdLn?expand[]=payment_method request: Array
+(
+)
+
+====End Log====
+
+
+2023-06-04T14:02:09+00:00 DEBUG 
+====Stripe Version: 7.4.1====
+====Start Log====
+customers/cus_O1JIBaoIPXwNAZ request: Array
+(
+    [email] => sia.dy.gabrielrhobert@gmail.com
+    [description] => Name: Gabriel Dy, Username: sia.dy.gabrielrhobert
+    [name] => Gabriel Dy
+    [metadata] => Array
+        (
+        )
+
+    [preferred_locales] => Array
+        (
+            [0] => en-US
+        )
+
+)
+
+====End Log====
+
+
+2023-06-04T14:02:09+00:00 DEBUG 
+====Stripe Version: 7.4.1====
+====Start Log====
+Info: Begin processing payment for order 78 for the amount of 499.99
+====End Log====
+
+
+2023-06-04T14:02:09+00:00 DEBUG 
+====Stripe Version: 7.4.1====
+====Start Log====
+payment_intents/pi_3NFH25HBYpPUI6mK16wpqdLn request: Array
+(
+    [payment_method] => pm_1NFGwZHBYpPUI6mKikPtQoP3
+    [payment_method_types] => Array
+        (
+            [0] => card
+        )
+
+)
+
+====End Log====
+
+
+2023-06-04T14:02:11+00:00 DEBUG 
+====Stripe Version: 7.4.1====
+====Start Log====
+payment_intents/pi_3NFH25HBYpPUI6mK16wpqdLn?expand[]=payment_method request: Array
+(
+)
+
+====End Log====
+
+
+2023-06-04T14:02:12+00:00 DEBUG 
+====Stripe Version: 7.4.1====
+====Start Log====
+payment_methods/pm_1NFGwZHBYpPUI6mKikPtQoP3
+====End Log====
+
+
+2023-06-04T14:02:12+00:00 DEBUG 
+====Stripe Version: 7.4.1====
+====Start Log====
+Info: Begin processing payment for order 78 for the amount of 499.99
+====End Log====
+
+
+2023-06-04T14:02:12+00:00 DEBUG 
+====Stripe Version: 7.4.1====
+====Start Log====
+payment_intents/pi_3NFH25HBYpPUI6mK16wpqdLn request: Array
+(
+    [payment_method] => pm_1NFGwZHBYpPUI6mKikPtQoP3
+    [payment_method_types] => Array
+        (
+            [0] => card
+        )
+
+)
+
+====End Log====
+
+
+2023-06-04T14:02:16+00:00 DEBUG 
+====Stripe Version: 7.4.1====
+====Start Log====
+payment_intents/pi_3NFH25HBYpPUI6mK16wpqdLn?expand[]=payment_method request: Array
+(
+)
+
+====End Log====
+
+
+2023-06-04T14:02:16+00:00 DEBUG 
+====Stripe Version: 7.4.1====
+====Start Log====
+payment_methods/pm_1NFGwZHBYpPUI6mKikPtQoP3
+====End Log====
+
+
+2023-06-04T14:02:16+00:00 DEBUG 
+====Stripe Version: 7.4.1====
+====Start Log====
+Info: Begin processing payment for order 78 for the amount of 499.99
+====End Log====
+
+
+2023-06-04T14:02:16+00:00 DEBUG 
+====Stripe Version: 7.4.1====
+====Start Log====
+payment_intents/pi_3NFH25HBYpPUI6mK16wpqdLn request: Array
+(
+    [payment_method] => pm_1NFGwZHBYpPUI6mKikPtQoP3
+    [payment_method_types] => Array
+        (
+            [0] => card
+        )
+
+)
+
+====End Log====
+
+
+2023-06-04T14:02:21+00:00 DEBUG 
+====Stripe Version: 7.4.1====
+====Start Log====
+payment_intents/pi_3NFH25HBYpPUI6mK16wpqdLn?expand[]=payment_method request: Array
+(
+)
+
+====End Log====
+
+
+2023-06-04T14:02:21+00:00 DEBUG 
+====Stripe Version: 7.4.1====
+====Start Log====
+payment_methods/pm_1NFGwZHBYpPUI6mKikPtQoP3
+====End Log====
+
+
+2023-06-04T14:02:21+00:00 DEBUG 
+====Stripe Version: 7.4.1====
+====Start Log====
+Info: Begin processing payment for order 78 for the amount of 499.99
+====End Log====
+
+
+2023-06-04T14:02:21+00:00 DEBUG 
+====Stripe Version: 7.4.1====
+====Start Log====
+payment_intents/pi_3NFH25HBYpPUI6mK16wpqdLn request: Array
+(
+    [payment_method] => pm_1NFGwZHBYpPUI6mKikPtQoP3
+    [payment_method_types] => Array
+        (
+            [0] => card
+        )
+
+)
+
+====End Log====
+
+
+2023-06-04T14:02:22+00:00 DEBUG 
+====Stripe Version: 7.4.1====
+====Start Log====
+payment_intents/pi_3NFH25HBYpPUI6mK16wpqdLn?expand[]=payment_method request: Array
+(
+)
+
+====End Log====
+
+
+2023-06-04T14:02:22+00:00 DEBUG 
+====Stripe Version: 7.4.1====
+====Start Log====
+payment_methods/pm_1NFGwZHBYpPUI6mKikPtQoP3
+====End Log====
+
+
+2023-06-04T14:02:22+00:00 DEBUG 
+====Stripe Version: 7.4.1====
+====Start Log====
+Info: Begin processing payment for order 78 for the amount of 499.99
+====End Log====
+
+
+2023-06-04T14:02:22+00:00 DEBUG 
+====Stripe Version: 7.4.1====
+====Start Log====
+payment_intents/pi_3NFH25HBYpPUI6mK16wpqdLn request: Array
+(
+    [payment_method] => pm_1NFGwZHBYpPUI6mKikPtQoP3
+    [payment_method_types] => Array
+        (
+            [0] => card
+        )
+
+)
+
+====End Log====
+
+
+2023-06-04T14:02:23+00:00 DEBUG 
+====Stripe Version: 7.4.1====
+====Start Log====
+Error: stdClass Object
+(
+    [error] => stdClass Object
+        (
+            [code] => payment_intent_unexpected_state
+            [doc_url] => https://stripe.com/docs/error-codes/payment-intent-unexpected-state
+            [message] => This PaymentIntent's payment_method could not be updated because it has a status of succeeded. You may only update the payment_method of a PaymentIntent with one of the following statuses: requires_payment_method, requires_confirmation, requires_action.
+            [payment_intent] => stdClass Object
+                (
+                    [id] => pi_3NFH25HBYpPUI6mK16wpqdLn
+                    [object] => payment_intent
+                    [amount] => 49999
+                    [amount_capturable] => 0
+                    [amount_details] => stdClass Object
+                        (
+                            [tip] => stdClass Object
+                                (
+                                )
+
+                        )
+
+                    [amount_received] => 49999
+                    [application] => 
+                    [application_fee_amount] => 
+                    [automatic_payment_methods] => 
+                    [canceled_at] => 
+                    [cancellation_reason] => 
+                    [capture_method] => automatic
+                    [charges] => stdClass Object
+                        (
+                            [object] => list
+                            [data] => Array
+                                (
+                                    [0] => stdClass Object
+                                        (
+                                            [id] => ch_3NFH25HBYpPUI6mK1x6SsT1M
+                                            [object] => charge
+                                            [amount] => 49999
+                                            [amount_captured] => 49999
+                                            [amount_refunded] => 0
+                                            [application] => 
+                                            [application_fee] => 
+                                            [application_fee_amount] => 
+                                            [balance_transaction] => txn_3NFH25HBYpPUI6mK1LN30SYa
+                                            [billing_details] => stdClass Object
+                                                (
+                                                    [address] => stdClass Object
+                                                        (
+                                                            [city] => Angeles City
+                                                            [country] => PH
+                                                            [line1] => 39 Doña Agripina Street, Barangay Salapungan, Angeles City, Pampanga
+                                                            [line2] => 
+                                                            [postal_code] => 2009
+                                                            [state] => PAM
+                                                        )
+
+                                                    [email] => dygabriel31@gmail.com
+                                                    [name] => Gabriel Dy
+                                                    [phone] => 09223042210
+                                                )
+
+                                            [calculated_statement_descriptor] => WWW.GOLTEBBUSTERS.STOR
+                                            [captured] => 1
+                                            [created] => 1685885509
+                                            [currency] => php
+                                            [customer] => cus_O1JIBaoIPXwNAZ
+                                            [description] => Golteb Busters - Order 78
+                                            [destination] => 
+                                            [dispute] => 
+                                            [disputed] => 
+                                            [failure_balance_transaction] => 
+                                            [failure_code] => 
+                                            [failure_message] => 
+                                            [fraud_details] => stdClass Object
+                                                (
+                                                )
+
+                                            [invoice] => 
+                                            [livemode] => 
+                                            [metadata] => stdClass Object
+                                                (
+                                                    [order_id] => 78
+                                                    [site_url] => https://www.goltebbusters.store
+                                                    [customer_email] => dygabriel31@gmail.com
+                                                    [customer_name] => Gabriel Dy
+                                                )
+
+                                            [on_behalf_of] => 
+                                            [order] => 
+                                            [outcome] => stdClass Object
+                                                (
+                                                    [network_status] => approved_by_network
+                                                    [reason] => 
+                                                    [risk_level] => normal
+                                                    [risk_score] => 0
+                                                    [seller_message] => Payment complete.
+                                                    [type] => authorized
+                                                )
+
+                                            [paid] => 1
+                                            [payment_intent] => pi_3NFH25HBYpPUI6mK16wpqdLn
+                                            [payment_method] => pm_1NFGwZHBYpPUI6mKikPtQoP3
+                                            [payment_method_details] => stdClass Object
+                                                (
+                                                    [card] => stdClass Object
+                                                        (
+                                                            [brand] => visa
+                                                            [checks] => stdClass Object
+                                                                (
+                                                                    [address_line1_check] => pass
+                                                                    [address_postal_code_check] => pass
+                                                                    [cvc_check] => pass
+                                                                )
+
+                                                            [country] => US
+                                                            [exp_month] => 12
+                                                            [exp_year] => 2027
+                                                            [fingerprint] => rMOeY3L9Lgt9E2VS
+                                                            [funding] => credit
+                                                            [installments] => 
+                                                            [last4] => 4242
+                                                            [mandate] => 
+                                                            [network] => visa
+                                                            [network_token] => stdClass Object
+                                                                (
+                                                                    [used] => 
+                                                                )
+
+                                                            [three_d_secure] => 
+                                                            [wallet] => 
+                                                        )
+
+                                                    [type] => card
+                                                )
+
+                                            [receipt_email] => 
+                                            [receipt_number] => 
+                                            [receipt_url] => https://pay.stripe.com/receipts/payment/CAcaFwoVYWNjdF8xTkZHSWVIQllwUFVJNm1LKO-y8qMGMgZmzSDBod06LBbfLPoEmm7JCb9B1Cti4P9uJDuWXGPYLB67he2wgH3kjXxNzSZt6Py8RznX
+                                            [refunded] => 
+                                            [refunds] => stdClass Object
+                                                (
+                                                    [object] => list
+                                                    [data] => Array
+                                                        (
+                                                        )
+
+                                                    [has_more] => 
+                                                    [total_count] => 0
+                                                    [url] => /v1/charges/ch_3NFH25HBYpPUI6mK1x6SsT1M/refunds
+                                                )
+
+                                            [review] => 
+                                            [shipping] => stdClass Object
+                                                (
+                                                    [address] => stdClass Object
+                                                        (
+                                                            [city] => Angeles City
+                                                            [country] => PH
+                                                            [line1] => 39 Doña Agripina Street, Barangay Salapungan, Angeles City, Pampanga
+                                                            [line2] => 
+                                                            [postal_code] => 2009
+                                                            [state] => PAM
+                                                        )
+
+                                                    [carrier] => 
+                                                    [name] => Gabriel Dy
+                                                    [phone] => 
+                                                    [tracking_number] => 
+                                                )
+
+                                            [source] => 
+                                            [source_transfer] => 
+                                            [statement_descriptor] => 
+                                            [statement_descriptor_suffix] => 
+                                            [status] => succeeded
+                                            [transfer_data] => 
+                                            [transfer_group] => 
+                                        )
+
+                                )
+
+                            [has_more] => 
+                            [total_count] => 1
+                            [url] => /v1/charges?payment_intent=pi_3NFH25HBYpPUI6mK16wpqdLn
+                        )
+
+                    [client_secret] => pi_3NFH25HBYpPUI6mK16wpqdLn_secret_tGZP30iCiXmicgtwjKtbGFrYo
+                    [confirmation_method] => automatic
+                    [created] => 1685885505
+                    [currency] => php
+                    [customer] => cus_O1JIBaoIPXwNAZ
+                    [description] => Golteb Busters - Order 78
+                    [invoice] => 
+                    [last_payment_error] => 
+                    [latest_charge] => ch_3NFH25HBYpPUI6mK1x6SsT1M
+                    [livemode] => 
+                    [metadata] => stdClass Object
+                        (
+                            [order_id] => 78
+                            [site_url] => https://www.goltebbusters.store
+                            [customer_email] => dygabriel31@gmail.com
+                            [customer_name] => Gabriel Dy
+                        )
+
+                    [next_action] => 
+                    [on_behalf_of] => 
+                    [payment_method] => pm_1NFGwZHBYpPUI6mKikPtQoP3
+                    [payment_method_options] => stdClass Object
+                        (
+                            [card] => stdClass Object
+                                (
+                                    [installments] => 
+                                    [mandate_options] => 
+                                    [network] => 
+                                    [request_three_d_secure] => automatic
+                                )
+
+                        )
+
+                    [payment_method_types] => Array
+                        (
+                            [0] => card
+                        )
+
+                    [processing] => 
+                    [receipt_email] => 
+                    [review] => 
+                    [setup_future_usage] => 
+                    [shipping] => stdClass Object
+                        (
+                            [address] => stdClass Object
+                                (
+                                    [city] => Angeles City
+                                    [country] => PH
+                                    [line1] => 39 Doña Agripina Street, Barangay Salapungan, Angeles City, Pampanga
+                                    [line2] => 
+                                    [postal_code] => 2009
+                                    [state] => PAM
+                                )
+
+                            [carrier] => 
+                            [name] => Gabriel Dy
+                            [phone] => 
+                            [tracking_number] => 
+                        )
+
+                    [source] => 
+                    [statement_descriptor] => 
+                    [statement_descriptor_suffix] => 
+                    [status] => succeeded
+                    [transfer_data] => 
+                    [transfer_group] => 
+                )
+
+            [request_log_url] => https://dashboard.stripe.com/test/logs/req_fti6oYxTgXQ0X8?t=1685887343
+            [type] => invalid_request_error
+        )
+
+)
+
+====End Log====
+
+
+2023-06-04T14:04:00+00:00 DEBUG 
+====Stripe Version: 7.4.1====
+====Start Log====
+payment_methods/pm_1NFHXHHBYpPUI6mKusZEaQY5
+====End Log====
+
+
+2023-06-04T14:04:01+00:00 DEBUG 
+====Stripe Version: 7.4.1====
+====Start Log====
+customers request: Array
+(
+    [email] => sia.fernandez.kirstenpearl@gmail.com
+    [description] => Name: Kirsten Fernandez, Username: kirsten.fernandez
+    [name] => Kirsten Fernandez
+    [metadata] => Array
+        (
+        )
+
+    [preferred_locales] => Array
+        (
+            [0] => en-US
+        )
+
+)
+
+====End Log====
+
+
+2023-06-04T14:04:01+00:00 DEBUG 
+====Stripe Version: 7.4.1====
+====Start Log====
+Info: Begin processing payment for order 80 for the amount of 749.99
+====End Log====
+
+
+2023-06-04T14:04:01+00:00 DEBUG 
+====Stripe Version: 7.4.1====
+====Start Log====
+payment_intents request: Array
+(
+    [amount] => 74999
+    [currency] => php
+    [description] => Golteb Busters - Order 80
+    [metadata] => Array
+        (
+            [customer_name] => Kirsten Fernandez
+            [customer_email] => sia.fernandez.kirstenpearl@gmail.com
+            [order_id] => 80
+            [site_url] => https://www.goltebbusters.store
+        )
+
+    [capture_method] => automatic
+    [payment_method_types] => Array
+        (
+            [0] => card
+        )
+
+    [payment_method] => pm_1NFHXHHBYpPUI6mKusZEaQY5
+    [customer] => cus_O1KB6fl3FpeNXt
+    [shipping] => Array
+        (
+            [name] => Kirsten Fernandez
+            [address] => Array
+                (
+                    [line1] => 121
+                    [line2] => 
+                    [city] => Angeles City
+                    [country] => PH
+                    [postal_code] => 2009
+                    [state] => PAM
+                )
+
+        )
+
+)
+
+====End Log====
+
+
+2023-06-04T14:04:01+00:00 DEBUG 
+====Stripe Version: 7.4.1====
+====Start Log====
+Stripe PaymentIntent pi_3NFHXJHBYpPUI6mK0MAfERyL initiated for order 80
+====End Log====
+
+
+2023-06-04T14:04:01+00:00 DEBUG 
+====Stripe Version: 7.4.1====
+====Start Log====
+payment_intents/pi_3NFHXJHBYpPUI6mK0MAfERyL/confirm request: Array
+(
+    [payment_method] => pm_1NFHXHHBYpPUI6mKusZEaQY5
+)
+
+====End Log====
+
+
+2023-06-04T14:04:02+00:00 DEBUG 
+====Stripe Version: 7.4.1====
+====Start Log====
+Error: stdClass Object
+(
+    [error] => stdClass Object
+        (
+            [charge] => ch_3NFHXJHBYpPUI6mK0R0pzsjF
+            [code] => card_declined
+            [decline_code] => card_not_supported
+            [doc_url] => https://stripe.com/docs/error-codes/card-declined
+            [message] => Your card is not supported. Please use a Visa, MasterCard, American Express, Discover, Diners Club, or JCB card
+            [param] => number
+            [payment_intent] => stdClass Object
+                (
+                    [id] => pi_3NFHXJHBYpPUI6mK0MAfERyL
+                    [object] => payment_intent
+                    [amount] => 74999
+                    [amount_capturable] => 0
+                    [amount_details] => stdClass Object
+                        (
+                            [tip] => stdClass Object
+                                (
+                                )
+
+                        )
+
+                    [amount_received] => 0
+                    [application] => 
+                    [application_fee_amount] => 
+                    [automatic_payment_methods] => 
+                    [canceled_at] => 
+                    [cancellation_reason] => 
+                    [capture_method] => automatic
+                    [charges] => stdClass Object
+                        (
+                            [object] => list
+                            [data] => Array
+                                (
+                                    [0] => stdClass Object
+                                        (
+                                            [id] => ch_3NFHXJHBYpPUI6mK0R0pzsjF
+                                            [object] => charge
+                                            [amount] => 74999
+                                            [amount_captured] => 0
+                                            [amount_refunded] => 0
+                                            [application] => 
+                                            [application_fee] => 
+                                            [application_fee_amount] => 
+                                            [balance_transaction] => 
+                                            [billing_details] => stdClass Object
+                                                (
+                                                    [address] => stdClass Object
+                                                        (
+                                                            [city] => Angeles City
+                                                            [country] => PH
+                                                            [line1] => 121
+                                                            [line2] => 
+                                                            [postal_code] => 2009
+                                                            [state] => PAM
+                                                        )
+
+                                                    [email] => sia.fernandez.kirstenpearl@gmail.com
+                                                    [name] => Kirsten Fernandez
+                                                    [phone] => 09482635784
+                                                )
+
+                                            [calculated_statement_descriptor] => 
+                                            [captured] => 
+                                            [created] => 1685887442
+                                            [currency] => php
+                                            [customer] => cus_O1KB6fl3FpeNXt
+                                            [description] => Golteb Busters - Order 80
+                                            [destination] => 
+                                            [dispute] => 
+                                            [disputed] => 
+                                            [failure_balance_transaction] => 
+                                            [failure_code] => card_declined
+                                            [failure_message] => Your card is not supported. Please use a Visa, MasterCard, American Express, Discover, Diners Club, or JCB card
+                                            [fraud_details] => stdClass Object
+                                                (
+                                                )
+
+                                            [invoice] => 
+                                            [livemode] => 
+                                            [metadata] => stdClass Object
+                                                (
+                                                    [order_id] => 80
+                                                    [site_url] => https://www.goltebbusters.store
+                                                    [customer_email] => sia.fernandez.kirstenpearl@gmail.com
+                                                    [customer_name] => Kirsten Fernandez
+                                                )
+
+                                            [on_behalf_of] => 
+                                            [order] => 
+                                            [outcome] => stdClass Object
+                                                (
+                                                    [network_status] => not_sent_to_network
+                                                    [reason] => card_not_supported
+                                                    [risk_level] => not_assessed
+                                                    [seller_message] => Unfortunately you can't create charges with this card brand.
+                                                    [type] => invalid
+                                                )
+
+                                            [paid] => 
+                                            [payment_intent] => pi_3NFHXJHBYpPUI6mK0MAfERyL
+                                            [payment_method] => pm_1NFHXHHBYpPUI6mKusZEaQY5
+                                            [payment_method_details] => stdClass Object
+                                                (
+                                                    [card] => stdClass Object
+                                                        (
+                                                            [brand] => unionpay
+                                                            [checks] => stdClass Object
+                                                                (
+                                                                    [address_line1_check] => unchecked
+                                                                    [address_postal_code_check] => unchecked
+                                                                    [cvc_check] => unchecked
+                                                                )
+
+                                                            [country] => CN
+                                                            [exp_month] => 12
+                                                            [exp_year] => 2025
+                                                            [fingerprint] => fMvhpirO2VRMwEFB
+                                                            [funding] => credit
+                                                            [installments] => 
+                                                            [last4] => 0005
+                                                            [mandate] => 
+                                                            [network] => unionpay
+                                                            [network_token] => stdClass Object
+                                                                (
+                                                                    [used] => 
+                                                                )
+
+                                                            [three_d_secure] => 
+                                                            [wallet] => 
+                                                        )
+
+                                                    [type] => card
+                                                )
+
+                                            [receipt_email] => 
+                                            [receipt_number] => 
+                                            [receipt_url] => 
+                                            [refunded] => 
+                                            [refunds] => stdClass Object
+                                                (
+                                                    [object] => list
+                                                    [data] => Array
+                                                        (
+                                                        )
+
+                                                    [has_more] => 
+                                                    [total_count] => 0
+                                                    [url] => /v1/charges/ch_3NFHXJHBYpPUI6mK0R0pzsjF/refunds
+                                                )
+
+                                            [review] => 
+                                            [shipping] => stdClass Object
+                                                (
+                                                    [address] => stdClass Object
+                                                        (
+                                                            [city] => Angeles City
+                                                            [country] => PH
+                                                            [line1] => 121
+                                                            [line2] => 
+                                                            [postal_code] => 2009
+                                                            [state] => PAM
+                                                        )
+
+                                                    [carrier] => 
+                                                    [name] => Kirsten Fernandez
+                                                    [phone] => 
+                                                    [tracking_number] => 
+                                                )
+
+                                            [source] => 
+                                            [source_transfer] => 
+                                            [statement_descriptor] => 
+                                            [statement_descriptor_suffix] => 
+                                            [status] => failed
+                                            [transfer_data] => 
+                                            [transfer_group] => 
+                                        )
+
+                                )
+
+                            [has_more] => 
+                            [total_count] => 1
+                            [url] => /v1/charges?payment_intent=pi_3NFHXJHBYpPUI6mK0MAfERyL
+                        )
+
+                    [client_secret] => pi_3NFHXJHBYpPUI6mK0MAfERyL_secret_lnXXGZldki6sa2kb1MeC9k7Os
+                    [confirmation_method] => automatic
+                    [created] => 1685887441
+                    [currency] => php
+                    [customer] => cus_O1KB6fl3FpeNXt
+                    [description] => Golteb Busters - Order 80
+                    [invoice] => 
+                    [last_payment_error] => stdClass Object
+                        (
+                            [charge] => ch_3NFHXJHBYpPUI6mK0R0pzsjF
+                            [code] => card_declined
+                            [decline_code] => card_not_supported
+                            [doc_url] => https://stripe.com/docs/error-codes/card-declined
+                            [message] => Your card is not supported. Please use a Visa, MasterCard, American Express, Discover, Diners Club, or JCB card
+                            [param] => number
+                            [payment_method] => stdClass Object
+                                (
+                                    [id] => pm_1NFHXHHBYpPUI6mKusZEaQY5
+                                    [object] => payment_method
+                                    [billing_details] => stdClass Object
+                                        (
+                                            [address] => stdClass Object
+                                                (
+                                                    [city] => Angeles City
+                                                    [country] => PH
+                                                    [line1] => 121
+                                                    [line2] => 
+                                                    [postal_code] => 2009
+                                                    [state] => PAM
+                                                )
+
+                                            [email] => sia.fernandez.kirstenpearl@gmail.com
+                                            [name] => Kirsten Fernandez
+                                            [phone] => 09482635784
+                                        )
+
+                                    [card] => stdClass Object
+                                        (
+                                            [brand] => unionpay
+                                            [checks] => stdClass Object
+                                                (
+                                                    [address_line1_check] => unchecked
+                                                    [address_postal_code_check] => unchecked
+                                                    [cvc_check] => unchecked
+                                                )
+
+                                            [country] => CN
+                                            [exp_month] => 12
+                                            [exp_year] => 2025
+                                            [fingerprint] => fMvhpirO2VRMwEFB
+                                            [funding] => credit
+                                            [generated_from] => 
+                                            [last4] => 0005
+                                            [networks] => stdClass Object
+                                                (
+                                                    [available] => Array
+                                                        (
+                                                            [0] => unionpay
+                                                        )
+
+                                                    [preferred] => 
+                                                )
+
+                                            [three_d_secure_usage] => stdClass Object
+                                                (
+                                                    [supported] => 1
+                                                )
+
+                                            [wallet] => 
+                                        )
+
+                                    [created] => 1685887439
+                                    [customer] => 
+                                    [livemode] => 
+                                    [metadata] => stdClass Object
+                                        (
+                                        )
+
+                                    [type] => card
+                                )
+
+                            [type] => card_error
+                        )
+
+                    [latest_charge] => ch_3NFHXJHBYpPUI6mK0R0pzsjF
+                    [livemode] => 
+                    [metadata] => stdClass Object
+                        (
+                            [order_id] => 80
+                            [site_url] => https://www.goltebbusters.store
+                            [customer_email] => sia.fernandez.kirstenpearl@gmail.com
+                            [customer_name] => Kirsten Fernandez
+                        )
+
+                    [next_action] => 
+                    [on_behalf_of] => 
+                    [payment_method] => 
+                    [payment_method_options] => stdClass Object
+                        (
+                            [card] => stdClass Object
+                                (
+                                    [installments] => 
+                                    [mandate_options] => 
+                                    [network] => 
+                                    [request_three_d_secure] => automatic
+                                )
+
+                        )
+
+                    [payment_method_types] => Array
+                        (
+                            [0] => card
+                        )
+
+                    [processing] => 
+                    [receipt_email] => 
+                    [review] => 
+                    [setup_future_usage] => 
+                    [shipping] => stdClass Object
+                        (
+                            [address] => stdClass Object
+                                (
+                                    [city] => Angeles City
+                                    [country] => PH
+                                    [line1] => 121
+                                    [line2] => 
+                                    [postal_code] => 2009
+                                    [state] => PAM
+                                )
+
+                            [carrier] => 
+                            [name] => Kirsten Fernandez
+                            [phone] => 
+                            [tracking_number] => 
+                        )
+
+                    [source] => 
+                    [statement_descriptor] => 
+                    [statement_descriptor_suffix] => 
+                    [status] => requires_payment_method
+                    [transfer_data] => 
+                    [transfer_group] => 
+                )
+
+            [payment_method] => stdClass Object
+                (
+                    [id] => pm_1NFHXHHBYpPUI6mKusZEaQY5
+                    [object] => payment_method
+                    [billing_details] => stdClass Object
+                        (
+                            [address] => stdClass Object
+                                (
+                                    [city] => Angeles City
+                                    [country] => PH
+                                    [line1] => 121
+                                    [line2] => 
+                                    [postal_code] => 2009
+                                    [state] => PAM
+                                )
+
+                            [email] => sia.fernandez.kirstenpearl@gmail.com
+                            [name] => Kirsten Fernandez
+                            [phone] => 09482635784
+                        )
+
+                    [card] => stdClass Object
+                        (
+                            [brand] => unionpay
+                            [checks] => stdClass Object
+                                (
+                                    [address_line1_check] => unchecked
+                                    [address_postal_code_check] => unchecked
+                                    [cvc_check] => unchecked
+                                )
+
+                            [country] => CN
+                            [exp_month] => 12
+                            [exp_year] => 2025
+                            [fingerprint] => fMvhpirO2VRMwEFB
+                            [funding] => credit
+                            [generated_from] => 
+                            [last4] => 0005
+                            [networks] => stdClass Object
+                                (
+                                    [available] => Array
+                                        (
+                                            [0] => unionpay
+                                        )
+
+                                    [preferred] => 
+                                )
+
+                            [three_d_secure_usage] => stdClass Object
+                                (
+                                    [supported] => 1
+                                )
+
+                            [wallet] => 
+                        )
+
+                    [created] => 1685887439
+                    [customer] => 
+                    [livemode] => 
+                    [metadata] => stdClass Object
+                        (
+                        )
+
+                    [type] => card
+                )
+
+            [request_log_url] => https://dashboard.stripe.com/test/logs/req_WBnA2EcOjwQTbn?t=1685887442
+            [type] => card_error
+        )
+
+)
+
+====End Log====
+
+
+2023-06-04T14:04:03+00:00 DEBUG 
+====Stripe Version: 7.4.1====
+====Start Log====
+customers/cus_O1KB6fl3FpeNXt/payment_methods request: Array
+(
+    [limit] => 100
+)
+
+====End Log====
+
+
+2023-06-04T14:07:07+00:00 DEBUG 
+====Stripe Version: 7.4.1====
+====Start Log====
+payment_intents/pi_3NFHXJHBYpPUI6mK0MAfERyL?expand[]=payment_method request: Array
+(
+)
+
+====End Log====
+
+
+2023-06-04T14:07:08+00:00 DEBUG 
+====Stripe Version: 7.4.1====
+====Start Log====
+payment_methods/pm_1NFHaIHBYpPUI6mKNsppBkkt
+====End Log====
+
+
+2023-06-04T14:07:08+00:00 DEBUG 
+====Stripe Version: 7.4.1====
+====Start Log====
+customers/cus_O1KB6fl3FpeNXt request: Array
+(
+    [email] => sia.fernandez.kirstenpearl@gmail.com
+    [description] => Name: Kirsten Fernandez, Username: kirsten.fernandez
+    [name] => Kirsten Fernandez
+    [metadata] => Array
+        (
+        )
+
+    [preferred_locales] => Array
+        (
+            [0] => en-US
+        )
+
+)
+
+====End Log====
+
+
+2023-06-04T14:07:08+00:00 DEBUG 
+====Stripe Version: 7.4.1====
+====Start Log====
+Info: Begin processing payment for order 80 for the amount of 749.99
+====End Log====
+
+
+2023-06-04T14:07:08+00:00 DEBUG 
+====Stripe Version: 7.4.1====
+====Start Log====
+payment_intents/pi_3NFHXJHBYpPUI6mK0MAfERyL request: Array
+(
+    [payment_method] => pm_1NFHaIHBYpPUI6mKNsppBkkt
+    [payment_method_types] => Array
+        (
+            [0] => card
+        )
+
+)
+
+====End Log====
+
+
+2023-06-04T14:07:09+00:00 DEBUG 
+====Stripe Version: 7.4.1====
+====Start Log====
+payment_intents/pi_3NFHXJHBYpPUI6mK0MAfERyL/confirm request: Array
+(
+    [payment_method] => pm_1NFHaIHBYpPUI6mKNsppBkkt
+)
+
+====End Log====
+
+
+2023-06-04T14:07:10+00:00 DEBUG 
+====Stripe Version: 7.4.1====
+====Start Log====
+Stripe PaymentIntent pi_3NFHXJHBYpPUI6mK0MAfERyL succeeded for order 80
+====End Log====
+
+
+2023-06-04T14:07:10+00:00 DEBUG 
+====Stripe Version: 7.4.1====
+====Start Log====
+Processing response: stdClass Object
+(
+    [id] => ch_3NFHXJHBYpPUI6mK09VEwMa7
+    [object] => charge
+    [amount] => 74999
+    [amount_captured] => 74999
+    [amount_refunded] => 0
+    [application] => 
+    [application_fee] => 
+    [application_fee_amount] => 
+    [balance_transaction] => txn_3NFHXJHBYpPUI6mK0L04Ef4g
+    [billing_details] => stdClass Object
+        (
+            [address] => stdClass Object
+                (
+                    [city] => Angeles City
+                    [country] => PH
+                    [line1] => 121
+                    [line2] => 
+                    [postal_code] => 2009
+                    [state] => PAM
+                )
+
+            [email] => sia.fernandez.kirstenpearl@gmail.com
+            [name] => Kirsten Fernandez
+            [phone] => 09482635784
+        )
+
+    [calculated_statement_descriptor] => WWW.GOLTEBBUSTERS.STOR
+    [captured] => 1
+    [created] => 1685887629
+    [currency] => php
+    [customer] => cus_O1KB6fl3FpeNXt
+    [description] => Golteb Busters - Order 80
+    [destination] => 
+    [dispute] => 
+    [disputed] => 
+    [failure_balance_transaction] => 
+    [failure_code] => 
+    [failure_message] => 
+    [fraud_details] => stdClass Object
+        (
+        )
+
+    [invoice] => 
+    [livemode] => 
+    [metadata] => stdClass Object
+        (
+            [customer_email] => sia.fernandez.kirstenpearl@gmail.com
+            [customer_name] => Kirsten Fernandez
+            [order_id] => 80
+            [site_url] => https://www.goltebbusters.store
+        )
+
+    [on_behalf_of] => 
+    [order] => 
+    [outcome] => stdClass Object
+        (
+            [network_status] => approved_by_network
+            [reason] => 
+            [risk_level] => normal
+            [risk_score] => 47
+            [seller_message] => Payment complete.
+            [type] => authorized
+        )
+
+    [paid] => 1
+    [payment_intent] => pi_3NFHXJHBYpPUI6mK0MAfERyL
+    [payment_method] => pm_1NFHaIHBYpPUI6mKNsppBkkt
+    [payment_method_details] => stdClass Object
+        (
+            [card] => stdClass Object
+                (
+                    [brand] => mastercard
+                    [checks] => stdClass Object
+                        (
+                            [address_line1_check] => pass
+                            [address_postal_code_check] => pass
+                            [cvc_check] => pass
+                        )
+
+                    [country] => US
+                    [exp_month] => 2
+                    [exp_year] => 2032
+                    [fingerprint] => FzAqYsGIlQLzmorP
+                    [funding] => debit
+                    [installments] => 
+                    [last4] => 8210
+                    [mandate] => 
+                    [network] => mastercard
+                    [network_token] => stdClass Object
+                        (
+                            [used] => 
+                        )
+
+                    [three_d_secure] => 
+                    [wallet] => 
+                )
+
+            [type] => card
+        )
+
+    [receipt_email] => 
+    [receipt_number] => 
+    [receipt_url] => https://pay.stripe.com/receipts/payment/CAcaFwoVYWNjdF8xTkZHSWVIQllwUFVJNm1LKI618qMGMgaF0OX3gLs6LBa2T5Js9mJBcJj-Yo-hcYYIblw63SPCzzjPndkwiOvdNnURxouFrNw81LfM
+    [refunded] => 
+    [refunds] => stdClass Object
+        (
+            [object] => list
+            [data] => Array
+                (
+                )
+
+            [has_more] => 
+            [total_count] => 0
+            [url] => /v1/charges/ch_3NFHXJHBYpPUI6mK09VEwMa7/refunds
+        )
+
+    [review] => 
+    [shipping] => stdClass Object
+        (
+            [address] => stdClass Object
+                (
+                    [city] => Angeles City
+                    [country] => PH
+                    [line1] => 121
+                    [line2] => 
+                    [postal_code] => 2009
+                    [state] => PAM
+                )
+
+            [carrier] => 
+            [name] => Kirsten Fernandez
+            [phone] => 
+            [tracking_number] => 
+        )
+
+    [source] => 
+    [source_transfer] => 
+    [statement_descriptor] => 
+    [statement_descriptor_suffix] => 
+    [status] => succeeded
+    [transfer_data] => 
+    [transfer_group] => 
+)
+
+====End Log====
+
+
+2023-06-04T14:07:10+00:00 DEBUG 
+====Stripe Version: 7.4.1====
+====Start Log====
+balance/history/txn_3NFHXJHBYpPUI6mK0L04Ef4g
+====End Log====
+
+
+2023-06-04T14:09:04+00:00 DEBUG 
+====Stripe Version: 7.4.1====
+====Start Log====
+customers/cus_O1KB6fl3FpeNXt/payment_methods request: Array
+(
+    [limit] => 100
+)
+
+====End Log====
+
+
+2023-06-04T14:09:20+00:00 DEBUG 
+====Stripe Version: 7.4.1====
+====Start Log====
+payment_methods/pm_1NFHcRHBYpPUI6mKAtQvFGvJ
+====End Log====
+
+
+2023-06-04T14:09:20+00:00 DEBUG 
+====Stripe Version: 7.4.1====
+====Start Log====
+customers/cus_O1KB6fl3FpeNXt request: Array
+(
+    [email] => sia.fernandez.kirstenpearl@gmail.com
+    [description] => Name: Kirsten Fernandez, Username: kirsten.fernandez
+    [name] => Kirsten Fernandez
+    [metadata] => Array
+        (
+        )
+
+    [preferred_locales] => Array
+        (
+            [0] => en-US
+        )
+
+)
+
+====End Log====
+
+
+2023-06-04T14:09:20+00:00 DEBUG 
+====Stripe Version: 7.4.1====
+====Start Log====
+Info: Begin processing payment for order 81 for the amount of 499.99
+====End Log====
+
+
+2023-06-04T14:09:20+00:00 DEBUG 
+====Stripe Version: 7.4.1====
+====Start Log====
+payment_intents request: Array
+(
+    [amount] => 49999
+    [currency] => php
+    [description] => Golteb Busters - Order 81
+    [metadata] => Array
+        (
+            [customer_name] => Kirsten Fernandez
+            [customer_email] => sia.fernandez.kirstenpearl@gmail.com
+            [order_id] => 81
+            [site_url] => https://www.goltebbusters.store
+        )
+
+    [capture_method] => automatic
+    [payment_method_types] => Array
+        (
+            [0] => card
+        )
+
+    [payment_method] => pm_1NFHcRHBYpPUI6mKAtQvFGvJ
+    [customer] => cus_O1KB6fl3FpeNXt
+    [shipping] => Array
+        (
+            [name] => Kirsten Fernandez
+            [address] => Array
+                (
+                    [line1] => 121
+                    [line2] => 
+                    [city] => Angeles City
+                    [country] => PH
+                    [postal_code] => 2009
+                    [state] => PAM
+                )
+
+        )
+
+)
+
+====End Log====
+
+
+2023-06-04T14:09:21+00:00 DEBUG 
+====Stripe Version: 7.4.1====
+====Start Log====
+Stripe PaymentIntent pi_3NFHcTHBYpPUI6mK0TyHlnc9 initiated for order 81
+====End Log====
+
+
+2023-06-04T14:09:21+00:00 DEBUG 
+====Stripe Version: 7.4.1====
+====Start Log====
+payment_intents/pi_3NFHcTHBYpPUI6mK0TyHlnc9/confirm request: Array
+(
+    [payment_method] => pm_1NFHcRHBYpPUI6mKAtQvFGvJ
+)
+
+====End Log====
+
+
+2023-06-04T14:09:22+00:00 DEBUG 
+====Stripe Version: 7.4.1====
+====Start Log====
+Stripe PaymentIntent pi_3NFHcTHBYpPUI6mK0TyHlnc9 succeeded for order 81
+====End Log====
+
+
+2023-06-04T14:09:22+00:00 DEBUG 
+====Stripe Version: 7.4.1====
+====Start Log====
+Processing response: stdClass Object
+(
+    [id] => ch_3NFHcTHBYpPUI6mK0g86UvCu
+    [object] => charge
+    [amount] => 49999
+    [amount_captured] => 49999
+    [amount_refunded] => 0
+    [application] => 
+    [application_fee] => 
+    [application_fee_amount] => 
+    [balance_transaction] => txn_3NFHcTHBYpPUI6mK0p7qNgfB
+    [billing_details] => stdClass Object
+        (
+            [address] => stdClass Object
+                (
+                    [city] => Angeles City
+                    [country] => PH
+                    [line1] => 121
+                    [line2] => 
+                    [postal_code] => 2009
+                    [state] => PAM
+                )
+
+            [email] => sia.fernandez.kirstenpearl@gmail.com
+            [name] => Kirsten Fernandez
+            [phone] => 09482635784
+        )
+
+    [calculated_statement_descriptor] => WWW.GOLTEBBUSTERS.STOR
+    [captured] => 1
+    [created] => 1685887761
+    [currency] => php
+    [customer] => cus_O1KB6fl3FpeNXt
+    [description] => Golteb Busters - Order 81
+    [destination] => 
+    [dispute] => 
+    [disputed] => 
+    [failure_balance_transaction] => 
+    [failure_code] => 
+    [failure_message] => 
+    [fraud_details] => stdClass Object
+        (
+        )
+
+    [invoice] => 
+    [livemode] => 
+    [metadata] => stdClass Object
+        (
+            [customer_email] => sia.fernandez.kirstenpearl@gmail.com
+            [customer_name] => Kirsten Fernandez
+            [order_id] => 81
+            [site_url] => https://www.goltebbusters.store
+        )
+
+    [on_behalf_of] => 
+    [order] => 
+    [outcome] => stdClass Object
+        (
+            [network_status] => approved_by_network
+            [reason] => 
+            [risk_level] => normal
+            [risk_score] => 25
+            [seller_message] => Payment complete.
+            [type] => authorized
+        )
+
+    [paid] => 1
+    [payment_intent] => pi_3NFHcTHBYpPUI6mK0TyHlnc9
+    [payment_method] => pm_1NFHcRHBYpPUI6mKAtQvFGvJ
+    [payment_method_details] => stdClass Object
+        (
+            [card] => stdClass Object
+                (
+                    [brand] => mastercard
+                    [checks] => stdClass Object
+                        (
+                            [address_line1_check] => pass
+                            [address_postal_code_check] => pass
+                            [cvc_check] => pass
+                        )
+
+                    [country] => US
+                    [exp_month] => 2
+                    [exp_year] => 2031
+                    [fingerprint] => hgZ9JPeNraTtSU36
+                    [funding] => credit
+                    [installments] => 
+                    [last4] => 3222
+                    [mandate] => 
+                    [network] => mastercard
+                    [network_token] => stdClass Object
+                        (
+                            [used] => 
+                        )
+
+                    [three_d_secure] => 
+                    [wallet] => 
+                )
+
+            [type] => card
+        )
+
+    [receipt_email] => 
+    [receipt_number] => 
+    [receipt_url] => https://pay.stripe.com/receipts/payment/CAcaFwoVYWNjdF8xTkZHSWVIQllwUFVJNm1LKJK28qMGMga0800zbM06LBYePfqWSTAP5vGmkVHyIXtb_LuXkl5ibbluBMTEiHup5DV5VncBiGA6Eo3K
+    [refunded] => 
+    [refunds] => stdClass Object
+        (
+            [object] => list
+            [data] => Array
+                (
+                )
+
+            [has_more] => 
+            [total_count] => 0
+            [url] => /v1/charges/ch_3NFHcTHBYpPUI6mK0g86UvCu/refunds
+        )
+
+    [review] => 
+    [shipping] => stdClass Object
+        (
+            [address] => stdClass Object
+                (
+                    [city] => Angeles City
+                    [country] => PH
+                    [line1] => 121
+                    [line2] => 
+                    [postal_code] => 2009
+                    [state] => PAM
+                )
+
+            [carrier] => 
+            [name] => Kirsten Fernandez
+            [phone] => 
+            [tracking_number] => 
+        )
+
+    [source] => 
+    [source_transfer] => 
+    [statement_descriptor] => 
+    [statement_descriptor_suffix] => 
+    [status] => succeeded
+    [transfer_data] => 
+    [transfer_group] => 
+)
+
+====End Log====
+
+
+2023-06-04T14:09:22+00:00 DEBUG 
+====Stripe Version: 7.4.1====
+====Start Log====
+balance/history/txn_3NFHcTHBYpPUI6mK0p7qNgfB
+====End Log====
+
+
+2023-06-04T14:17:04+00:00 DEBUG 
+====Stripe Version: 7.4.1====
+====Start Log====
+customers/cus_O1KB6fl3FpeNXt/payment_methods request: Array
+(
+    [limit] => 100
+)
+
+====End Log====
+
+
+2023-06-04T14:18:16+00:00 DEBUG 
+====Stripe Version: 7.4.1====
+====Start Log====
+payment_methods/pm_1NFHl5HBYpPUI6mK49zGY2Mi
+====End Log====
+
+
+2023-06-04T14:18:16+00:00 DEBUG 
+====Stripe Version: 7.4.1====
+====Start Log====
+customers request: Array
+(
+    [email] => dygabriel31@gmail.com
+    [description] => Name: Gabriel Dy, Username: gabriel.dy
+    [name] => Gabriel Dy
+    [metadata] => Array
+        (
+        )
+
+    [preferred_locales] => Array
+        (
+            [0] => en-US
+        )
+
+)
+
+====End Log====
+
+
+2023-06-04T14:18:17+00:00 DEBUG 
+====Stripe Version: 7.4.1====
+====Start Log====
+payment_methods/pm_1NFHl5HBYpPUI6mK49zGY2Mi/attach request: Array
+(
+    [customer] => cus_O1KPMf6OtiAkW9
+)
+
+====End Log====
+
+
+2023-06-04T14:18:17+00:00 DEBUG 
+====Stripe Version: 7.4.1====
+====Start Log====
+customers/cus_O1KPMf6OtiAkW9 request: Array
+(
+    [email] => dygabriel31@gmail.com
+    [description] => Name: Gabriel Dy, Username: gabriel.dy
+    [name] => Gabriel Dy
+    [metadata] => Array
+        (
+        )
+
+    [preferred_locales] => Array
+        (
+            [0] => en-US
+        )
+
+)
+
+====End Log====
+
+
+2023-06-04T14:18:18+00:00 DEBUG 
+====Stripe Version: 7.4.1====
+====Start Log====
+Info: Begin processing payment for order 82 for the amount of 500.00
+====End Log====
+
+
+2023-06-04T14:18:18+00:00 DEBUG 
+====Stripe Version: 7.4.1====
+====Start Log====
+payment_intents request: Array
+(
+    [amount] => 50000
+    [currency] => php
+    [description] => Golteb Busters - Order 82
+    [metadata] => Array
+        (
+            [customer_name] => Gabriel Dy
+            [customer_email] => dygabriel31@gmail.com
+            [order_id] => 82
+            [site_url] => https://www.goltebbusters.store
+            [save_payment_method] => true
+        )
+
+    [capture_method] => automatic
+    [payment_method_types] => Array
+        (
+            [0] => card
+        )
+
+    [payment_method] => pm_1NFHl5HBYpPUI6mK49zGY2Mi
+    [setup_future_usage] => off_session
+    [customer] => cus_O1KPMf6OtiAkW9
+    [shipping] => Array
+        (
+            [name] => Gabriel Dy
+            [address] => Array
+                (
+                    [line1] => 39 Doña Agripina Street
+                    [line2] => 
+                    [city] => Angeles City
+                    [country] => PH
+                    [postal_code] => 2009
+                    [state] => PAM
+                )
+
+        )
+
+)
+
+====End Log====
+
+
+2023-06-04T14:18:18+00:00 DEBUG 
+====Stripe Version: 7.4.1====
+====Start Log====
+Stripe PaymentIntent pi_3NFHl8HBYpPUI6mK0bEEo4QE initiated for order 82
+====End Log====
+
+
+2023-06-04T14:18:18+00:00 DEBUG 
+====Stripe Version: 7.4.1====
+====Start Log====
+payment_intents/pi_3NFHl8HBYpPUI6mK0bEEo4QE/confirm request: Array
+(
+    [payment_method] => pm_1NFHl5HBYpPUI6mK49zGY2Mi
+)
+
+====End Log====
+
+
+2023-06-04T14:18:19+00:00 DEBUG 
+====Stripe Version: 7.4.1====
+====Start Log====
+Stripe PaymentIntent pi_3NFHl8HBYpPUI6mK0bEEo4QE succeeded for order 82
+====End Log====
+
+
+2023-06-04T14:18:19+00:00 DEBUG 
+====Stripe Version: 7.4.1====
+====Start Log====
+payment_methods/pm_1NFHl5HBYpPUI6mK49zGY2Mi
+====End Log====
+
+
+2023-06-04T14:18:20+00:00 DEBUG 
+====Stripe Version: 7.4.1====
+====Start Log====
+customers/cus_O1KPMf6OtiAkW9 request: Array
+(
+    [default_source] => pm_1NFHl5HBYpPUI6mK49zGY2Mi
+)
+
+====End Log====
+
+
+2023-06-04T14:18:20+00:00 DEBUG 
+====Stripe Version: 7.4.1====
+====Start Log====
+Processing response: stdClass Object
+(
+    [id] => ch_3NFHl8HBYpPUI6mK0SMLvtKg
+    [object] => charge
+    [amount] => 50000
+    [amount_captured] => 50000
+    [amount_refunded] => 0
+    [application] => 
+    [application_fee] => 
+    [application_fee_amount] => 
+    [balance_transaction] => txn_3NFHl8HBYpPUI6mK0dOSsuL2
+    [billing_details] => stdClass Object
+        (
+            [address] => stdClass Object
+                (
+                    [city] => Angeles City
+                    [country] => PH
+                    [line1] => 39 Doña Agripina Street
+                    [line2] => 
+                    [postal_code] => 2009
+                    [state] => PAM
+                )
+
+            [email] => dygabriel31@gmail.com
+            [name] => Gabriel Dy
+            [phone] => 09223042210
+        )
+
+    [calculated_statement_descriptor] => WWW.GOLTEBBUSTERS.STOR
+    [captured] => 1
+    [created] => 1685888298
+    [currency] => php
+    [customer] => cus_O1KPMf6OtiAkW9
+    [description] => Golteb Busters - Order 82
+    [destination] => 
+    [dispute] => 
+    [disputed] => 
+    [failure_balance_transaction] => 
+    [failure_code] => 
+    [failure_message] => 
+    [fraud_details] => stdClass Object
+        (
+        )
+
+    [invoice] => 
+    [livemode] => 
+    [metadata] => stdClass Object
+        (
+            [customer_email] => dygabriel31@gmail.com
+            [customer_name] => Gabriel Dy
+            [order_id] => 82
+            [save_payment_method] => true
+            [site_url] => https://www.goltebbusters.store
+        )
+
+    [on_behalf_of] => 
+    [order] => 
+    [outcome] => stdClass Object
+        (
+            [network_status] => approved_by_network
+            [reason] => 
+            [risk_level] => normal
+            [risk_score] => 53
+            [seller_message] => Payment complete.
+            [type] => authorized
+        )
+
+    [paid] => 1
+    [payment_intent] => pi_3NFHl8HBYpPUI6mK0bEEo4QE
+    [payment_method] => pm_1NFHl5HBYpPUI6mK49zGY2Mi
+    [payment_method_details] => stdClass Object
+        (
+            [card] => stdClass Object
+                (
+                    [brand] => visa
+                    [checks] => stdClass Object
+                        (
+                            [address_line1_check] => pass
+                            [address_postal_code_check] => pass
+                            [cvc_check] => pass
+                        )
+
+                    [country] => US
+                    [exp_month] => 12
+                    [exp_year] => 2027
+                    [fingerprint] => rMOeY3L9Lgt9E2VS
+                    [funding] => credit
+                    [installments] => 
+                    [last4] => 4242
+                    [mandate] => 
+                    [network] => visa
+                    [network_token] => stdClass Object
+                        (
+                            [used] => 
+                        )
+
+                    [three_d_secure] => 
+                    [wallet] => 
+                )
+
+            [type] => card
+        )
+
+    [receipt_email] => 
+    [receipt_number] => 
+    [receipt_url] => https://pay.stripe.com/receipts/payment/CAcaFwoVYWNjdF8xTkZHSWVIQllwUFVJNm1LKKu68qMGMgYqrmEvNrQ6LBY2sb7mrIuKafgVchblGFhIAUNg1KaeZLzFM6l7F03ib_doS5H4bALFXxK0
+    [refunded] => 
+    [refunds] => stdClass Object
+        (
+            [object] => list
+            [data] => Array
+                (
+                )
+
+            [has_more] => 
+            [total_count] => 0
+            [url] => /v1/charges/ch_3NFHl8HBYpPUI6mK0SMLvtKg/refunds
+        )
+
+    [review] => 
+    [shipping] => stdClass Object
+        (
+            [address] => stdClass Object
+                (
+                    [city] => Angeles City
+                    [country] => PH
+                    [line1] => 39 Doña Agripina Street
+                    [line2] => 
+                    [postal_code] => 2009
+                    [state] => PAM
+                )
+
+            [carrier] => 
+            [name] => Gabriel Dy
+            [phone] => 
+            [tracking_number] => 
+        )
+
+    [source] => 
+    [source_transfer] => 
+    [statement_descriptor] => 
+    [statement_descriptor_suffix] => 
+    [status] => succeeded
+    [transfer_data] => 
+    [transfer_group] => 
+)
+
+====End Log====
+
+
+2023-06-04T14:18:20+00:00 DEBUG 
+====Stripe Version: 7.4.1====
+====Start Log====
+balance/history/txn_3NFHl8HBYpPUI6mK0dOSsuL2
+====End Log====
+
+
+2023-06-04T14:21:15+00:00 DEBUG 
+====Stripe Version: 7.4.1====
+====Start Log====
+customers/cus_O1KPMf6OtiAkW9/payment_methods request: Array
+(
+    [limit] => 100
+)
+
+====End Log====
+
+
+2023-06-04T14:21:21+00:00 DEBUG 
+====Stripe Version: 7.4.1====
+====Start Log====
+customers/cus_O1KPMf6OtiAkW9 request: Array
+(
+    [email] => dygabriel31@gmail.com
+    [description] => Name: Gabriel Dy, Username: gabriel.dy
+    [name] => Gabriel Dy
+    [metadata] => Array
+        (
+        )
+
+    [preferred_locales] => Array
+        (
+            [0] => en-US
+        )
+
+)
+
+====End Log====
+
+
+2023-06-04T14:21:21+00:00 DEBUG 
+====Stripe Version: 7.4.1====
+====Start Log====
+Info: Begin processing payment for order 83 for the amount of 499.99
+====End Log====
+
+
+2023-06-04T14:21:21+00:00 DEBUG 
+====Stripe Version: 7.4.1====
+====Start Log====
+payment_intents request: Array
+(
+    [amount] => 49999
+    [currency] => php
+    [description] => Golteb Busters - Order 83
+    [metadata] => Array
+        (
+            [customer_name] => Gabriel Dy
+            [customer_email] => dygabriel31@gmail.com
+            [order_id] => 83
+            [site_url] => https://www.goltebbusters.store
+        )
+
+    [capture_method] => automatic
+    [payment_method_types] => Array
+        (
+            [0] => card
+        )
+
+    [payment_method] => pm_1NFHl5HBYpPUI6mK49zGY2Mi
+    [customer] => cus_O1KPMf6OtiAkW9
+    [shipping] => Array
+        (
+            [name] => Gabriel Dy
+            [address] => Array
+                (
+                    [line1] => 39 Doña Agripina Street
+                    [line2] => 
+                    [city] => Angeles City
+                    [country] => PH
+                    [postal_code] => 2009
+                    [state] => PAM
+                )
+
+        )
+
+)
+
+====End Log====
+
+
+2023-06-04T14:21:22+00:00 DEBUG 
+====Stripe Version: 7.4.1====
+====Start Log====
+Stripe PaymentIntent pi_3NFHo6HBYpPUI6mK1I4rU8Y8 initiated for order 83
+====End Log====
+
+
+2023-06-04T14:21:22+00:00 DEBUG 
+====Stripe Version: 7.4.1====
+====Start Log====
+payment_intents/pi_3NFHo6HBYpPUI6mK1I4rU8Y8/confirm request: Array
+(
+    [payment_method] => pm_1NFHl5HBYpPUI6mK49zGY2Mi
+)
+
+====End Log====
+
+
+2023-06-04T14:21:23+00:00 DEBUG 
+====Stripe Version: 7.4.1====
+====Start Log====
+Stripe PaymentIntent pi_3NFHo6HBYpPUI6mK1I4rU8Y8 succeeded for order 83
+====End Log====
+
+
+2023-06-04T14:21:23+00:00 DEBUG 
+====Stripe Version: 7.4.1====
+====Start Log====
+Processing response: stdClass Object
+(
+    [id] => ch_3NFHo6HBYpPUI6mK12J681yQ
+    [object] => charge
+    [amount] => 49999
+    [amount_captured] => 49999
+    [amount_refunded] => 0
+    [application] => 
+    [application_fee] => 
+    [application_fee_amount] => 
+    [balance_transaction] => txn_3NFHo6HBYpPUI6mK17O4QN2g
+    [billing_details] => stdClass Object
+        (
+            [address] => stdClass Object
+                (
+                    [city] => Angeles City
+                    [country] => PH
+                    [line1] => 39 Doña Agripina Street
+                    [line2] => 
+                    [postal_code] => 2009
+                    [state] => PAM
+                )
+
+            [email] => dygabriel31@gmail.com
+            [name] => Gabriel Dy
+            [phone] => 09223042210
+        )
+
+    [calculated_statement_descriptor] => WWW.GOLTEBBUSTERS.STOR
+    [captured] => 1
+    [created] => 1685888482
+    [currency] => php
+    [customer] => cus_O1KPMf6OtiAkW9
+    [description] => Golteb Busters - Order 83
+    [destination] => 
+    [dispute] => 
+    [disputed] => 
+    [failure_balance_transaction] => 
+    [failure_code] => 
+    [failure_message] => 
+    [fraud_details] => stdClass Object
+        (
+        )
+
+    [invoice] => 
+    [livemode] => 
+    [metadata] => stdClass Object
+        (
+            [customer_email] => dygabriel31@gmail.com
+            [customer_name] => Gabriel Dy
+            [order_id] => 83
+            [site_url] => https://www.goltebbusters.store
+        )
+
+    [on_behalf_of] => 
+    [order] => 
+    [outcome] => stdClass Object
+        (
+            [network_status] => approved_by_network
+            [reason] => 
+            [risk_level] => normal
+            [risk_score] => 6
+            [seller_message] => Payment complete.
+            [type] => authorized
+        )
+
+    [paid] => 1
+    [payment_intent] => pi_3NFHo6HBYpPUI6mK1I4rU8Y8
+    [payment_method] => pm_1NFHl5HBYpPUI6mK49zGY2Mi
+    [payment_method_details] => stdClass Object
+        (
+            [card] => stdClass Object
+                (
+                    [brand] => visa
+                    [checks] => stdClass Object
+                        (
+                            [address_line1_check] => pass
+                            [address_postal_code_check] => pass
+                            [cvc_check] => pass
+                        )
+
+                    [country] => US
+                    [exp_month] => 12
+                    [exp_year] => 2027
+                    [fingerprint] => rMOeY3L9Lgt9E2VS
+                    [funding] => credit
+                    [installments] => 
+                    [last4] => 4242
+                    [mandate] => 
+                    [network] => visa
+                    [network_token] => stdClass Object
+                        (
+                            [used] => 
+                        )
+
+                    [three_d_secure] => 
+                    [wallet] => 
+                )
+
+            [type] => card
+        )
+
+    [receipt_email] => 
+    [receipt_number] => 
+    [receipt_url] => https://pay.stripe.com/receipts/payment/CAcaFwoVYWNjdF8xTkZHSWVIQllwUFVJNm1LKOO78qMGMgbhoAyXdYo6LBZojzdXoEajFsbERjdFWmSgNYwhd7-gT7Sg5qPA4eqIqIQPIfpiTrxsj6h_
+    [refunded] => 
+    [refunds] => stdClass Object
+        (
+            [object] => list
+            [data] => Array
+                (
+                )
+
+            [has_more] => 
+            [total_count] => 0
+            [url] => /v1/charges/ch_3NFHo6HBYpPUI6mK12J681yQ/refunds
+        )
+
+    [review] => 
+    [shipping] => stdClass Object
+        (
+            [address] => stdClass Object
+                (
+                    [city] => Angeles City
+                    [country] => PH
+                    [line1] => 39 Doña Agripina Street
+                    [line2] => 
+                    [postal_code] => 2009
+                    [state] => PAM
+                )
+
+            [carrier] => 
+            [name] => Gabriel Dy
+            [phone] => 
+            [tracking_number] => 
+        )
+
+    [source] => 
+    [source_transfer] => 
+    [statement_descriptor] => 
+    [statement_descriptor_suffix] => 
+    [status] => succeeded
+    [transfer_data] => 
+    [transfer_group] => 
+)
+
+====End Log====
+
+
+2023-06-04T14:21:23+00:00 DEBUG 
+====Stripe Version: 7.4.1====
+====Start Log====
+balance/history/txn_3NFHo6HBYpPUI6mK17O4QN2g
+====End Log====
+
+
+2023-06-04T14:21:39+00:00 DEBUG 
+====Stripe Version: 7.4.1====
+====Start Log====
+customers/cus_O1KPMf6OtiAkW9/payment_methods request: Array
+(
+    [limit] => 100
+)
+
+====End Log====
+
+
+2023-06-04T14:21:44+00:00 DEBUG 
+====Stripe Version: 7.4.1====
+====Start Log====
+customers/cus_O1KPMf6OtiAkW9 request: Array
+(
+    [email] => dygabriel31@gmail.com
+    [description] => Name: Gabriel Dy, Username: gabriel.dy
+    [name] => Gabriel Dy
+    [metadata] => Array
+        (
+        )
+
+    [preferred_locales] => Array
+        (
+            [0] => en-US
+        )
+
+)
+
+====End Log====
+
+
+2023-06-04T14:21:44+00:00 DEBUG 
+====Stripe Version: 7.4.1====
+====Start Log====
+Info: Begin processing payment for order 84 for the amount of 250.00
+====End Log====
+
+
+2023-06-04T14:21:44+00:00 DEBUG 
+====Stripe Version: 7.4.1====
+====Start Log====
+payment_intents request: Array
+(
+    [amount] => 25000
+    [currency] => php
+    [description] => Golteb Busters - Order 84
+    [metadata] => Array
+        (
+            [customer_name] => Gabriel Dy
+            [customer_email] => dygabriel31@gmail.com
+            [order_id] => 84
+            [site_url] => https://www.goltebbusters.store
+        )
+
+    [capture_method] => automatic
+    [payment_method_types] => Array
+        (
+            [0] => card
+        )
+
+    [payment_method] => pm_1NFHl5HBYpPUI6mK49zGY2Mi
+    [customer] => cus_O1KPMf6OtiAkW9
+    [shipping] => Array
+        (
+            [name] => Gabriel Dy
+            [address] => Array
+                (
+                    [line1] => 39 Doña Agripina Street
+                    [line2] => 
+                    [city] => Angeles City
+                    [country] => PH
+                    [postal_code] => 2009
+                    [state] => PAM
+                )
+
+        )
+
+)
+
+====End Log====
+
+
+2023-06-04T14:21:45+00:00 DEBUG 
+====Stripe Version: 7.4.1====
+====Start Log====
+Stripe PaymentIntent pi_3NFHoTHBYpPUI6mK14RFKvzU initiated for order 84
+====End Log====
+
+
+2023-06-04T14:21:45+00:00 DEBUG 
+====Stripe Version: 7.4.1====
+====Start Log====
+payment_intents/pi_3NFHoTHBYpPUI6mK14RFKvzU/confirm request: Array
+(
+    [payment_method] => pm_1NFHl5HBYpPUI6mK49zGY2Mi
+)
+
+====End Log====
+
+
+2023-06-04T14:21:46+00:00 DEBUG 
+====Stripe Version: 7.4.1====
+====Start Log====
+Stripe PaymentIntent pi_3NFHoTHBYpPUI6mK14RFKvzU succeeded for order 84
+====End Log====
+
+
+2023-06-04T14:21:46+00:00 DEBUG 
+====Stripe Version: 7.4.1====
+====Start Log====
+Processing response: stdClass Object
+(
+    [id] => ch_3NFHoTHBYpPUI6mK119YxPLg
+    [object] => charge
+    [amount] => 25000
+    [amount_captured] => 25000
+    [amount_refunded] => 0
+    [application] => 
+    [application_fee] => 
+    [application_fee_amount] => 
+    [balance_transaction] => txn_3NFHoTHBYpPUI6mK1VHLlNoe
+    [billing_details] => stdClass Object
+        (
+            [address] => stdClass Object
+                (
+                    [city] => Angeles City
+                    [country] => PH
+                    [line1] => 39 Doña Agripina Street
+                    [line2] => 
+                    [postal_code] => 2009
+                    [state] => PAM
+                )
+
+            [email] => dygabriel31@gmail.com
+            [name] => Gabriel Dy
+            [phone] => 09223042210
+        )
+
+    [calculated_statement_descriptor] => WWW.GOLTEBBUSTERS.STOR
+    [captured] => 1
+    [created] => 1685888505
+    [currency] => php
+    [customer] => cus_O1KPMf6OtiAkW9
+    [description] => Golteb Busters - Order 84
+    [destination] => 
+    [dispute] => 
+    [disputed] => 
+    [failure_balance_transaction] => 
+    [failure_code] => 
+    [failure_message] => 
+    [fraud_details] => stdClass Object
+        (
+        )
+
+    [invoice] => 
+    [livemode] => 
+    [metadata] => stdClass Object
+        (
+            [customer_email] => dygabriel31@gmail.com
+            [customer_name] => Gabriel Dy
+            [order_id] => 84
+            [site_url] => https://www.goltebbusters.store
+        )
+
+    [on_behalf_of] => 
+    [order] => 
+    [outcome] => stdClass Object
+        (
+            [network_status] => approved_by_network
+            [reason] => 
+            [risk_level] => normal
+            [risk_score] => 27
+            [seller_message] => Payment complete.
+            [type] => authorized
+        )
+
+    [paid] => 1
+    [payment_intent] => pi_3NFHoTHBYpPUI6mK14RFKvzU
+    [payment_method] => pm_1NFHl5HBYpPUI6mK49zGY2Mi
+    [payment_method_details] => stdClass Object
+        (
+            [card] => stdClass Object
+                (
+                    [brand] => visa
+                    [checks] => stdClass Object
+                        (
+                            [address_line1_check] => pass
+                            [address_postal_code_check] => pass
+                            [cvc_check] => pass
+                        )
+
+                    [country] => US
+                    [exp_month] => 12
+                    [exp_year] => 2027
+                    [fingerprint] => rMOeY3L9Lgt9E2VS
+                    [funding] => credit
+                    [installments] => 
+                    [last4] => 4242
+                    [mandate] => 
+                    [network] => visa
+                    [network_token] => stdClass Object
+                        (
+                            [used] => 
+                        )
+
+                    [three_d_secure] => 
+                    [wallet] => 
+                )
+
+            [type] => card
+        )
+
+    [receipt_email] => 
+    [receipt_number] => 
+    [receipt_url] => https://pay.stripe.com/receipts/payment/CAcaFwoVYWNjdF8xTkZHSWVIQllwUFVJNm1LKPq78qMGMgYoUyqUN4M6LBYX54cC6n2iPjbLi0sRbVzJ0_YRI2hQYSJfHDpvSMiJc3iJj8YBGPJ-i6O5
+    [refunded] => 
+    [refunds] => stdClass Object
+        (
+            [object] => list
+            [data] => Array
+                (
+                )
+
+            [has_more] => 
+            [total_count] => 0
+            [url] => /v1/charges/ch_3NFHoTHBYpPUI6mK119YxPLg/refunds
+        )
+
+    [review] => 
+    [shipping] => stdClass Object
+        (
+            [address] => stdClass Object
+                (
+                    [city] => Angeles City
+                    [country] => PH
+                    [line1] => 39 Doña Agripina Street
+                    [line2] => 
+                    [postal_code] => 2009
+                    [state] => PAM
+                )
+
+            [carrier] => 
+            [name] => Gabriel Dy
+            [phone] => 
+            [tracking_number] => 
+        )
+
+    [source] => 
+    [source_transfer] => 
+    [statement_descriptor] => 
+    [statement_descriptor_suffix] => 
+    [status] => succeeded
+    [transfer_data] => 
+    [transfer_group] => 
+)
+
+====End Log====
+
+
+2023-06-04T14:21:46+00:00 DEBUG 
+====Stripe Version: 7.4.1====
+====Start Log====
+balance/history/txn_3NFHoTHBYpPUI6mK1VHLlNoe
+====End Log====
+
+
+2023-06-04T14:25:39+00:00 DEBUG 
+====Stripe Version: 7.4.1====
+====Start Log====
+customers/cus_O1KPMf6OtiAkW9/payment_methods request: Array
+(
+    [limit] => 100
+)
+
+====End Log====
+
+
+2023-06-04T14:25:42+00:00 DEBUG 
+====Stripe Version: 7.4.1====
+====Start Log====
+customers/cus_O1KPMf6OtiAkW9 request: Array
+(
+    [email] => dygabriel31@gmail.com
+    [description] => Name: Gabriel Dy, Username: gabriel.dy
+    [name] => Gabriel Dy
+    [metadata] => Array
+        (
+        )
+
+    [preferred_locales] => Array
+        (
+            [0] => en-US
+        )
+
+)
+
+====End Log====
+
+
+2023-06-04T14:25:42+00:00 DEBUG 
+====Stripe Version: 7.4.1====
+====Start Log====
+Info: Begin processing payment for order 85 for the amount of 499.99
+====End Log====
+
+
+2023-06-04T14:25:42+00:00 DEBUG 
+====Stripe Version: 7.4.1====
+====Start Log====
+payment_intents request: Array
+(
+    [amount] => 49999
+    [currency] => php
+    [description] => Golteb Busters - Order 85
+    [metadata] => Array
+        (
+            [customer_name] => Gabriel Dy
+            [customer_email] => dygabriel31@gmail.com
+            [order_id] => 85
+            [site_url] => https://www.goltebbusters.store
+        )
+
+    [capture_method] => automatic
+    [payment_method_types] => Array
+        (
+            [0] => card
+        )
+
+    [payment_method] => pm_1NFHl5HBYpPUI6mK49zGY2Mi
+    [customer] => cus_O1KPMf6OtiAkW9
+    [shipping] => Array
+        (
+            [name] => Gabriel Dy
+            [address] => Array
+                (
+                    [line1] => 39 Doña Agripina Street
+                    [line2] => 
+                    [city] => Angeles City
+                    [country] => PH
+                    [postal_code] => 2009
+                    [state] => PAM
+                )
+
+        )
+
+)
+
+====End Log====
+
+
+2023-06-04T14:25:43+00:00 DEBUG 
+====Stripe Version: 7.4.1====
+====Start Log====
+Stripe PaymentIntent pi_3NFHsIHBYpPUI6mK1WowRrH4 initiated for order 85
+====End Log====
+
+
+2023-06-04T14:25:43+00:00 DEBUG 
+====Stripe Version: 7.4.1====
+====Start Log====
+payment_intents/pi_3NFHsIHBYpPUI6mK1WowRrH4/confirm request: Array
+(
+    [payment_method] => pm_1NFHl5HBYpPUI6mK49zGY2Mi
+)
+
+====End Log====
+
+
+2023-06-04T14:25:44+00:00 DEBUG 
+====Stripe Version: 7.4.1====
+====Start Log====
+Stripe PaymentIntent pi_3NFHsIHBYpPUI6mK1WowRrH4 succeeded for order 85
+====End Log====
+
+
+2023-06-04T14:25:44+00:00 DEBUG 
+====Stripe Version: 7.4.1====
+====Start Log====
+Processing response: stdClass Object
+(
+    [id] => ch_3NFHsIHBYpPUI6mK1f9rjyqY
+    [object] => charge
+    [amount] => 49999
+    [amount_captured] => 49999
+    [amount_refunded] => 0
+    [application] => 
+    [application_fee] => 
+    [application_fee_amount] => 
+    [balance_transaction] => txn_3NFHsIHBYpPUI6mK12kqXcW7
+    [billing_details] => stdClass Object
+        (
+            [address] => stdClass Object
+                (
+                    [city] => Angeles City
+                    [country] => PH
+                    [line1] => 39 Doña Agripina Street
+                    [line2] => 
+                    [postal_code] => 2009
+                    [state] => PAM
+                )
+
+            [email] => dygabriel31@gmail.com
+            [name] => Gabriel Dy
+            [phone] => 09223042210
+        )
+
+    [calculated_statement_descriptor] => WWW.GOLTEBBUSTERS.STOR
+    [captured] => 1
+    [created] => 1685888743
+    [currency] => php
+    [customer] => cus_O1KPMf6OtiAkW9
+    [description] => Golteb Busters - Order 85
+    [destination] => 
+    [dispute] => 
+    [disputed] => 
+    [failure_balance_transaction] => 
+    [failure_code] => 
+    [failure_message] => 
+    [fraud_details] => stdClass Object
+        (
+        )
+
+    [invoice] => 
+    [livemode] => 
+    [metadata] => stdClass Object
+        (
+            [customer_email] => dygabriel31@gmail.com
+            [customer_name] => Gabriel Dy
+            [order_id] => 85
+            [site_url] => https://www.goltebbusters.store
+        )
+
+    [on_behalf_of] => 
+    [order] => 
+    [outcome] => stdClass Object
+        (
+            [network_status] => approved_by_network
+            [reason] => 
+            [risk_level] => normal
+            [risk_score] => 40
+            [seller_message] => Payment complete.
+            [type] => authorized
+        )
+
+    [paid] => 1
+    [payment_intent] => pi_3NFHsIHBYpPUI6mK1WowRrH4
+    [payment_method] => pm_1NFHl5HBYpPUI6mK49zGY2Mi
+    [payment_method_details] => stdClass Object
+        (
+            [card] => stdClass Object
+                (
+                    [brand] => visa
+                    [checks] => stdClass Object
+                        (
+                            [address_line1_check] => pass
+                            [address_postal_code_check] => pass
+                            [cvc_check] => pass
+                        )
+
+                    [country] => US
+                    [exp_month] => 12
+                    [exp_year] => 2027
+                    [fingerprint] => rMOeY3L9Lgt9E2VS
+                    [funding] => credit
+                    [installments] => 
+                    [last4] => 4242
+                    [mandate] => 
+                    [network] => visa
+                    [network_token] => stdClass Object
+                        (
+                            [used] => 
+                        )
+
+                    [three_d_secure] => 
+                    [wallet] => 
+                )
+
+            [type] => card
+        )
+
+    [receipt_email] => 
+    [receipt_number] => 
+    [receipt_url] => https://pay.stripe.com/receipts/payment/CAcaFwoVYWNjdF8xTkZHSWVIQllwUFVJNm1LKOi98qMGMgZJTes3rnE6LBbcSPJf-ey68xRX30Lt4qSXPNW7IwcwJRulYC7kuOZJE_AZgEIa8T14b08t
+    [refunded] => 
+    [refunds] => stdClass Object
+        (
+            [object] => list
+            [data] => Array
+                (
+                )
+
+            [has_more] => 
+            [total_count] => 0
+            [url] => /v1/charges/ch_3NFHsIHBYpPUI6mK1f9rjyqY/refunds
+        )
+
+    [review] => 
+    [shipping] => stdClass Object
+        (
+            [address] => stdClass Object
+                (
+                    [city] => Angeles City
+                    [country] => PH
+                    [line1] => 39 Doña Agripina Street
+                    [line2] => 
+                    [postal_code] => 2009
+                    [state] => PAM
+                )
+
+            [carrier] => 
+            [name] => Gabriel Dy
+            [phone] => 
+            [tracking_number] => 
+        )
+
+    [source] => 
+    [source_transfer] => 
+    [statement_descriptor] => 
+    [statement_descriptor_suffix] => 
+    [status] => succeeded
+    [transfer_data] => 
+    [transfer_group] => 
+)
+
+====End Log====
+
+
+2023-06-04T14:25:44+00:00 DEBUG 
+====Stripe Version: 7.4.1====
+====Start Log====
+balance/history/txn_3NFHsIHBYpPUI6mK12kqXcW7
+====End Log====
+
+
+2023-06-04T14:26:17+00:00 DEBUG 
+====Stripe Version: 7.4.1====
+====Start Log====
+customers/cus_O1KPMf6OtiAkW9/payment_methods request: Array
+(
+    [limit] => 100
+)
+
+====End Log====
+
+
+2023-06-04T14:26:21+00:00 DEBUG 
+====Stripe Version: 7.4.1====
+====Start Log====
+customers/cus_O1KPMf6OtiAkW9 request: Array
+(
+    [email] => dygabriel31@gmail.com
+    [description] => Name: Gabriel Dy, Username: gabriel.dy
+    [name] => Gabriel Dy
+    [metadata] => Array
+        (
+        )
+
+    [preferred_locales] => Array
+        (
+            [0] => en-US
+        )
+
+)
+
+====End Log====
+
+
+2023-06-04T14:26:21+00:00 DEBUG 
+====Stripe Version: 7.4.1====
+====Start Log====
+Info: Begin processing payment for order 86 for the amount of 250.00
+====End Log====
+
+
+2023-06-04T14:26:21+00:00 DEBUG 
+====Stripe Version: 7.4.1====
+====Start Log====
+payment_intents request: Array
+(
+    [amount] => 25000
+    [currency] => php
+    [description] => Golteb Busters - Order 86
+    [metadata] => Array
+        (
+            [customer_name] => Gabriel Dy
+            [customer_email] => dygabriel31@gmail.com
+            [order_id] => 86
+            [site_url] => https://www.goltebbusters.store
+        )
+
+    [capture_method] => automatic
+    [payment_method_types] => Array
+        (
+            [0] => card
+        )
+
+    [payment_method] => pm_1NFHl5HBYpPUI6mK49zGY2Mi
+    [customer] => cus_O1KPMf6OtiAkW9
+    [shipping] => Array
+        (
+            [name] => Gabriel Dy
+            [address] => Array
+                (
+                    [line1] => 39 Doña Agripina Street
+                    [line2] => 
+                    [city] => Angeles City
+                    [country] => PH
+                    [postal_code] => 2009
+                    [state] => PAM
+                )
+
+        )
+
+)
+
+====End Log====
+
+
+2023-06-04T14:26:21+00:00 DEBUG 
+====Stripe Version: 7.4.1====
+====Start Log====
+Stripe PaymentIntent pi_3NFHsvHBYpPUI6mK1QCpTdgM initiated for order 86
+====End Log====
+
+
+2023-06-04T14:26:21+00:00 DEBUG 
+====Stripe Version: 7.4.1====
+====Start Log====
+payment_intents/pi_3NFHsvHBYpPUI6mK1QCpTdgM/confirm request: Array
+(
+    [payment_method] => pm_1NFHl5HBYpPUI6mK49zGY2Mi
+)
+
+====End Log====
+
+
+2023-06-04T14:26:23+00:00 DEBUG 
+====Stripe Version: 7.4.1====
+====Start Log====
+Stripe PaymentIntent pi_3NFHsvHBYpPUI6mK1QCpTdgM succeeded for order 86
+====End Log====
+
+
+2023-06-04T14:26:23+00:00 DEBUG 
+====Stripe Version: 7.4.1====
+====Start Log====
+Processing response: stdClass Object
+(
+    [id] => ch_3NFHsvHBYpPUI6mK1kPrOpQK
+    [object] => charge
+    [amount] => 25000
+    [amount_captured] => 25000
+    [amount_refunded] => 0
+    [application] => 
+    [application_fee] => 
+    [application_fee_amount] => 
+    [balance_transaction] => txn_3NFHsvHBYpPUI6mK1PHn1ovh
+    [billing_details] => stdClass Object
+        (
+            [address] => stdClass Object
+                (
+                    [city] => Angeles City
+                    [country] => PH
+                    [line1] => 39 Doña Agripina Street
+                    [line2] => 
+                    [postal_code] => 2009
+                    [state] => PAM
+                )
+
+            [email] => dygabriel31@gmail.com
+            [name] => Gabriel Dy
+            [phone] => 09223042210
+        )
+
+    [calculated_statement_descriptor] => WWW.GOLTEBBUSTERS.STOR
+    [captured] => 1
+    [created] => 1685888782
+    [currency] => php
+    [customer] => cus_O1KPMf6OtiAkW9
+    [description] => Golteb Busters - Order 86
+    [destination] => 
+    [dispute] => 
+    [disputed] => 
+    [failure_balance_transaction] => 
+    [failure_code] => 
+    [failure_message] => 
+    [fraud_details] => stdClass Object
+        (
+        )
+
+    [invoice] => 
+    [livemode] => 
+    [metadata] => stdClass Object
+        (
+            [customer_email] => dygabriel31@gmail.com
+            [customer_name] => Gabriel Dy
+            [order_id] => 86
+            [site_url] => https://www.goltebbusters.store
+        )
+
+    [on_behalf_of] => 
+    [order] => 
+    [outcome] => stdClass Object
+        (
+            [network_status] => approved_by_network
+            [reason] => 
+            [risk_level] => normal
+            [risk_score] => 27
+            [seller_message] => Payment complete.
+            [type] => authorized
+        )
+
+    [paid] => 1
+    [payment_intent] => pi_3NFHsvHBYpPUI6mK1QCpTdgM
+    [payment_method] => pm_1NFHl5HBYpPUI6mK49zGY2Mi
+    [payment_method_details] => stdClass Object
+        (
+            [card] => stdClass Object
+                (
+                    [brand] => visa
+                    [checks] => stdClass Object
+                        (
+                            [address_line1_check] => pass
+                            [address_postal_code_check] => pass
+                            [cvc_check] => pass
+                        )
+
+                    [country] => US
+                    [exp_month] => 12
+                    [exp_year] => 2027
+                    [fingerprint] => rMOeY3L9Lgt9E2VS
+                    [funding] => credit
+                    [installments] => 
+                    [last4] => 4242
+                    [mandate] => 
+                    [network] => visa
+                    [network_token] => stdClass Object
+                        (
+                            [used] => 
+                        )
+
+                    [three_d_secure] => 
+                    [wallet] => 
+                )
+
+            [type] => card
+        )
+
+    [receipt_email] => 
+    [receipt_number] => 
+    [receipt_url] => https://pay.stripe.com/receipts/payment/CAcaFwoVYWNjdF8xTkZHSWVIQllwUFVJNm1LKI6-8qMGMgbXKSJhHrA6LBadKDiWDWjZ0GEKPMPShNvglLMSzVyc0QzdIWwwvWK47XCqzaNKTcqt4pnM
+    [refunded] => 
+    [refunds] => stdClass Object
+        (
+            [object] => list
+            [data] => Array
+                (
+                )
+
+            [has_more] => 
+            [total_count] => 0
+            [url] => /v1/charges/ch_3NFHsvHBYpPUI6mK1kPrOpQK/refunds
+        )
+
+    [review] => 
+    [shipping] => stdClass Object
+        (
+            [address] => stdClass Object
+                (
+                    [city] => Angeles City
+                    [country] => PH
+                    [line1] => 39 Doña Agripina Street
+                    [line2] => 
+                    [postal_code] => 2009
+                    [state] => PAM
+                )
+
+            [carrier] => 
+            [name] => Gabriel Dy
+            [phone] => 
+            [tracking_number] => 
+        )
+
+    [source] => 
+    [source_transfer] => 
+    [statement_descriptor] => 
+    [statement_descriptor_suffix] => 
+    [status] => succeeded
+    [transfer_data] => 
+    [transfer_group] => 
+)
+
+====End Log====
+
+
+2023-06-04T14:26:23+00:00 DEBUG 
+====Stripe Version: 7.4.1====
+====Start Log====
+balance/history/txn_3NFHsvHBYpPUI6mK1PHn1ovh
+====End Log====
+
+
+2023-06-04T14:29:03+00:00 DEBUG 
+====Stripe Version: 7.4.1====
+====Start Log====
+customers/cus_O1KPMf6OtiAkW9/payment_methods request: Array
+(
+    [limit] => 100
+)
+
+====End Log====
+
+
+2023-06-04T14:29:07+00:00 DEBUG 
+====Stripe Version: 7.4.1====
+====Start Log====
+customers/cus_O1KPMf6OtiAkW9 request: Array
+(
+    [email] => dygabriel31@gmail.com
+    [description] => Name: Gabriel Dy, Username: gabriel.dy
+    [name] => Gabriel Dy
+    [metadata] => Array
+        (
+        )
+
+    [preferred_locales] => Array
+        (
+            [0] => en-US
+        )
+
+)
+
+====End Log====
+
+
+2023-06-04T14:29:07+00:00 DEBUG 
+====Stripe Version: 7.4.1====
+====Start Log====
+Info: Begin processing payment for order 87 for the amount of 999.98
+====End Log====
+
+
+2023-06-04T14:29:07+00:00 DEBUG 
+====Stripe Version: 7.4.1====
+====Start Log====
+payment_intents request: Array
+(
+    [amount] => 99998
+    [currency] => php
+    [description] => Golteb Busters - Order 87
+    [metadata] => Array
+        (
+            [customer_name] => Gabriel Dy
+            [customer_email] => dygabriel31@gmail.com
+            [order_id] => 87
+            [site_url] => https://www.goltebbusters.store
+        )
+
+    [capture_method] => automatic
+    [payment_method_types] => Array
+        (
+            [0] => card
+        )
+
+    [payment_method] => pm_1NFHl5HBYpPUI6mK49zGY2Mi
+    [customer] => cus_O1KPMf6OtiAkW9
+    [shipping] => Array
+        (
+            [name] => Gabriel Dy
+            [address] => Array
+                (
+                    [line1] => 39 Doña Agripina Street
+                    [line2] => 
+                    [city] => Angeles City
+                    [country] => PH
+                    [postal_code] => 2009
+                    [state] => PAM
+                )
+
+        )
+
+)
+
+====End Log====
+
+
+2023-06-04T14:29:08+00:00 DEBUG 
+====Stripe Version: 7.4.1====
+====Start Log====
+Stripe PaymentIntent pi_3NFHvcHBYpPUI6mK0iliKKyO initiated for order 87
+====End Log====
+
+
+2023-06-04T14:29:08+00:00 DEBUG 
+====Stripe Version: 7.4.1====
+====Start Log====
+payment_intents/pi_3NFHvcHBYpPUI6mK0iliKKyO/confirm request: Array
+(
+    [payment_method] => pm_1NFHl5HBYpPUI6mK49zGY2Mi
+)
+
+====End Log====
+
+
+2023-06-04T14:29:09+00:00 DEBUG 
+====Stripe Version: 7.4.1====
+====Start Log====
+Stripe PaymentIntent pi_3NFHvcHBYpPUI6mK0iliKKyO succeeded for order 87
+====End Log====
+
+
+2023-06-04T14:29:09+00:00 DEBUG 
+====Stripe Version: 7.4.1====
+====Start Log====
+Processing response: stdClass Object
+(
+    [id] => ch_3NFHvcHBYpPUI6mK0Eq1jJK0
+    [object] => charge
+    [amount] => 99998
+    [amount_captured] => 99998
+    [amount_refunded] => 0
+    [application] => 
+    [application_fee] => 
+    [application_fee_amount] => 
+    [balance_transaction] => txn_3NFHvcHBYpPUI6mK0XF3TWlP
+    [billing_details] => stdClass Object
+        (
+            [address] => stdClass Object
+                (
+                    [city] => Angeles City
+                    [country] => PH
+                    [line1] => 39 Doña Agripina Street
+                    [line2] => 
+                    [postal_code] => 2009
+                    [state] => PAM
+                )
+
+            [email] => dygabriel31@gmail.com
+            [name] => Gabriel Dy
+            [phone] => 09223042210
+        )
+
+    [calculated_statement_descriptor] => WWW.GOLTEBBUSTERS.STOR
+    [captured] => 1
+    [created] => 1685888948
+    [currency] => php
+    [customer] => cus_O1KPMf6OtiAkW9
+    [description] => Golteb Busters - Order 87
+    [destination] => 
+    [dispute] => 
+    [disputed] => 
+    [failure_balance_transaction] => 
+    [failure_code] => 
+    [failure_message] => 
+    [fraud_details] => stdClass Object
+        (
+        )
+
+    [invoice] => 
+    [livemode] => 
+    [metadata] => stdClass Object
+        (
+            [customer_email] => dygabriel31@gmail.com
+            [customer_name] => Gabriel Dy
+            [order_id] => 87
+            [site_url] => https://www.goltebbusters.store
+        )
+
+    [on_behalf_of] => 
+    [order] => 
+    [outcome] => stdClass Object
+        (
+            [network_status] => approved_by_network
+            [reason] => 
+            [risk_level] => normal
+            [risk_score] => 16
+            [seller_message] => Payment complete.
+            [type] => authorized
+        )
+
+    [paid] => 1
+    [payment_intent] => pi_3NFHvcHBYpPUI6mK0iliKKyO
+    [payment_method] => pm_1NFHl5HBYpPUI6mK49zGY2Mi
+    [payment_method_details] => stdClass Object
+        (
+            [card] => stdClass Object
+                (
+                    [brand] => visa
+                    [checks] => stdClass Object
+                        (
+                            [address_line1_check] => pass
+                            [address_postal_code_check] => pass
+                            [cvc_check] => 
+                        )
+
+                    [country] => US
+                    [exp_month] => 12
+                    [exp_year] => 2027
+                    [fingerprint] => rMOeY3L9Lgt9E2VS
+                    [funding] => credit
+                    [installments] => 
+                    [last4] => 4242
+                    [mandate] => 
+                    [network] => visa
+                    [network_token] => stdClass Object
+                        (
+                            [used] => 
+                        )
+
+                    [three_d_secure] => 
+                    [wallet] => 
+                )
+
+            [type] => card
+        )
+
+    [receipt_email] => 
+    [receipt_number] => 
+    [receipt_url] => https://pay.stripe.com/receipts/payment/CAcaFwoVYWNjdF8xTkZHSWVIQllwUFVJNm1LKLW_8qMGMgbdO-i-eLE6LBZiOY1ZScCWeeh5f5BjS8MYpgiT2hkY3q7sSnzm1Seg_gBp5yATg1hCkbeb
+    [refunded] => 
+    [refunds] => stdClass Object
+        (
+            [object] => list
+            [data] => Array
+                (
+                )
+
+            [has_more] => 
+            [total_count] => 0
+            [url] => /v1/charges/ch_3NFHvcHBYpPUI6mK0Eq1jJK0/refunds
+        )
+
+    [review] => 
+    [shipping] => stdClass Object
+        (
+            [address] => stdClass Object
+                (
+                    [city] => Angeles City
+                    [country] => PH
+                    [line1] => 39 Doña Agripina Street
+                    [line2] => 
+                    [postal_code] => 2009
+                    [state] => PAM
+                )
+
+            [carrier] => 
+            [name] => Gabriel Dy
+            [phone] => 
+            [tracking_number] => 
+        )
+
+    [source] => 
+    [source_transfer] => 
+    [statement_descriptor] => 
+    [statement_descriptor_suffix] => 
+    [status] => succeeded
+    [transfer_data] => 
+    [transfer_group] => 
+)
+
+====End Log====
+
+
+2023-06-04T14:29:09+00:00 DEBUG 
+====Stripe Version: 7.4.1====
+====Start Log====
+balance/history/txn_3NFHvcHBYpPUI6mK0XF3TWlP
+====End Log====
+
+
+2023-06-04T14:30:40+00:00 DEBUG 
+====Stripe Version: 7.4.1====
+====Start Log====
+customers/cus_O1KPMf6OtiAkW9/payment_methods request: Array
+(
+    [limit] => 100
+)
+
+====End Log====
+
+
+2023-06-04T14:30:45+00:00 DEBUG 
+====Stripe Version: 7.4.1====
+====Start Log====
+customers/cus_O1KPMf6OtiAkW9 request: Array
+(
+    [email] => dygabriel31@gmail.com
+    [description] => Name: Gabriel Dy, Username: gabriel.dy
+    [name] => Gabriel Dy
+    [metadata] => Array
+        (
+        )
+
+    [preferred_locales] => Array
+        (
+            [0] => en-US
+        )
+
+)
+
+====End Log====
+
+
+2023-06-04T14:30:46+00:00 DEBUG 
+====Stripe Version: 7.4.1====
+====Start Log====
+Info: Begin processing payment for order 88 for the amount of 749.99
+====End Log====
+
+
+2023-06-04T14:30:46+00:00 DEBUG 
+====Stripe Version: 7.4.1====
+====Start Log====
+payment_intents request: Array
+(
+    [amount] => 74999
+    [currency] => php
+    [description] => Golteb Busters - Order 88
+    [metadata] => Array
+        (
+            [customer_name] => Gabriel Dy
+            [customer_email] => dygabriel31@gmail.com
+            [order_id] => 88
+            [site_url] => https://www.goltebbusters.store
+        )
+
+    [capture_method] => automatic
+    [payment_method_types] => Array
+        (
+            [0] => card
+        )
+
+    [payment_method] => pm_1NFHl5HBYpPUI6mK49zGY2Mi
+    [customer] => cus_O1KPMf6OtiAkW9
+    [shipping] => Array
+        (
+            [name] => Gabriel Dy
+            [address] => Array
+                (
+                    [line1] => 39 Doña Agripina Street
+                    [line2] => 
+                    [city] => Angeles City
+                    [country] => PH
+                    [postal_code] => 2009
+                    [state] => PAM
+                )
+
+        )
+
+)
+
+====End Log====
+
+
+2023-06-04T14:30:46+00:00 DEBUG 
+====Stripe Version: 7.4.1====
+====Start Log====
+Stripe PaymentIntent pi_3NFHxCHBYpPUI6mK0IjxvIFO initiated for order 88
+====End Log====
+
+
+2023-06-04T14:30:46+00:00 DEBUG 
+====Stripe Version: 7.4.1====
+====Start Log====
+payment_intents/pi_3NFHxCHBYpPUI6mK0IjxvIFO/confirm request: Array
+(
+    [payment_method] => pm_1NFHl5HBYpPUI6mK49zGY2Mi
+)
+
+====End Log====
+
+
+2023-06-04T14:30:47+00:00 DEBUG 
+====Stripe Version: 7.4.1====
+====Start Log====
+Stripe PaymentIntent pi_3NFHxCHBYpPUI6mK0IjxvIFO succeeded for order 88
+====End Log====
+
+
+2023-06-04T14:30:47+00:00 DEBUG 
+====Stripe Version: 7.4.1====
+====Start Log====
+Processing response: stdClass Object
+(
+    [id] => ch_3NFHxCHBYpPUI6mK0RsNif2c
+    [object] => charge
+    [amount] => 74999
+    [amount_captured] => 74999
+    [amount_refunded] => 0
+    [application] => 
+    [application_fee] => 
+    [application_fee_amount] => 
+    [balance_transaction] => txn_3NFHxCHBYpPUI6mK0PZMVSFt
+    [billing_details] => stdClass Object
+        (
+            [address] => stdClass Object
+                (
+                    [city] => Angeles City
+                    [country] => PH
+                    [line1] => 39 Doña Agripina Street
+                    [line2] => 
+                    [postal_code] => 2009
+                    [state] => PAM
+                )
+
+            [email] => dygabriel31@gmail.com
+            [name] => Gabriel Dy
+            [phone] => 09223042210
+        )
+
+    [calculated_statement_descriptor] => WWW.GOLTEBBUSTERS.STOR
+    [captured] => 1
+    [created] => 1685889047
+    [currency] => php
+    [customer] => cus_O1KPMf6OtiAkW9
+    [description] => Golteb Busters - Order 88
+    [destination] => 
+    [dispute] => 
+    [disputed] => 
+    [failure_balance_transaction] => 
+    [failure_code] => 
+    [failure_message] => 
+    [fraud_details] => stdClass Object
+        (
+        )
+
+    [invoice] => 
+    [livemode] => 
+    [metadata] => stdClass Object
+        (
+            [customer_email] => dygabriel31@gmail.com
+            [customer_name] => Gabriel Dy
+            [order_id] => 88
+            [site_url] => https://www.goltebbusters.store
+        )
+
+    [on_behalf_of] => 
+    [order] => 
+    [outcome] => stdClass Object
+        (
+            [network_status] => approved_by_network
+            [reason] => 
+            [risk_level] => normal
+            [risk_score] => 31
+            [seller_message] => Payment complete.
+            [type] => authorized
+        )
+
+    [paid] => 1
+    [payment_intent] => pi_3NFHxCHBYpPUI6mK0IjxvIFO
+    [payment_method] => pm_1NFHl5HBYpPUI6mK49zGY2Mi
+    [payment_method_details] => stdClass Object
+        (
+            [card] => stdClass Object
+                (
+                    [brand] => visa
+                    [checks] => stdClass Object
+                        (
+                            [address_line1_check] => pass
+                            [address_postal_code_check] => pass
+                            [cvc_check] => 
+                        )
+
+                    [country] => US
+                    [exp_month] => 12
+                    [exp_year] => 2027
+                    [fingerprint] => rMOeY3L9Lgt9E2VS
+                    [funding] => credit
+                    [installments] => 
+                    [last4] => 4242
+                    [mandate] => 
+                    [network] => visa
+                    [network_token] => stdClass Object
+                        (
+                            [used] => 
+                        )
+
+                    [three_d_secure] => 
+                    [wallet] => 
+                )
+
+            [type] => card
+        )
+
+    [receipt_email] => 
+    [receipt_number] => 
+    [receipt_url] => https://pay.stripe.com/receipts/payment/CAcaFwoVYWNjdF8xTkZHSWVIQllwUFVJNm1LKJfA8qMGMgZhkPgOB9o6LBaQnEBM-xYPL0n10HBG6OKmWacac5wt5eMG-yY7Gb3wFyiJNHjh4mDIQz1r
+    [refunded] => 
+    [refunds] => stdClass Object
+        (
+            [object] => list
+            [data] => Array
+                (
+                )
+
+            [has_more] => 
+            [total_count] => 0
+            [url] => /v1/charges/ch_3NFHxCHBYpPUI6mK0RsNif2c/refunds
+        )
+
+    [review] => 
+    [shipping] => stdClass Object
+        (
+            [address] => stdClass Object
+                (
+                    [city] => Angeles City
+                    [country] => PH
+                    [line1] => 39 Doña Agripina Street
+                    [line2] => 
+                    [postal_code] => 2009
+                    [state] => PAM
+                )
+
+            [carrier] => 
+            [name] => Gabriel Dy
+            [phone] => 
+            [tracking_number] => 
+        )
+
+    [source] => 
+    [source_transfer] => 
+    [statement_descriptor] => 
+    [statement_descriptor_suffix] => 
+    [status] => succeeded
+    [transfer_data] => 
+    [transfer_group] => 
+)
+
+====End Log====
+
+
+2023-06-04T14:30:47+00:00 DEBUG 
+====Stripe Version: 7.4.1====
+====Start Log====
+balance/history/txn_3NFHxCHBYpPUI6mK0PZMVSFt
+====End Log====
+
+
+2023-06-04T16:24:23+00:00 DEBUG 
+====Stripe Version: 7.4.1====
+====Start Log====
+account
+====End Log====
+
+
+2023-06-04T16:44:18+00:00 DEBUG 
+====Stripe Version: 7.4.1====
+====Start Log====
+customers/cus_O1KPMf6OtiAkW9/payment_methods request: Array
+(
+    [limit] => 100
+)
+
+====End Log====
+
+
+2023-06-04T16:44:28+00:00 DEBUG 
+====Stripe Version: 7.4.1====
+====Start Log====
+payment_methods/pm_1NFK2ZHBYpPUI6mK4aulPsVS
+====End Log====
+
+
+2023-06-04T16:44:28+00:00 DEBUG 
+====Stripe Version: 7.4.1====
+====Start Log====
+customers/cus_O1KPMf6OtiAkW9 request: Array
+(
+    [email] => dygabriel31@gmail.com
+    [description] => Name: Gabriel Dy, Username: gabriel.dy
+    [name] => Gabriel Dy
+    [metadata] => Array
+        (
+        )
+
+    [preferred_locales] => Array
+        (
+            [0] => en-US
+        )
+
+)
+
+====End Log====
+
+
+2023-06-04T16:44:29+00:00 DEBUG 
+====Stripe Version: 7.4.1====
+====Start Log====
+Info: Begin processing payment for order 89 for the amount of 749.99
+====End Log====
+
+
+2023-06-04T16:44:29+00:00 DEBUG 
+====Stripe Version: 7.4.1====
+====Start Log====
+payment_intents request: Array
+(
+    [amount] => 74999
+    [currency] => php
+    [description] => Golteb Busters - Order 89
+    [metadata] => Array
+        (
+            [customer_name] => Gabriel Dy
+            [customer_email] => dygabriel31@gmail.com
+            [order_id] => 89
+            [site_url] => https://www.goltebbusters.store
+        )
+
+    [capture_method] => automatic
+    [payment_method_types] => Array
+        (
+            [0] => card
+        )
+
+    [payment_method] => pm_1NFK2ZHBYpPUI6mK4aulPsVS
+    [customer] => cus_O1KPMf6OtiAkW9
+    [shipping] => Array
+        (
+            [name] => Gabriel Dy
+            [address] => Array
+                (
+                    [line1] => 39 Doña Agripina Street
+                    [line2] => 
+                    [city] => Angeles City
+                    [country] => PH
+                    [postal_code] => 2009
+                    [state] => PAM
+                )
+
+        )
+
+)
+
+====End Log====
+
+
+2023-06-04T16:44:29+00:00 DEBUG 
+====Stripe Version: 7.4.1====
+====Start Log====
+Stripe PaymentIntent pi_3NFK2bHBYpPUI6mK1zSyQWm9 initiated for order 89
+====End Log====
+
+
+2023-06-04T16:44:29+00:00 DEBUG 
+====Stripe Version: 7.4.1====
+====Start Log====
+payment_intents/pi_3NFK2bHBYpPUI6mK1zSyQWm9/confirm request: Array
+(
+    [payment_method] => pm_1NFK2ZHBYpPUI6mK4aulPsVS
+)
+
+====End Log====
+
+
+2023-06-04T16:44:30+00:00 DEBUG 
+====Stripe Version: 7.4.1====
+====Start Log====
+Error: stdClass Object
+(
+    [error] => stdClass Object
+        (
+            [charge] => ch_3NFK2bHBYpPUI6mK1TBoU2IU
+            [code] => card_declined
+            [decline_code] => generic_decline
+            [doc_url] => https://stripe.com/docs/error-codes/card-declined
+            [message] => Your card was declined.
+            [payment_intent] => stdClass Object
+                (
+                    [id] => pi_3NFK2bHBYpPUI6mK1zSyQWm9
+                    [object] => payment_intent
+                    [amount] => 74999
+                    [amount_capturable] => 0
+                    [amount_details] => stdClass Object
+                        (
+                            [tip] => stdClass Object
+                                (
+                                )
+
+                        )
+
+                    [amount_received] => 0
+                    [application] => 
+                    [application_fee_amount] => 
+                    [automatic_payment_methods] => 
+                    [canceled_at] => 
+                    [cancellation_reason] => 
+                    [capture_method] => automatic
+                    [charges] => stdClass Object
+                        (
+                            [object] => list
+                            [data] => Array
+                                (
+                                    [0] => stdClass Object
+                                        (
+                                            [id] => ch_3NFK2bHBYpPUI6mK1TBoU2IU
+                                            [object] => charge
+                                            [amount] => 74999
+                                            [amount_captured] => 0
+                                            [amount_refunded] => 0
+                                            [application] => 
+                                            [application_fee] => 
+                                            [application_fee_amount] => 
+                                            [balance_transaction] => 
+                                            [billing_details] => stdClass Object
+                                                (
+                                                    [address] => stdClass Object
+                                                        (
+                                                            [city] => Angeles City
+                                                            [country] => PH
+                                                            [line1] => 39 Doña Agripina Street
+                                                            [line2] => 
+                                                            [postal_code] => 2009
+                                                            [state] => PAM
+                                                        )
+
+                                                    [email] => dygabriel31@gmail.com
+                                                    [name] => Gabriel Dy
+                                                    [phone] => 09223042210
+                                                )
+
+                                            [calculated_statement_descriptor] => WWW.GOLTEBBUSTERS.STOR
+                                            [captured] => 
+                                            [created] => 1685897070
+                                            [currency] => php
+                                            [customer] => cus_O1KPMf6OtiAkW9
+                                            [description] => Golteb Busters - Order 89
+                                            [destination] => 
+                                            [dispute] => 
+                                            [disputed] => 
+                                            [failure_balance_transaction] => 
+                                            [failure_code] => card_declined
+                                            [failure_message] => Your card was declined.
+                                            [fraud_details] => stdClass Object
+                                                (
+                                                )
+
+                                            [invoice] => 
+                                            [livemode] => 
+                                            [metadata] => stdClass Object
+                                                (
+                                                    [order_id] => 89
+                                                    [site_url] => https://www.goltebbusters.store
+                                                    [customer_email] => dygabriel31@gmail.com
+                                                    [customer_name] => Gabriel Dy
+                                                )
+
+                                            [on_behalf_of] => 
+                                            [order] => 
+                                            [outcome] => stdClass Object
+                                                (
+                                                    [network_status] => declined_by_network
+                                                    [reason] => generic_decline
+                                                    [risk_level] => normal
+                                                    [risk_score] => 49
+                                                    [seller_message] => The bank did not return any further details with this decline.
+                                                    [type] => issuer_declined
+                                                )
+
+                                            [paid] => 
+                                            [payment_intent] => pi_3NFK2bHBYpPUI6mK1zSyQWm9
+                                            [payment_method] => pm_1NFK2ZHBYpPUI6mK4aulPsVS
+                                            [payment_method_details] => stdClass Object
+                                                (
+                                                    [card] => stdClass Object
+                                                        (
+                                                            [brand] => visa
+                                                            [checks] => stdClass Object
+                                                                (
+                                                                    [address_line1_check] => pass
+                                                                    [address_postal_code_check] => pass
+                                                                    [cvc_check] => pass
+                                                                )
+
+                                                            [country] => US
+                                                            [exp_month] => 12
+                                                            [exp_year] => 2027
+                                                            [fingerprint] => d0NWV9fyVm4rckUj
+                                                            [funding] => credit
+                                                            [installments] => 
+                                                            [last4] => 0002
+                                                            [mandate] => 
+                                                            [network] => visa
+                                                            [network_token] => stdClass Object
+                                                                (
+                                                                    [used] => 
+                                                                )
+
+                                                            [three_d_secure] => 
+                                                            [wallet] => 
+                                                        )
+
+                                                    [type] => card
+                                                )
+
+                                            [receipt_email] => 
+                                            [receipt_number] => 
+                                            [receipt_url] => 
+                                            [refunded] => 
+                                            [refunds] => stdClass Object
+                                                (
+                                                    [object] => list
+                                                    [data] => Array
+                                                        (
+                                                        )
+
+                                                    [has_more] => 
+                                                    [total_count] => 0
+                                                    [url] => /v1/charges/ch_3NFK2bHBYpPUI6mK1TBoU2IU/refunds
+                                                )
+
+                                            [review] => 
+                                            [shipping] => stdClass Object
+                                                (
+                                                    [address] => stdClass Object
+                                                        (
+                                                            [city] => Angeles City
+                                                            [country] => PH
+                                                            [line1] => 39 Doña Agripina Street
+                                                            [line2] => 
+                                                            [postal_code] => 2009
+                                                            [state] => PAM
+                                                        )
+
+                                                    [carrier] => 
+                                                    [name] => Gabriel Dy
+                                                    [phone] => 
+                                                    [tracking_number] => 
+                                                )
+
+                                            [source] => 
+                                            [source_transfer] => 
+                                            [statement_descriptor] => 
+                                            [statement_descriptor_suffix] => 
+                                            [status] => failed
+                                            [transfer_data] => 
+                                            [transfer_group] => 
+                                        )
+
+                                )
+
+                            [has_more] => 
+                            [total_count] => 1
+                            [url] => /v1/charges?payment_intent=pi_3NFK2bHBYpPUI6mK1zSyQWm9
+                        )
+
+                    [client_secret] => pi_3NFK2bHBYpPUI6mK1zSyQWm9_secret_gZAXXxqauCTopBTBJ7YUPqKCa
+                    [confirmation_method] => automatic
+                    [created] => 1685897069
+                    [currency] => php
+                    [customer] => cus_O1KPMf6OtiAkW9
+                    [description] => Golteb Busters - Order 89
+                    [invoice] => 
+                    [last_payment_error] => stdClass Object
+                        (
+                            [charge] => ch_3NFK2bHBYpPUI6mK1TBoU2IU
+                            [code] => card_declined
+                            [decline_code] => generic_decline
+                            [doc_url] => https://stripe.com/docs/error-codes/card-declined
+                            [message] => Your card was declined.
+                            [payment_method] => stdClass Object
+                                (
+                                    [id] => pm_1NFK2ZHBYpPUI6mK4aulPsVS
+                                    [object] => payment_method
+                                    [billing_details] => stdClass Object
+                                        (
+                                            [address] => stdClass Object
+                                                (
+                                                    [city] => Angeles City
+                                                    [country] => PH
+                                                    [line1] => 39 Doña Agripina Street
+                                                    [line2] => 
+                                                    [postal_code] => 2009
+                                                    [state] => PAM
+                                                )
+
+                                            [email] => dygabriel31@gmail.com
+                                            [name] => Gabriel Dy
+                                            [phone] => 09223042210
+                                        )
+
+                                    [card] => stdClass Object
+                                        (
+                                            [brand] => visa
+                                            [checks] => stdClass Object
+                                                (
+                                                    [address_line1_check] => pass
+                                                    [address_postal_code_check] => pass
+                                                    [cvc_check] => pass
+                                                )
+
+                                            [country] => US
+                                            [exp_month] => 12
+                                            [exp_year] => 2027
+                                            [fingerprint] => d0NWV9fyVm4rckUj
+                                            [funding] => credit
+                                            [generated_from] => 
+                                            [last4] => 0002
+                                            [networks] => stdClass Object
+                                                (
+                                                    [available] => Array
+                                                        (
+                                                            [0] => visa
+                                                        )
+
+                                                    [preferred] => 
+                                                )
+
+                                            [three_d_secure_usage] => stdClass Object
+                                                (
+                                                    [supported] => 1
+                                                )
+
+                                            [wallet] => 
+                                        )
+
+                                    [created] => 1685897067
+                                    [customer] => 
+                                    [livemode] => 
+                                    [metadata] => stdClass Object
+                                        (
+                                        )
+
+                                    [type] => card
+                                )
+
+                            [type] => card_error
+                        )
+
+                    [latest_charge] => ch_3NFK2bHBYpPUI6mK1TBoU2IU
+                    [livemode] => 
+                    [metadata] => stdClass Object
+                        (
+                            [order_id] => 89
+                            [site_url] => https://www.goltebbusters.store
+                            [customer_email] => dygabriel31@gmail.com
+                            [customer_name] => Gabriel Dy
+                        )
+
+                    [next_action] => 
+                    [on_behalf_of] => 
+                    [payment_method] => 
+                    [payment_method_options] => stdClass Object
+                        (
+                            [card] => stdClass Object
+                                (
+                                    [installments] => 
+                                    [mandate_options] => 
+                                    [network] => 
+                                    [request_three_d_secure] => automatic
+                                )
+
+                        )
+
+                    [payment_method_types] => Array
+                        (
+                            [0] => card
+                        )
+
+                    [processing] => 
+                    [receipt_email] => 
+                    [review] => 
+                    [setup_future_usage] => 
+                    [shipping] => stdClass Object
+                        (
+                            [address] => stdClass Object
+                                (
+                                    [city] => Angeles City
+                                    [country] => PH
+                                    [line1] => 39 Doña Agripina Street
+                                    [line2] => 
+                                    [postal_code] => 2009
+                                    [state] => PAM
+                                )
+
+                            [carrier] => 
+                            [name] => Gabriel Dy
+                            [phone] => 
+                            [tracking_number] => 
+                        )
+
+                    [source] => 
+                    [statement_descriptor] => 
+                    [statement_descriptor_suffix] => 
+                    [status] => requires_payment_method
+                    [transfer_data] => 
+                    [transfer_group] => 
+                )
+
+            [payment_method] => stdClass Object
+                (
+                    [id] => pm_1NFK2ZHBYpPUI6mK4aulPsVS
+                    [object] => payment_method
+                    [billing_details] => stdClass Object
+                        (
+                            [address] => stdClass Object
+                                (
+                                    [city] => Angeles City
+                                    [country] => PH
+                                    [line1] => 39 Doña Agripina Street
+                                    [line2] => 
+                                    [postal_code] => 2009
+                                    [state] => PAM
+                                )
+
+                            [email] => dygabriel31@gmail.com
+                            [name] => Gabriel Dy
+                            [phone] => 09223042210
+                        )
+
+                    [card] => stdClass Object
+                        (
+                            [brand] => visa
+                            [checks] => stdClass Object
+                                (
+                                    [address_line1_check] => pass
+                                    [address_postal_code_check] => pass
+                                    [cvc_check] => pass
+                                )
+
+                            [country] => US
+                            [exp_month] => 12
+                            [exp_year] => 2027
+                            [fingerprint] => d0NWV9fyVm4rckUj
+                            [funding] => credit
+                            [generated_from] => 
+                            [last4] => 0002
+                            [networks] => stdClass Object
+                                (
+                                    [available] => Array
+                                        (
+                                            [0] => visa
+                                        )
+
+                                    [preferred] => 
+                                )
+
+                            [three_d_secure_usage] => stdClass Object
+                                (
+                                    [supported] => 1
+                                )
+
+                            [wallet] => 
+                        )
+
+                    [created] => 1685897067
+                    [customer] => 
+                    [livemode] => 
+                    [metadata] => stdClass Object
+                        (
+                        )
+
+                    [type] => card
+                )
+
+            [request_log_url] => https://dashboard.stripe.com/test/logs/req_lJT8H7g4Hhvmf5?t=1685897069
+            [type] => card_error
+        )
+
+)
+
+====End Log====
+
+
+2023-06-04T17:53:07+00:00 DEBUG 
+====Stripe Version: 7.4.1====
+====Start Log====
+customers/cus_O1JIBaoIPXwNAZ/payment_methods request: Array
+(
+    [limit] => 100
+)
+
+====End Log====
+
+
+2023-06-04T18:41:53+00:00 DEBUG 
+====Stripe Version: 7.4.1====
+====Start Log====
+account
+====End Log====
+
+
+2023-06-04T19:14:47+00:00 DEBUG 
+====Stripe Version: 7.4.1====
+====Start Log====
+payment_intents/pi_3NFH25HBYpPUI6mK16wpqdLn?expand[]=payment_method request: Array
+(
+)
+
+====End Log====
+
+
+2023-06-04T19:14:47+00:00 DEBUG 
+====Stripe Version: 7.4.1====
+====Start Log====
+customers/cus_O1JIBaoIPXwNAZ request: Array
+(
+    [email] => sia.dy.gabrielrhobert@gmail.com
+    [description] => Name: Gabriel Dy, Username: sia.dy.gabrielrhobert
+    [name] => Gabriel Dy
+    [metadata] => Array
+        (
+        )
+
+    [preferred_locales] => Array
+        (
+            [0] => en-US
+        )
+
+)
+
+====End Log====
+
+
+2023-06-04T19:14:48+00:00 DEBUG 
+====Stripe Version: 7.4.1====
+====Start Log====
+Info: Begin processing payment for order 78 for the amount of 499.99
+====End Log====
+
+
+2023-06-04T19:14:48+00:00 DEBUG 
+====Stripe Version: 7.4.1====
+====Start Log====
+payment_intents/pi_3NFH25HBYpPUI6mK16wpqdLn request: Array
+(
+    [payment_method] => pm_1NFGwZHBYpPUI6mKikPtQoP3
+    [payment_method_types] => Array
+        (
+            [0] => card
+        )
+
+)
+
+====End Log====
+
+
+2023-06-04T19:14:49+00:00 DEBUG 
+====Stripe Version: 7.4.1====
+====Start Log====
+payment_intents/pi_3NFH25HBYpPUI6mK16wpqdLn?expand[]=payment_method request: Array
+(
+)
+
+====End Log====
+
+
+2023-06-04T19:14:49+00:00 DEBUG 
+====Stripe Version: 7.4.1====
+====Start Log====
+customers/cus_O1JIBaoIPXwNAZ request: Array
+(
+    [email] => sia.dy.gabrielrhobert@gmail.com
+    [description] => Name: Gabriel Dy, Username: sia.dy.gabrielrhobert
+    [name] => Gabriel Dy
+    [metadata] => Array
+        (
+        )
+
+    [preferred_locales] => Array
+        (
+            [0] => en-US
+        )
+
+)
+
+====End Log====
+
+
+2023-06-04T19:14:50+00:00 DEBUG 
+====Stripe Version: 7.4.1====
+====Start Log====
+Info: Begin processing payment for order 78 for the amount of 499.99
+====End Log====
+
+
+2023-06-04T19:14:50+00:00 DEBUG 
+====Stripe Version: 7.4.1====
+====Start Log====
+payment_intents/pi_3NFH25HBYpPUI6mK16wpqdLn request: Array
+(
+    [payment_method] => pm_1NFGwZHBYpPUI6mKikPtQoP3
+    [payment_method_types] => Array
+        (
+            [0] => card
+        )
+
+)
+
+====End Log====
+
+
+2023-06-04T19:14:52+00:00 DEBUG 
+====Stripe Version: 7.4.1====
+====Start Log====
+payment_intents/pi_3NFH25HBYpPUI6mK16wpqdLn?expand[]=payment_method request: Array
+(
+)
+
+====End Log====
+
+
+2023-06-04T19:14:53+00:00 DEBUG 
+====Stripe Version: 7.4.1====
+====Start Log====
+payment_methods/pm_1NFGwZHBYpPUI6mKikPtQoP3
+====End Log====
+
+
+2023-06-04T19:14:53+00:00 DEBUG 
+====Stripe Version: 7.4.1====
+====Start Log====
+Info: Begin processing payment for order 78 for the amount of 499.99
+====End Log====
+
+
+2023-06-04T19:14:53+00:00 DEBUG 
+====Stripe Version: 7.4.1====
+====Start Log====
+payment_intents/pi_3NFH25HBYpPUI6mK16wpqdLn request: Array
+(
+    [payment_method] => pm_1NFGwZHBYpPUI6mKikPtQoP3
+    [payment_method_types] => Array
+        (
+            [0] => card
+        )
+
+)
+
+====End Log====
+
+
+2023-06-04T19:14:56+00:00 DEBUG 
+====Stripe Version: 7.4.1====
+====Start Log====
+payment_intents/pi_3NFH25HBYpPUI6mK16wpqdLn?expand[]=payment_method request: Array
+(
+)
+
+====End Log====
+
+
+2023-06-04T19:14:57+00:00 DEBUG 
+====Stripe Version: 7.4.1====
+====Start Log====
+payment_methods/pm_1NFGwZHBYpPUI6mKikPtQoP3
+====End Log====
+
+
+2023-06-04T19:14:57+00:00 DEBUG 
+====Stripe Version: 7.4.1====
+====Start Log====
+Info: Begin processing payment for order 78 for the amount of 499.99
+====End Log====
+
+
+2023-06-04T19:14:57+00:00 DEBUG 
+====Stripe Version: 7.4.1====
+====Start Log====
+payment_intents/pi_3NFH25HBYpPUI6mK16wpqdLn request: Array
+(
+    [payment_method] => pm_1NFGwZHBYpPUI6mKikPtQoP3
+    [payment_method_types] => Array
+        (
+            [0] => card
+        )
+
+)
+
+====End Log====
+
+
+2023-06-04T19:15:01+00:00 DEBUG 
+====Stripe Version: 7.4.1====
+====Start Log====
+payment_intents/pi_3NFH25HBYpPUI6mK16wpqdLn?expand[]=payment_method request: Array
+(
+)
+
+====End Log====
+
+
+2023-06-04T19:15:02+00:00 DEBUG 
+====Stripe Version: 7.4.1====
+====Start Log====
+payment_methods/pm_1NFGwZHBYpPUI6mKikPtQoP3
+====End Log====
+
+
+2023-06-04T19:15:02+00:00 DEBUG 
+====Stripe Version: 7.4.1====
+====Start Log====
+Info: Begin processing payment for order 78 for the amount of 499.99
+====End Log====
+
+
+2023-06-04T19:15:02+00:00 DEBUG 
+====Stripe Version: 7.4.1====
+====Start Log====
+payment_intents/pi_3NFH25HBYpPUI6mK16wpqdLn request: Array
+(
+    [payment_method] => pm_1NFGwZHBYpPUI6mKikPtQoP3
+    [payment_method_types] => Array
+        (
+            [0] => card
+        )
+
+)
+
+====End Log====
+
+
+2023-06-04T19:15:03+00:00 DEBUG 
+====Stripe Version: 7.4.1====
+====Start Log====
+payment_intents/pi_3NFH25HBYpPUI6mK16wpqdLn?expand[]=payment_method request: Array
+(
+)
+
+====End Log====
+
+
+2023-06-04T19:15:03+00:00 DEBUG 
+====Stripe Version: 7.4.1====
+====Start Log====
+payment_methods/pm_1NFGwZHBYpPUI6mKikPtQoP3
+====End Log====
+
+
+2023-06-04T19:15:03+00:00 DEBUG 
+====Stripe Version: 7.4.1====
+====Start Log====
+Info: Begin processing payment for order 78 for the amount of 499.99
+====End Log====
+
+
+2023-06-04T19:15:03+00:00 DEBUG 
+====Stripe Version: 7.4.1====
+====Start Log====
+payment_intents/pi_3NFH25HBYpPUI6mK16wpqdLn request: Array
+(
+    [payment_method] => pm_1NFGwZHBYpPUI6mKikPtQoP3
+    [payment_method_types] => Array
+        (
+            [0] => card
+        )
+
+)
+
+====End Log====
+
+
+2023-06-04T19:15:04+00:00 DEBUG 
+====Stripe Version: 7.4.1====
+====Start Log====
+Error: stdClass Object
+(
+    [error] => stdClass Object
+        (
+            [code] => payment_intent_unexpected_state
+            [doc_url] => https://stripe.com/docs/error-codes/payment-intent-unexpected-state
+            [message] => This PaymentIntent's payment_method could not be updated because it has a status of succeeded. You may only update the payment_method of a PaymentIntent with one of the following statuses: requires_payment_method, requires_confirmation, requires_action.
+            [payment_intent] => stdClass Object
+                (
+                    [id] => pi_3NFH25HBYpPUI6mK16wpqdLn
+                    [object] => payment_intent
+                    [amount] => 49999
+                    [amount_capturable] => 0
+                    [amount_details] => stdClass Object
+                        (
+                            [tip] => stdClass Object
+                                (
+                                )
+
+                        )
+
+                    [amount_received] => 49999
+                    [application] => 
+                    [application_fee_amount] => 
+                    [automatic_payment_methods] => 
+                    [canceled_at] => 
+                    [cancellation_reason] => 
+                    [capture_method] => automatic
+                    [charges] => stdClass Object
+                        (
+                            [object] => list
+                            [data] => Array
+                                (
+                                    [0] => stdClass Object
+                                        (
+                                            [id] => ch_3NFH25HBYpPUI6mK1x6SsT1M
+                                            [object] => charge
+                                            [amount] => 49999
+                                            [amount_captured] => 49999
+                                            [amount_refunded] => 0
+                                            [application] => 
+                                            [application_fee] => 
+                                            [application_fee_amount] => 
+                                            [balance_transaction] => txn_3NFH25HBYpPUI6mK1LN30SYa
+                                            [billing_details] => stdClass Object
+                                                (
+                                                    [address] => stdClass Object
+                                                        (
+                                                            [city] => Angeles City
+                                                            [country] => PH
+                                                            [line1] => 39 Doña Agripina Street, Barangay Salapungan, Angeles City, Pampanga
+                                                            [line2] => 
+                                                            [postal_code] => 2009
+                                                            [state] => PAM
+                                                        )
+
+                                                    [email] => dygabriel31@gmail.com
+                                                    [name] => Gabriel Dy
+                                                    [phone] => 09223042210
+                                                )
+
+                                            [calculated_statement_descriptor] => WWW.GOLTEBBUSTERS.STOR
+                                            [captured] => 1
+                                            [created] => 1685885509
+                                            [currency] => php
+                                            [customer] => cus_O1JIBaoIPXwNAZ
+                                            [description] => Golteb Busters - Order 78
+                                            [destination] => 
+                                            [dispute] => 
+                                            [disputed] => 
+                                            [failure_balance_transaction] => 
+                                            [failure_code] => 
+                                            [failure_message] => 
+                                            [fraud_details] => stdClass Object
+                                                (
+                                                )
+
+                                            [invoice] => 
+                                            [livemode] => 
+                                            [metadata] => stdClass Object
+                                                (
+                                                    [order_id] => 78
+                                                    [site_url] => https://www.goltebbusters.store
+                                                    [customer_email] => dygabriel31@gmail.com
+                                                    [customer_name] => Gabriel Dy
+                                                )
+
+                                            [on_behalf_of] => 
+                                            [order] => 
+                                            [outcome] => stdClass Object
+                                                (
+                                                    [network_status] => approved_by_network
+                                                    [reason] => 
+                                                    [risk_level] => normal
+                                                    [risk_score] => 0
+                                                    [seller_message] => Payment complete.
+                                                    [type] => authorized
+                                                )
+
+                                            [paid] => 1
+                                            [payment_intent] => pi_3NFH25HBYpPUI6mK16wpqdLn
+                                            [payment_method] => pm_1NFGwZHBYpPUI6mKikPtQoP3
+                                            [payment_method_details] => stdClass Object
+                                                (
+                                                    [card] => stdClass Object
+                                                        (
+                                                            [brand] => visa
+                                                            [checks] => stdClass Object
+                                                                (
+                                                                    [address_line1_check] => pass
+                                                                    [address_postal_code_check] => pass
+                                                                    [cvc_check] => pass
+                                                                )
+
+                                                            [country] => US
+                                                            [exp_month] => 12
+                                                            [exp_year] => 2027
+                                                            [fingerprint] => rMOeY3L9Lgt9E2VS
+                                                            [funding] => credit
+                                                            [installments] => 
+                                                            [last4] => 4242
+                                                            [mandate] => 
+                                                            [network] => visa
+                                                            [network_token] => stdClass Object
+                                                                (
+                                                                    [used] => 
+                                                                )
+
+                                                            [three_d_secure] => 
+                                                            [wallet] => 
+                                                        )
+
+                                                    [type] => card
+                                                )
+
+                                            [receipt_email] => 
+                                            [receipt_number] => 
+                                            [receipt_url] => https://pay.stripe.com/receipts/payment/CAcaFwoVYWNjdF8xTkZHSWVIQllwUFVJNm1LKLjF86MGMgYoxK5hDD46LBbdn-Lmlh9aOclFY7rAdWKH5WeQQoldadV3eUQuCmzuMwXELIpmjndue36b
+                                            [refunded] => 
+                                            [refunds] => stdClass Object
+                                                (
+                                                    [object] => list
+                                                    [data] => Array
+                                                        (
+                                                        )
+
+                                                    [has_more] => 
+                                                    [total_count] => 0
+                                                    [url] => /v1/charges/ch_3NFH25HBYpPUI6mK1x6SsT1M/refunds
+                                                )
+
+                                            [review] => 
+                                            [shipping] => stdClass Object
+                                                (
+                                                    [address] => stdClass Object
+                                                        (
+                                                            [city] => Angeles City
+                                                            [country] => PH
+                                                            [line1] => 39 Doña Agripina Street, Barangay Salapungan, Angeles City, Pampanga
+                                                            [line2] => 
+                                                            [postal_code] => 2009
+                                                            [state] => PAM
+                                                        )
+
+                                                    [carrier] => 
+                                                    [name] => Gabriel Dy
+                                                    [phone] => 
+                                                    [tracking_number] => 
+                                                )
+
+                                            [source] => 
+                                            [source_transfer] => 
+                                            [statement_descriptor] => 
+                                            [statement_descriptor_suffix] => 
+                                            [status] => succeeded
+                                            [transfer_data] => 
+                                            [transfer_group] => 
+                                        )
+
+                                )
+
+                            [has_more] => 
+                            [total_count] => 1
+                            [url] => /v1/charges?payment_intent=pi_3NFH25HBYpPUI6mK16wpqdLn
+                        )
+
+                    [client_secret] => pi_3NFH25HBYpPUI6mK16wpqdLn_secret_tGZP30iCiXmicgtwjKtbGFrYo
+                    [confirmation_method] => automatic
+                    [created] => 1685885505
+                    [currency] => php
+                    [customer] => cus_O1JIBaoIPXwNAZ
+                    [description] => Golteb Busters - Order 78
+                    [invoice] => 
+                    [last_payment_error] => 
+                    [latest_charge] => ch_3NFH25HBYpPUI6mK1x6SsT1M
+                    [livemode] => 
+                    [metadata] => stdClass Object
+                        (
+                            [order_id] => 78
+                            [site_url] => https://www.goltebbusters.store
+                            [customer_email] => dygabriel31@gmail.com
+                            [customer_name] => Gabriel Dy
+                        )
+
+                    [next_action] => 
+                    [on_behalf_of] => 
+                    [payment_method] => pm_1NFGwZHBYpPUI6mKikPtQoP3
+                    [payment_method_options] => stdClass Object
+                        (
+                            [card] => stdClass Object
+                                (
+                                    [installments] => 
+                                    [mandate_options] => 
+                                    [network] => 
+                                    [request_three_d_secure] => automatic
+                                )
+
+                        )
+
+                    [payment_method_types] => Array
+                        (
+                            [0] => card
+                        )
+
+                    [processing] => 
+                    [receipt_email] => 
+                    [review] => 
+                    [setup_future_usage] => 
+                    [shipping] => stdClass Object
+                        (
+                            [address] => stdClass Object
+                                (
+                                    [city] => Angeles City
+                                    [country] => PH
+                                    [line1] => 39 Doña Agripina Street, Barangay Salapungan, Angeles City, Pampanga
+                                    [line2] => 
+                                    [postal_code] => 2009
+                                    [state] => PAM
+                                )
+
+                            [carrier] => 
+                            [name] => Gabriel Dy
+                            [phone] => 
+                            [tracking_number] => 
+                        )
+
+                    [source] => 
+                    [statement_descriptor] => 
+                    [statement_descriptor_suffix] => 
+                    [status] => succeeded
+                    [transfer_data] => 
+                    [transfer_group] => 
+                )
+
+            [request_log_url] => https://dashboard.stripe.com/test/logs/req_Tjq6nkx6G1uLbc?t=1685906104
+            [type] => invalid_request_error
+        )
+
+)
+
+====End Log====
+
+
+2023-06-04T19:17:29+00:00 DEBUG 
+====Stripe Version: 7.4.1====
+====Start Log====
+customers/cus_O1KPMf6OtiAkW9/payment_methods request: Array
+(
+    [limit] => 100
+)
+
+====End Log====
+
+
+2023-06-04T19:17:33+00:00 DEBUG 
+====Stripe Version: 7.4.1====
+====Start Log====
+customers/cus_O1KPMf6OtiAkW9 request: Array
+(
+    [email] => dygabriel31@gmail.com
+    [description] => Name: Gabriel Dy, Username: gabriel.dy
+    [name] => Gabriel Dy
+    [metadata] => Array
+        (
+        )
+
+    [preferred_locales] => Array
+        (
+            [0] => en-US
+        )
+
+)
+
+====End Log====
+
+
+2023-06-04T19:17:34+00:00 DEBUG 
+====Stripe Version: 7.4.1====
+====Start Log====
+Info: Begin processing payment for order 109 for the amount of 749.99
+====End Log====
+
+
+2023-06-04T19:17:34+00:00 DEBUG 
+====Stripe Version: 7.4.1====
+====Start Log====
+payment_intents request: Array
+(
+    [amount] => 74999
+    [currency] => php
+    [description] => Golteb Busters - Order 109
+    [metadata] => Array
+        (
+            [customer_name] => Gabriel Dy
+            [customer_email] => dygabriel31@gmail.com
+            [order_id] => 109
+            [site_url] => https://www.goltebbusters.store
+        )
+
+    [capture_method] => automatic
+    [payment_method_types] => Array
+        (
+            [0] => card
+        )
+
+    [payment_method] => pm_1NFHl5HBYpPUI6mK49zGY2Mi
+    [customer] => cus_O1KPMf6OtiAkW9
+    [shipping] => Array
+        (
+            [name] => Gabriel Dy
+            [address] => Array
+                (
+                    [line1] => 39 Doña Agripina Street
+                    [line2] => 
+                    [city] => Angeles City
+                    [country] => PH
+                    [postal_code] => 2009
+                    [state] => PAM
+                )
+
+        )
+
+)
+
+====End Log====
+
+
+2023-06-04T19:17:34+00:00 DEBUG 
+====Stripe Version: 7.4.1====
+====Start Log====
+Stripe PaymentIntent pi_3NFMQkHBYpPUI6mK0DOaNDWB initiated for order 109
+====End Log====
+
+
+2023-06-04T19:17:34+00:00 DEBUG 
+====Stripe Version: 7.4.1====
+====Start Log====
+payment_intents/pi_3NFMQkHBYpPUI6mK0DOaNDWB/confirm request: Array
+(
+    [payment_method] => pm_1NFHl5HBYpPUI6mK49zGY2Mi
+)
+
+====End Log====
+
+
+2023-06-04T19:17:36+00:00 DEBUG 
+====Stripe Version: 7.4.1====
+====Start Log====
+Stripe PaymentIntent pi_3NFMQkHBYpPUI6mK0DOaNDWB succeeded for order 109
+====End Log====
+
+
+2023-06-04T19:17:36+00:00 DEBUG 
+====Stripe Version: 7.4.1====
+====Start Log====
+Processing response: stdClass Object
+(
+    [id] => ch_3NFMQkHBYpPUI6mK0mkhq0gf
+    [object] => charge
+    [amount] => 74999
+    [amount_captured] => 74999
+    [amount_refunded] => 0
+    [application] => 
+    [application_fee] => 
+    [application_fee_amount] => 
+    [balance_transaction] => txn_3NFMQkHBYpPUI6mK0fR7hxqW
+    [billing_details] => stdClass Object
+        (
+            [address] => stdClass Object
+                (
+                    [city] => Angeles City
+                    [country] => PH
+                    [line1] => 39 Doña Agripina Street
+                    [line2] => 
+                    [postal_code] => 2009
+                    [state] => PAM
+                )
+
+            [email] => dygabriel31@gmail.com
+            [name] => Gabriel Dy
+            [phone] => 09223042210
+        )
+
+    [calculated_statement_descriptor] => WWW.GOLTEBBUSTERS.STOR
+    [captured] => 1
+    [created] => 1685906255
+    [currency] => php
+    [customer] => cus_O1KPMf6OtiAkW9
+    [description] => Golteb Busters - Order 109
+    [destination] => 
+    [dispute] => 
+    [disputed] => 
+    [failure_balance_transaction] => 
+    [failure_code] => 
+    [failure_message] => 
+    [fraud_details] => stdClass Object
+        (
+        )
+
+    [invoice] => 
+    [livemode] => 
+    [metadata] => stdClass Object
+        (
+            [customer_email] => dygabriel31@gmail.com
+            [customer_name] => Gabriel Dy
+            [order_id] => 109
+            [site_url] => https://www.goltebbusters.store
+        )
+
+    [on_behalf_of] => 
+    [order] => 
+    [outcome] => stdClass Object
+        (
+            [network_status] => approved_by_network
+            [reason] => 
+            [risk_level] => normal
+            [risk_score] => 17
+            [seller_message] => Payment complete.
+            [type] => authorized
+        )
+
+    [paid] => 1
+    [payment_intent] => pi_3NFMQkHBYpPUI6mK0DOaNDWB
+    [payment_method] => pm_1NFHl5HBYpPUI6mK49zGY2Mi
+    [payment_method_details] => stdClass Object
+        (
+            [card] => stdClass Object
+                (
+                    [brand] => visa
+                    [checks] => stdClass Object
+                        (
+                            [address_line1_check] => pass
+                            [address_postal_code_check] => pass
+                            [cvc_check] => 
+                        )
+
+                    [country] => US
+                    [exp_month] => 12
+                    [exp_year] => 2027
+                    [fingerprint] => rMOeY3L9Lgt9E2VS
+                    [funding] => credit
+                    [installments] => 
+                    [last4] => 4242
+                    [mandate] => 
+                    [network] => visa
+                    [network_token] => stdClass Object
+                        (
+                            [used] => 
+                        )
+
+                    [three_d_secure] => 
+                    [wallet] => 
+                )
+
+            [type] => card
+        )
+
+    [receipt_email] => 
+    [receipt_number] => 
+    [receipt_url] => https://pay.stripe.com/receipts/payment/CAcaFwoVYWNjdF8xTkZHSWVIQllwUFVJNm1LKM_G86MGMgY8f-1DtSU6LBYT1wxNpIVOIFoSXKqHVQGJJZDqskVk9YhCKR_ctsi1qsrx6L0G_i0d6zOk
+    [refunded] => 
+    [refunds] => stdClass Object
+        (
+            [object] => list
+            [data] => Array
+                (
+                )
+
+            [has_more] => 
+            [total_count] => 0
+            [url] => /v1/charges/ch_3NFMQkHBYpPUI6mK0mkhq0gf/refunds
+        )
+
+    [review] => 
+    [shipping] => stdClass Object
+        (
+            [address] => stdClass Object
+                (
+                    [city] => Angeles City
+                    [country] => PH
+                    [line1] => 39 Doña Agripina Street
+                    [line2] => 
+                    [postal_code] => 2009
+                    [state] => PAM
+                )
+
+            [carrier] => 
+            [name] => Gabriel Dy
+            [phone] => 
+            [tracking_number] => 
+        )
+
+    [source] => 
+    [source_transfer] => 
+    [statement_descriptor] => 
+    [statement_descriptor_suffix] => 
+    [status] => succeeded
+    [transfer_data] => 
+    [transfer_group] => 
+)
+
+====End Log====
+
+
+2023-06-04T19:17:36+00:00 DEBUG 
+====Stripe Version: 7.4.1====
+====Start Log====
+balance/history/txn_3NFMQkHBYpPUI6mK0fR7hxqW
+====End Log====
+
+
+2023-06-04T19:22:51+00:00 DEBUG 
+====Stripe Version: 7.4.1====
+====Start Log====
+customers/cus_O1KPMf6OtiAkW9/payment_methods request: Array
+(
+    [limit] => 100
+)
+
+====End Log====
+
+
+2023-06-04T19:22:59+00:00 DEBUG 
+====Stripe Version: 7.4.1====
+====Start Log====
+customers/cus_O1KPMf6OtiAkW9 request: Array
+(
+    [email] => dygabriel31@gmail.com
+    [description] => Name: Gabriel Dy, Username: gabriel.dy
+    [name] => Gabriel Dy
+    [metadata] => Array
+        (
+        )
+
+    [preferred_locales] => Array
+        (
+            [0] => en-US
+        )
+
+)
+
+====End Log====
+
+
+2023-06-04T19:23:00+00:00 DEBUG 
+====Stripe Version: 7.4.1====
+====Start Log====
+Info: Begin processing payment for order 110 for the amount of 999.98
+====End Log====
+
+
+2023-06-04T19:23:00+00:00 DEBUG 
+====Stripe Version: 7.4.1====
+====Start Log====
+payment_intents request: Array
+(
+    [amount] => 99998
+    [currency] => php
+    [description] => Golteb Busters - Order 110
+    [metadata] => Array
+        (
+            [customer_name] => Gabriel Dy
+            [customer_email] => dygabriel31@gmail.com
+            [order_id] => 110
+            [site_url] => https://www.goltebbusters.store
+        )
+
+    [capture_method] => automatic
+    [payment_method_types] => Array
+        (
+            [0] => card
+        )
+
+    [payment_method] => pm_1NFHl5HBYpPUI6mK49zGY2Mi
+    [customer] => cus_O1KPMf6OtiAkW9
+    [shipping] => Array
+        (
+            [name] => Gabriel Dy
+            [address] => Array
+                (
+                    [line1] => 39 Doña Agripina Street
+                    [line2] => 
+                    [city] => Angeles City
+                    [country] => PH
+                    [postal_code] => 2009
+                    [state] => PAM
+                )
+
+        )
+
+)
+
+====End Log====
+
+
+2023-06-04T19:23:00+00:00 DEBUG 
+====Stripe Version: 7.4.1====
+====Start Log====
+Stripe PaymentIntent pi_3NFMW0HBYpPUI6mK1bzPqWbF initiated for order 110
+====End Log====
+
+
+2023-06-04T19:23:00+00:00 DEBUG 
+====Stripe Version: 7.4.1====
+====Start Log====
+payment_intents/pi_3NFMW0HBYpPUI6mK1bzPqWbF/confirm request: Array
+(
+    [payment_method] => pm_1NFHl5HBYpPUI6mK49zGY2Mi
+)
+
+====End Log====
+
+
+2023-06-04T19:23:01+00:00 DEBUG 
+====Stripe Version: 7.4.1====
+====Start Log====
+Stripe PaymentIntent pi_3NFMW0HBYpPUI6mK1bzPqWbF succeeded for order 110
+====End Log====
+
+
+2023-06-04T19:23:01+00:00 DEBUG 
+====Stripe Version: 7.4.1====
+====Start Log====
+Processing response: stdClass Object
+(
+    [id] => ch_3NFMW0HBYpPUI6mK1nX0Upo5
+    [object] => charge
+    [amount] => 99998
+    [amount_captured] => 99998
+    [amount_refunded] => 0
+    [application] => 
+    [application_fee] => 
+    [application_fee_amount] => 
+    [balance_transaction] => txn_3NFMW0HBYpPUI6mK1rHXx7nl
+    [billing_details] => stdClass Object
+        (
+            [address] => stdClass Object
+                (
+                    [city] => Angeles City
+                    [country] => PH
+                    [line1] => 39 Doña Agripina Street
+                    [line2] => 
+                    [postal_code] => 2009
+                    [state] => PAM
+                )
+
+            [email] => dygabriel31@gmail.com
+            [name] => Gabriel Dy
+            [phone] => 09223042210
+        )
+
+    [calculated_statement_descriptor] => WWW.GOLTEBBUSTERS.STOR
+    [captured] => 1
+    [created] => 1685906581
+    [currency] => php
+    [customer] => cus_O1KPMf6OtiAkW9
+    [description] => Golteb Busters - Order 110
+    [destination] => 
+    [dispute] => 
+    [disputed] => 
+    [failure_balance_transaction] => 
+    [failure_code] => 
+    [failure_message] => 
+    [fraud_details] => stdClass Object
+        (
+        )
+
+    [invoice] => 
+    [livemode] => 
+    [metadata] => stdClass Object
+        (
+            [customer_email] => dygabriel31@gmail.com
+            [customer_name] => Gabriel Dy
+            [order_id] => 110
+            [site_url] => https://www.goltebbusters.store
+        )
+
+    [on_behalf_of] => 
+    [order] => 
+    [outcome] => stdClass Object
+        (
+            [network_status] => approved_by_network
+            [reason] => 
+            [risk_level] => normal
+            [risk_score] => 56
+            [seller_message] => Payment complete.
+            [type] => authorized
+        )
+
+    [paid] => 1
+    [payment_intent] => pi_3NFMW0HBYpPUI6mK1bzPqWbF
+    [payment_method] => pm_1NFHl5HBYpPUI6mK49zGY2Mi
+    [payment_method_details] => stdClass Object
+        (
+            [card] => stdClass Object
+                (
+                    [brand] => visa
+                    [checks] => stdClass Object
+                        (
+                            [address_line1_check] => pass
+                            [address_postal_code_check] => pass
+                            [cvc_check] => 
+                        )
+
+                    [country] => US
+                    [exp_month] => 12
+                    [exp_year] => 2027
+                    [fingerprint] => rMOeY3L9Lgt9E2VS
+                    [funding] => credit
+                    [installments] => 
+                    [last4] => 4242
+                    [mandate] => 
+                    [network] => visa
+                    [network_token] => stdClass Object
+                        (
+                            [used] => 
+                        )
+
+                    [three_d_secure] => 
+                    [wallet] => 
+                )
+
+            [type] => card
+        )
+
+    [receipt_email] => 
+    [receipt_number] => 
+    [receipt_url] => https://pay.stripe.com/receipts/payment/CAcaFwoVYWNjdF8xTkZHSWVIQllwUFVJNm1LKJXJ86MGMgaP4gzoqyE6LBbKCs031dcREHbEm8K_PRgkMG8roYc0p65Um1bvWDo6g02fThPst6iIBd3G
+    [refunded] => 
+    [refunds] => stdClass Object
+        (
+            [object] => list
+            [data] => Array
+                (
+                )
+
+            [has_more] => 
+            [total_count] => 0
+            [url] => /v1/charges/ch_3NFMW0HBYpPUI6mK1nX0Upo5/refunds
+        )
+
+    [review] => 
+    [shipping] => stdClass Object
+        (
+            [address] => stdClass Object
+                (
+                    [city] => Angeles City
+                    [country] => PH
+                    [line1] => 39 Doña Agripina Street
+                    [line2] => 
+                    [postal_code] => 2009
+                    [state] => PAM
+                )
+
+            [carrier] => 
+            [name] => Gabriel Dy
+            [phone] => 
+            [tracking_number] => 
+        )
+
+    [source] => 
+    [source_transfer] => 
+    [statement_descriptor] => 
+    [statement_descriptor_suffix] => 
+    [status] => succeeded
+    [transfer_data] => 
+    [transfer_group] => 
+)
+
+====End Log====
+
+
+2023-06-04T19:23:01+00:00 DEBUG 
+====Stripe Version: 7.4.1====
+====Start Log====
+balance/history/txn_3NFMW0HBYpPUI6mK1rHXx7nl
+====End Log====
+
+
+2023-06-04T19:25:11+00:00 DEBUG 
+====Stripe Version: 7.4.1====
+====Start Log====
+customers/cus_O1KPMf6OtiAkW9/payment_methods request: Array
+(
+    [limit] => 100
+)
+
+====End Log====
+
+
+2023-06-04T19:25:18+00:00 DEBUG 
+====Stripe Version: 7.4.1====
+====Start Log====
+customers/cus_O1KPMf6OtiAkW9 request: Array
+(
+    [email] => dygabriel31@gmail.com
+    [description] => Name: Gabriel Dy, Username: gabriel.dy
+    [name] => Gabriel Dy
+    [metadata] => Array
+        (
+        )
+
+    [preferred_locales] => Array
+        (
+            [0] => en-US
+        )
+
+)
+
+====End Log====
+
+
+2023-06-04T19:25:19+00:00 DEBUG 
+====Stripe Version: 7.4.1====
+====Start Log====
+Info: Begin processing payment for order 111 for the amount of 750.00
+====End Log====
+
+
+2023-06-04T19:25:19+00:00 DEBUG 
+====Stripe Version: 7.4.1====
+====Start Log====
+payment_intents request: Array
+(
+    [amount] => 75000
+    [currency] => php
+    [description] => Golteb Busters - Order 111
+    [metadata] => Array
+        (
+            [customer_name] => Gabriel Dy
+            [customer_email] => dygabriel31@gmail.com
+            [order_id] => 111
+            [site_url] => https://www.goltebbusters.store
+        )
+
+    [capture_method] => automatic
+    [payment_method_types] => Array
+        (
+            [0] => card
+        )
+
+    [payment_method] => pm_1NFHl5HBYpPUI6mK49zGY2Mi
+    [customer] => cus_O1KPMf6OtiAkW9
+    [shipping] => Array
+        (
+            [name] => Gabriel Dy
+            [address] => Array
+                (
+                    [line1] => 39 Doña Agripina Street
+                    [line2] => 
+                    [city] => Angeles City
+                    [country] => PH
+                    [postal_code] => 2009
+                    [state] => PAM
+                )
+
+        )
+
+)
+
+====End Log====
+
+
+2023-06-04T19:25:19+00:00 DEBUG 
+====Stripe Version: 7.4.1====
+====Start Log====
+Stripe PaymentIntent pi_3NFMYFHBYpPUI6mK0zCkrUCC initiated for order 111
+====End Log====
+
+
+2023-06-04T19:25:19+00:00 DEBUG 
+====Stripe Version: 7.4.1====
+====Start Log====
+payment_intents/pi_3NFMYFHBYpPUI6mK0zCkrUCC/confirm request: Array
+(
+    [payment_method] => pm_1NFHl5HBYpPUI6mK49zGY2Mi
+)
+
+====End Log====
+
+
+2023-06-04T19:25:20+00:00 DEBUG 
+====Stripe Version: 7.4.1====
+====Start Log====
+Stripe PaymentIntent pi_3NFMYFHBYpPUI6mK0zCkrUCC succeeded for order 111
+====End Log====
+
+
+2023-06-04T19:25:20+00:00 DEBUG 
+====Stripe Version: 7.4.1====
+====Start Log====
+Processing response: stdClass Object
+(
+    [id] => ch_3NFMYFHBYpPUI6mK0x0DQcO9
+    [object] => charge
+    [amount] => 75000
+    [amount_captured] => 75000
+    [amount_refunded] => 0
+    [application] => 
+    [application_fee] => 
+    [application_fee_amount] => 
+    [balance_transaction] => txn_3NFMYFHBYpPUI6mK0XzqoRhX
+    [billing_details] => stdClass Object
+        (
+            [address] => stdClass Object
+                (
+                    [city] => Angeles City
+                    [country] => PH
+                    [line1] => 39 Doña Agripina Street
+                    [line2] => 
+                    [postal_code] => 2009
+                    [state] => PAM
+                )
+
+            [email] => dygabriel31@gmail.com
+            [name] => Gabriel Dy
+            [phone] => 09223042210
+        )
+
+    [calculated_statement_descriptor] => WWW.GOLTEBBUSTERS.STOR
+    [captured] => 1
+    [created] => 1685906719
+    [currency] => php
+    [customer] => cus_O1KPMf6OtiAkW9
+    [description] => Golteb Busters - Order 111
+    [destination] => 
+    [dispute] => 
+    [disputed] => 
+    [failure_balance_transaction] => 
+    [failure_code] => 
+    [failure_message] => 
+    [fraud_details] => stdClass Object
+        (
+        )
+
+    [invoice] => 
+    [livemode] => 
+    [metadata] => stdClass Object
+        (
+            [customer_email] => dygabriel31@gmail.com
+            [customer_name] => Gabriel Dy
+            [order_id] => 111
+            [site_url] => https://www.goltebbusters.store
+        )
+
+    [on_behalf_of] => 
+    [order] => 
+    [outcome] => stdClass Object
+        (
+            [network_status] => approved_by_network
+            [reason] => 
+            [risk_level] => normal
+            [risk_score] => 49
+            [seller_message] => Payment complete.
+            [type] => authorized
+        )
+
+    [paid] => 1
+    [payment_intent] => pi_3NFMYFHBYpPUI6mK0zCkrUCC
+    [payment_method] => pm_1NFHl5HBYpPUI6mK49zGY2Mi
+    [payment_method_details] => stdClass Object
+        (
+            [card] => stdClass Object
+                (
+                    [brand] => visa
+                    [checks] => stdClass Object
+                        (
+                            [address_line1_check] => pass
+                            [address_postal_code_check] => pass
+                            [cvc_check] => 
+                        )
+
+                    [country] => US
+                    [exp_month] => 12
+                    [exp_year] => 2027
+                    [fingerprint] => rMOeY3L9Lgt9E2VS
+                    [funding] => credit
+                    [installments] => 
+                    [last4] => 4242
+                    [mandate] => 
+                    [network] => visa
+                    [network_token] => stdClass Object
+                        (
+                            [used] => 
+                        )
+
+                    [three_d_secure] => 
+                    [wallet] => 
+                )
+
+            [type] => card
+        )
+
+    [receipt_email] => 
+    [receipt_number] => 
+    [receipt_url] => https://pay.stripe.com/receipts/payment/CAcaFwoVYWNjdF8xTkZHSWVIQllwUFVJNm1LKKDK86MGMgbvQ7gAyWI6LBZuCWI2rYH70my6wb0Y3GVnJz6O_XIzIsLWSTVqbtVbI2VV7L_W8Ne7ZejF
+    [refunded] => 
+    [refunds] => stdClass Object
+        (
+            [object] => list
+            [data] => Array
+                (
+                )
+
+            [has_more] => 
+            [total_count] => 0
+            [url] => /v1/charges/ch_3NFMYFHBYpPUI6mK0x0DQcO9/refunds
+        )
+
+    [review] => 
+    [shipping] => stdClass Object
+        (
+            [address] => stdClass Object
+                (
+                    [city] => Angeles City
+                    [country] => PH
+                    [line1] => 39 Doña Agripina Street
+                    [line2] => 
+                    [postal_code] => 2009
+                    [state] => PAM
+                )
+
+            [carrier] => 
+            [name] => Gabriel Dy
+            [phone] => 
+            [tracking_number] => 
+        )
+
+    [source] => 
+    [source_transfer] => 
+    [statement_descriptor] => 
+    [statement_descriptor_suffix] => 
+    [status] => succeeded
+    [transfer_data] => 
+    [transfer_group] => 
+)
+
+====End Log====
+
+
+2023-06-04T19:25:20+00:00 DEBUG 
+====Stripe Version: 7.4.1====
+====Start Log====
+balance/history/txn_3NFMYFHBYpPUI6mK0XzqoRhX
+====End Log====
+
+

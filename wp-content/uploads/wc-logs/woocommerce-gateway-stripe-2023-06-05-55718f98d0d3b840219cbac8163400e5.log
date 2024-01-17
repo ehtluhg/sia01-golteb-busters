@@ -1,0 +1,4052 @@
+2023-06-05T02:54:32+00:00 DEBUG 
+====Stripe Version: 7.4.1====
+====Start Log====
+account
+====End Log====
+
+
+2023-06-05T03:02:52+00:00 DEBUG 
+====Stripe Version: 7.4.1====
+====Start Log====
+customers/cus_O1JIBaoIPXwNAZ/payment_methods request: Array
+(
+    [limit] => 100
+)
+
+====End Log====
+
+
+2023-06-05T03:07:05+00:00 DEBUG 
+====Stripe Version: 7.4.1====
+====Start Log====
+customers/cus_O1JIBaoIPXwNAZ request: Array
+(
+    [email] => sia.dy.gabrielrhobert@gmail.com
+    [description] => Name: Gabriel Dy, Username: sia.dy.gabrielrhobert
+    [name] => Gabriel Dy
+    [metadata] => Array
+        (
+        )
+
+    [preferred_locales] => Array
+        (
+            [0] => en-US
+        )
+
+)
+
+====End Log====
+
+
+2023-06-05T03:07:05+00:00 DEBUG 
+====Stripe Version: 7.4.1====
+====Start Log====
+Info: Begin processing payment for order 112 for the amount of 999.00
+====End Log====
+
+
+2023-06-05T03:07:05+00:00 DEBUG 
+====Stripe Version: 7.4.1====
+====Start Log====
+payment_intents request: Array
+(
+    [amount] => 99900
+    [currency] => php
+    [description] => Golteb Busters - Order 112
+    [metadata] => Array
+        (
+            [customer_name] => Gabriel Dy
+            [customer_email] => dygabriel31@gmail.com
+            [order_id] => 112
+            [site_url] => https://www.goltebbusters.store
+        )
+
+    [capture_method] => automatic
+    [payment_method_types] => Array
+        (
+            [0] => card
+        )
+
+    [payment_method] => pm_1NFGwZHBYpPUI6mKikPtQoP3
+    [customer] => cus_O1JIBaoIPXwNAZ
+    [shipping] => Array
+        (
+            [name] => Gabriel Dy
+            [address] => Array
+                (
+                    [line1] => 39 Doña Agripina Street, Barangay Salapungan, Angeles City, Pampanga
+                    [line2] => 4032033710024295
+                    [city] => Angeles City
+                    [country] => PH
+                    [postal_code] => 2009
+                    [state] => PAM
+                )
+
+        )
+
+)
+
+====End Log====
+
+
+2023-06-05T03:07:06+00:00 DEBUG 
+====Stripe Version: 7.4.1====
+====Start Log====
+Stripe PaymentIntent pi_3NFTl7HBYpPUI6mK0r1QNdVm initiated for order 112
+====End Log====
+
+
+2023-06-05T03:07:06+00:00 DEBUG 
+====Stripe Version: 7.4.1====
+====Start Log====
+payment_intents/pi_3NFTl7HBYpPUI6mK0r1QNdVm/confirm request: Array
+(
+    [payment_method] => pm_1NFGwZHBYpPUI6mKikPtQoP3
+)
+
+====End Log====
+
+
+2023-06-05T03:07:07+00:00 DEBUG 
+====Stripe Version: 7.4.1====
+====Start Log====
+Stripe PaymentIntent pi_3NFTl7HBYpPUI6mK0r1QNdVm succeeded for order 112
+====End Log====
+
+
+2023-06-05T03:07:07+00:00 DEBUG 
+====Stripe Version: 7.4.1====
+====Start Log====
+Processing response: stdClass Object
+(
+    [id] => ch_3NFTl7HBYpPUI6mK0AAaIpDK
+    [object] => charge
+    [amount] => 99900
+    [amount_captured] => 99900
+    [amount_refunded] => 0
+    [application] => 
+    [application_fee] => 
+    [application_fee_amount] => 
+    [balance_transaction] => txn_3NFTl7HBYpPUI6mK0H8Sf09E
+    [billing_details] => stdClass Object
+        (
+            [address] => stdClass Object
+                (
+                    [city] => Angeles City
+                    [country] => PH
+                    [line1] => 39 Doña Agripina Street, Barangay Salapungan, Angeles City, Pampanga
+                    [line2] => 
+                    [postal_code] => 2009
+                    [state] => PAM
+                )
+
+            [email] => dygabriel31@gmail.com
+            [name] => Gabriel Dy
+            [phone] => 09223042210
+        )
+
+    [calculated_statement_descriptor] => WWW.GOLTEBBUSTERS.STOR
+    [captured] => 1
+    [created] => 1685934426
+    [currency] => php
+    [customer] => cus_O1JIBaoIPXwNAZ
+    [description] => Golteb Busters - Order 112
+    [destination] => 
+    [dispute] => 
+    [disputed] => 
+    [failure_balance_transaction] => 
+    [failure_code] => 
+    [failure_message] => 
+    [fraud_details] => stdClass Object
+        (
+        )
+
+    [invoice] => 
+    [livemode] => 
+    [metadata] => stdClass Object
+        (
+            [customer_email] => dygabriel31@gmail.com
+            [customer_name] => Gabriel Dy
+            [order_id] => 112
+            [site_url] => https://www.goltebbusters.store
+        )
+
+    [on_behalf_of] => 
+    [order] => 
+    [outcome] => stdClass Object
+        (
+            [network_status] => approved_by_network
+            [reason] => 
+            [risk_level] => normal
+            [risk_score] => 12
+            [seller_message] => Payment complete.
+            [type] => authorized
+        )
+
+    [paid] => 1
+    [payment_intent] => pi_3NFTl7HBYpPUI6mK0r1QNdVm
+    [payment_method] => pm_1NFGwZHBYpPUI6mKikPtQoP3
+    [payment_method_details] => stdClass Object
+        (
+            [card] => stdClass Object
+                (
+                    [brand] => visa
+                    [checks] => stdClass Object
+                        (
+                            [address_line1_check] => pass
+                            [address_postal_code_check] => pass
+                            [cvc_check] => 
+                        )
+
+                    [country] => US
+                    [exp_month] => 12
+                    [exp_year] => 2027
+                    [fingerprint] => rMOeY3L9Lgt9E2VS
+                    [funding] => credit
+                    [installments] => 
+                    [last4] => 4242
+                    [mandate] => 
+                    [network] => visa
+                    [network_token] => stdClass Object
+                        (
+                            [used] => 
+                        )
+
+                    [three_d_secure] => 
+                    [wallet] => 
+                )
+
+            [type] => card
+        )
+
+    [receipt_email] => 
+    [receipt_number] => 
+    [receipt_url] => https://pay.stripe.com/receipts/payment/CAcaFwoVYWNjdF8xTkZHSWVIQllwUFVJNm1LKNui9aMGMgaaB7oMDoA6LBbWyXqLD4AYxt-6f4nZd2ZK_ZhVGrP3ByMNJxwMzEQLthM2QSR4Qr_nk7mn
+    [refunded] => 
+    [refunds] => stdClass Object
+        (
+            [object] => list
+            [data] => Array
+                (
+                )
+
+            [has_more] => 
+            [total_count] => 0
+            [url] => /v1/charges/ch_3NFTl7HBYpPUI6mK0AAaIpDK/refunds
+        )
+
+    [review] => 
+    [shipping] => stdClass Object
+        (
+            [address] => stdClass Object
+                (
+                    [city] => Angeles City
+                    [country] => PH
+                    [line1] => 39 Doña Agripina Street, Barangay Salapungan, Angeles City, Pampanga
+                    [line2] => 4032033710024295
+                    [postal_code] => 2009
+                    [state] => PAM
+                )
+
+            [carrier] => 
+            [name] => Gabriel Dy
+            [phone] => 
+            [tracking_number] => 
+        )
+
+    [source] => 
+    [source_transfer] => 
+    [statement_descriptor] => 
+    [statement_descriptor_suffix] => 
+    [status] => succeeded
+    [transfer_data] => 
+    [transfer_group] => 
+)
+
+====End Log====
+
+
+2023-06-05T03:07:07+00:00 DEBUG 
+====Stripe Version: 7.4.1====
+====Start Log====
+balance/history/txn_3NFTl7HBYpPUI6mK0H8Sf09E
+====End Log====
+
+
+2023-06-05T03:25:42+00:00 DEBUG 
+====Stripe Version: 7.4.1====
+====Start Log====
+payment_methods/pm_1NFU2uHBYpPUI6mKVtXsmHpP
+====End Log====
+
+
+2023-06-05T03:25:42+00:00 DEBUG 
+====Stripe Version: 7.4.1====
+====Start Log====
+customers request: Array
+(
+    [email] => sia.quiambao.jeremiah@gmail.com
+    [description] => Name: Guren Quiambao, Username: guren.quiambao
+    [name] => Guren Quiambao
+    [metadata] => Array
+        (
+        )
+
+    [preferred_locales] => Array
+        (
+            [0] => en-US
+        )
+
+)
+
+====End Log====
+
+
+2023-06-05T03:25:43+00:00 DEBUG 
+====Stripe Version: 7.4.1====
+====Start Log====
+payment_methods/pm_1NFU2uHBYpPUI6mKVtXsmHpP/attach request: Array
+(
+    [customer] => cus_O1X7sWrhS3eddJ
+)
+
+====End Log====
+
+
+2023-06-05T03:25:43+00:00 DEBUG 
+====Stripe Version: 7.4.1====
+====Start Log====
+customers/cus_O1X7sWrhS3eddJ request: Array
+(
+    [email] => sia.quiambao.jeremiah@gmail.com
+    [description] => Name: Guren Quiambao, Username: guren.quiambao
+    [name] => Guren Quiambao
+    [metadata] => Array
+        (
+        )
+
+    [preferred_locales] => Array
+        (
+            [0] => en-US
+        )
+
+)
+
+====End Log====
+
+
+2023-06-05T03:25:44+00:00 DEBUG 
+====Stripe Version: 7.4.1====
+====Start Log====
+Info: Begin processing payment for order 113 for the amount of 1248.00
+====End Log====
+
+
+2023-06-05T03:25:44+00:00 DEBUG 
+====Stripe Version: 7.4.1====
+====Start Log====
+payment_intents request: Array
+(
+    [amount] => 124800
+    [currency] => php
+    [description] => Golteb Busters - Order 113
+    [metadata] => Array
+        (
+            [customer_name] => Guren Quiambao
+            [customer_email] => sia.quiambao.jeremiah@gmail.com
+            [order_id] => 113
+            [site_url] => https://www.goltebbusters.store
+            [save_payment_method] => true
+        )
+
+    [capture_method] => automatic
+    [payment_method_types] => Array
+        (
+            [0] => card
+        )
+
+    [payment_method] => pm_1NFU2uHBYpPUI6mKVtXsmHpP
+    [setup_future_usage] => off_session
+    [customer] => cus_O1X7sWrhS3eddJ
+    [shipping] => Array
+        (
+            [name] => Guren Quiambao
+            [address] => Array
+                (
+                    [line1] => 3977 General Tinio Street
+                    [line2] => 
+                    [city] => Dau, Mabalacat City
+                    [country] => PH
+                    [postal_code] => 2010
+                    [state] => PAM
+                )
+
+        )
+
+)
+
+====End Log====
+
+
+2023-06-05T03:25:44+00:00 DEBUG 
+====Stripe Version: 7.4.1====
+====Start Log====
+Stripe PaymentIntent pi_3NFU3AHBYpPUI6mK0rsJtENl initiated for order 113
+====End Log====
+
+
+2023-06-05T03:25:44+00:00 DEBUG 
+====Stripe Version: 7.4.1====
+====Start Log====
+payment_intents/pi_3NFU3AHBYpPUI6mK0rsJtENl/confirm request: Array
+(
+    [payment_method] => pm_1NFU2uHBYpPUI6mKVtXsmHpP
+)
+
+====End Log====
+
+
+2023-06-05T03:25:45+00:00 DEBUG 
+====Stripe Version: 7.4.1====
+====Start Log====
+Stripe PaymentIntent pi_3NFU3AHBYpPUI6mK0rsJtENl succeeded for order 113
+====End Log====
+
+
+2023-06-05T03:25:45+00:00 DEBUG 
+====Stripe Version: 7.4.1====
+====Start Log====
+payment_methods/pm_1NFU2uHBYpPUI6mKVtXsmHpP
+====End Log====
+
+
+2023-06-05T03:25:46+00:00 DEBUG 
+====Stripe Version: 7.4.1====
+====Start Log====
+customers/cus_O1X7sWrhS3eddJ request: Array
+(
+    [default_source] => pm_1NFU2uHBYpPUI6mKVtXsmHpP
+)
+
+====End Log====
+
+
+2023-06-05T03:25:46+00:00 DEBUG 
+====Stripe Version: 7.4.1====
+====Start Log====
+Processing response: stdClass Object
+(
+    [id] => ch_3NFU3AHBYpPUI6mK04mU1Iu1
+    [object] => charge
+    [amount] => 124800
+    [amount_captured] => 124800
+    [amount_refunded] => 0
+    [application] => 
+    [application_fee] => 
+    [application_fee_amount] => 
+    [balance_transaction] => txn_3NFU3AHBYpPUI6mK0xdWAQYv
+    [billing_details] => stdClass Object
+        (
+            [address] => stdClass Object
+                (
+                    [city] => Dau, Mabalacat City
+                    [country] => PH
+                    [line1] => 3977 General Tinio Street
+                    [line2] => 
+                    [postal_code] => 2010
+                    [state] => PAM
+                )
+
+            [email] => sia.quiambao.jeremiah@gmail.com
+            [name] => Guren Quiambao
+            [phone] => 09435381366
+        )
+
+    [calculated_statement_descriptor] => WWW.GOLTEBBUSTERS.STOR
+    [captured] => 1
+    [created] => 1685935545
+    [currency] => php
+    [customer] => cus_O1X7sWrhS3eddJ
+    [description] => Golteb Busters - Order 113
+    [destination] => 
+    [dispute] => 
+    [disputed] => 
+    [failure_balance_transaction] => 
+    [failure_code] => 
+    [failure_message] => 
+    [fraud_details] => stdClass Object
+        (
+        )
+
+    [invoice] => 
+    [livemode] => 
+    [metadata] => stdClass Object
+        (
+            [customer_email] => sia.quiambao.jeremiah@gmail.com
+            [customer_name] => Guren Quiambao
+            [order_id] => 113
+            [save_payment_method] => true
+            [site_url] => https://www.goltebbusters.store
+        )
+
+    [on_behalf_of] => 
+    [order] => 
+    [outcome] => stdClass Object
+        (
+            [network_status] => approved_by_network
+            [reason] => 
+            [risk_level] => normal
+            [risk_score] => 29
+            [seller_message] => Payment complete.
+            [type] => authorized
+        )
+
+    [paid] => 1
+    [payment_intent] => pi_3NFU3AHBYpPUI6mK0rsJtENl
+    [payment_method] => pm_1NFU2uHBYpPUI6mKVtXsmHpP
+    [payment_method_details] => stdClass Object
+        (
+            [card] => stdClass Object
+                (
+                    [brand] => visa
+                    [checks] => stdClass Object
+                        (
+                            [address_line1_check] => pass
+                            [address_postal_code_check] => pass
+                            [cvc_check] => pass
+                        )
+
+                    [country] => US
+                    [exp_month] => 6
+                    [exp_year] => 2023
+                    [fingerprint] => rMOeY3L9Lgt9E2VS
+                    [funding] => credit
+                    [installments] => 
+                    [last4] => 4242
+                    [mandate] => 
+                    [network] => visa
+                    [network_token] => stdClass Object
+                        (
+                            [used] => 
+                        )
+
+                    [three_d_secure] => 
+                    [wallet] => 
+                )
+
+            [type] => card
+        )
+
+    [receipt_email] => 
+    [receipt_number] => 
+    [receipt_url] => https://pay.stripe.com/receipts/payment/CAcaFwoVYWNjdF8xTkZHSWVIQllwUFVJNm1LKLmr9aMGMgai7xZx5cg6LBYyT6SvFJluhC1YjYejAM_o4AUDqbLXDih9MLhuxfAfckIbu6V0FvDBt9jJ
+    [refunded] => 
+    [refunds] => stdClass Object
+        (
+            [object] => list
+            [data] => Array
+                (
+                )
+
+            [has_more] => 
+            [total_count] => 0
+            [url] => /v1/charges/ch_3NFU3AHBYpPUI6mK04mU1Iu1/refunds
+        )
+
+    [review] => 
+    [shipping] => stdClass Object
+        (
+            [address] => stdClass Object
+                (
+                    [city] => Dau, Mabalacat City
+                    [country] => PH
+                    [line1] => 3977 General Tinio Street
+                    [line2] => 
+                    [postal_code] => 2010
+                    [state] => PAM
+                )
+
+            [carrier] => 
+            [name] => Guren Quiambao
+            [phone] => 
+            [tracking_number] => 
+        )
+
+    [source] => 
+    [source_transfer] => 
+    [statement_descriptor] => 
+    [statement_descriptor_suffix] => 
+    [status] => succeeded
+    [transfer_data] => 
+    [transfer_group] => 
+)
+
+====End Log====
+
+
+2023-06-05T03:25:46+00:00 DEBUG 
+====Stripe Version: 7.4.1====
+====Start Log====
+balance/history/txn_3NFU3AHBYpPUI6mK0xdWAQYv
+====End Log====
+
+
+2023-06-05T03:36:57+00:00 DEBUG 
+====Stripe Version: 7.4.1====
+====Start Log====
+customers/cus_O1X7sWrhS3eddJ/payment_methods request: Array
+(
+    [limit] => 100
+)
+
+====End Log====
+
+
+2023-06-05T03:37:00+00:00 DEBUG 
+====Stripe Version: 7.4.1====
+====Start Log====
+customers/cus_O1KPMf6OtiAkW9/payment_methods request: Array
+(
+    [limit] => 100
+)
+
+====End Log====
+
+
+2023-06-05T03:39:46+00:00 DEBUG 
+====Stripe Version: 7.4.1====
+====Start Log====
+payment_methods/pm_1NFUGjHBYpPUI6mKAsXj8Pgr
+====End Log====
+
+
+2023-06-05T03:39:46+00:00 DEBUG 
+====Stripe Version: 7.4.1====
+====Start Log====
+customers/cus_O1KPMf6OtiAkW9 request: Array
+(
+    [email] => dygabriel31@gmail.com
+    [description] => Name: Gabriel Dy, Username: gabriel.dy
+    [name] => Gabriel Dy
+    [metadata] => Array
+        (
+        )
+
+    [preferred_locales] => Array
+        (
+            [0] => en-US
+        )
+
+)
+
+====End Log====
+
+
+2023-06-05T03:39:47+00:00 DEBUG 
+====Stripe Version: 7.4.1====
+====Start Log====
+Info: Begin processing payment for order 114 for the amount of 749.00
+====End Log====
+
+
+2023-06-05T03:39:47+00:00 DEBUG 
+====Stripe Version: 7.4.1====
+====Start Log====
+payment_intents request: Array
+(
+    [amount] => 74900
+    [currency] => php
+    [description] => Golteb Busters - Order 114
+    [metadata] => Array
+        (
+            [customer_name] => Gabriel Dy
+            [customer_email] => dygabriel31@gmail.com
+            [order_id] => 114
+            [site_url] => https://www.goltebbusters.store
+        )
+
+    [capture_method] => automatic
+    [payment_method_types] => Array
+        (
+            [0] => card
+        )
+
+    [payment_method] => pm_1NFUGjHBYpPUI6mKAsXj8Pgr
+    [customer] => cus_O1KPMf6OtiAkW9
+    [shipping] => Array
+        (
+            [name] => Gabriel Dy
+            [address] => Array
+                (
+                    [line1] => 39 Doña Agripina Street
+                    [line2] => 
+                    [city] => Angeles City
+                    [country] => PH
+                    [postal_code] => 2009
+                    [state] => PAM
+                )
+
+        )
+
+)
+
+====End Log====
+
+
+2023-06-05T03:39:47+00:00 DEBUG 
+====Stripe Version: 7.4.1====
+====Start Log====
+Stripe PaymentIntent pi_3NFUGlHBYpPUI6mK0yoQ38Q9 initiated for order 114
+====End Log====
+
+
+2023-06-05T03:39:47+00:00 DEBUG 
+====Stripe Version: 7.4.1====
+====Start Log====
+payment_intents/pi_3NFUGlHBYpPUI6mK0yoQ38Q9/confirm request: Array
+(
+    [payment_method] => pm_1NFUGjHBYpPUI6mKAsXj8Pgr
+)
+
+====End Log====
+
+
+2023-06-05T03:39:48+00:00 DEBUG 
+====Stripe Version: 7.4.1====
+====Start Log====
+Error: stdClass Object
+(
+    [error] => stdClass Object
+        (
+            [charge] => ch_3NFUGlHBYpPUI6mK03bSxRvh
+            [code] => card_declined
+            [decline_code] => insufficient_funds
+            [doc_url] => https://stripe.com/docs/error-codes/card-declined
+            [message] => Your card has insufficient funds.
+            [payment_intent] => stdClass Object
+                (
+                    [id] => pi_3NFUGlHBYpPUI6mK0yoQ38Q9
+                    [object] => payment_intent
+                    [amount] => 74900
+                    [amount_capturable] => 0
+                    [amount_details] => stdClass Object
+                        (
+                            [tip] => stdClass Object
+                                (
+                                )
+
+                        )
+
+                    [amount_received] => 0
+                    [application] => 
+                    [application_fee_amount] => 
+                    [automatic_payment_methods] => 
+                    [canceled_at] => 
+                    [cancellation_reason] => 
+                    [capture_method] => automatic
+                    [charges] => stdClass Object
+                        (
+                            [object] => list
+                            [data] => Array
+                                (
+                                    [0] => stdClass Object
+                                        (
+                                            [id] => ch_3NFUGlHBYpPUI6mK03bSxRvh
+                                            [object] => charge
+                                            [amount] => 74900
+                                            [amount_captured] => 0
+                                            [amount_refunded] => 0
+                                            [application] => 
+                                            [application_fee] => 
+                                            [application_fee_amount] => 
+                                            [balance_transaction] => 
+                                            [billing_details] => stdClass Object
+                                                (
+                                                    [address] => stdClass Object
+                                                        (
+                                                            [city] => Angeles City
+                                                            [country] => PH
+                                                            [line1] => 39 Doña Agripina Street
+                                                            [line2] => 
+                                                            [postal_code] => 2009
+                                                            [state] => PAM
+                                                        )
+
+                                                    [email] => dygabriel31@gmail.com
+                                                    [name] => Gabriel Dy
+                                                    [phone] => 09223042210
+                                                )
+
+                                            [calculated_statement_descriptor] => WWW.GOLTEBBUSTERS.STOR
+                                            [captured] => 
+                                            [created] => 1685936387
+                                            [currency] => php
+                                            [customer] => cus_O1KPMf6OtiAkW9
+                                            [description] => Golteb Busters - Order 114
+                                            [destination] => 
+                                            [dispute] => 
+                                            [disputed] => 
+                                            [failure_balance_transaction] => 
+                                            [failure_code] => card_declined
+                                            [failure_message] => Your card has insufficient funds.
+                                            [fraud_details] => stdClass Object
+                                                (
+                                                )
+
+                                            [invoice] => 
+                                            [livemode] => 
+                                            [metadata] => stdClass Object
+                                                (
+                                                    [order_id] => 114
+                                                    [site_url] => https://www.goltebbusters.store
+                                                    [customer_email] => dygabriel31@gmail.com
+                                                    [customer_name] => Gabriel Dy
+                                                )
+
+                                            [on_behalf_of] => 
+                                            [order] => 
+                                            [outcome] => stdClass Object
+                                                (
+                                                    [network_status] => declined_by_network
+                                                    [reason] => insufficient_funds
+                                                    [risk_level] => normal
+                                                    [risk_score] => 29
+                                                    [seller_message] => The bank returned the decline code `insufficient_funds`.
+                                                    [type] => issuer_declined
+                                                )
+
+                                            [paid] => 
+                                            [payment_intent] => pi_3NFUGlHBYpPUI6mK0yoQ38Q9
+                                            [payment_method] => pm_1NFUGjHBYpPUI6mKAsXj8Pgr
+                                            [payment_method_details] => stdClass Object
+                                                (
+                                                    [card] => stdClass Object
+                                                        (
+                                                            [brand] => visa
+                                                            [checks] => stdClass Object
+                                                                (
+                                                                    [address_line1_check] => pass
+                                                                    [address_postal_code_check] => pass
+                                                                    [cvc_check] => pass
+                                                                )
+
+                                                            [country] => US
+                                                            [exp_month] => 12
+                                                            [exp_year] => 2027
+                                                            [fingerprint] => ibxO6WQZ1aU2JLLB
+                                                            [funding] => credit
+                                                            [installments] => 
+                                                            [last4] => 9995
+                                                            [mandate] => 
+                                                            [network] => visa
+                                                            [network_token] => stdClass Object
+                                                                (
+                                                                    [used] => 
+                                                                )
+
+                                                            [three_d_secure] => 
+                                                            [wallet] => 
+                                                        )
+
+                                                    [type] => card
+                                                )
+
+                                            [receipt_email] => 
+                                            [receipt_number] => 
+                                            [receipt_url] => 
+                                            [refunded] => 
+                                            [refunds] => stdClass Object
+                                                (
+                                                    [object] => list
+                                                    [data] => Array
+                                                        (
+                                                        )
+
+                                                    [has_more] => 
+                                                    [total_count] => 0
+                                                    [url] => /v1/charges/ch_3NFUGlHBYpPUI6mK03bSxRvh/refunds
+                                                )
+
+                                            [review] => 
+                                            [shipping] => stdClass Object
+                                                (
+                                                    [address] => stdClass Object
+                                                        (
+                                                            [city] => Angeles City
+                                                            [country] => PH
+                                                            [line1] => 39 Doña Agripina Street
+                                                            [line2] => 
+                                                            [postal_code] => 2009
+                                                            [state] => PAM
+                                                        )
+
+                                                    [carrier] => 
+                                                    [name] => Gabriel Dy
+                                                    [phone] => 
+                                                    [tracking_number] => 
+                                                )
+
+                                            [source] => 
+                                            [source_transfer] => 
+                                            [statement_descriptor] => 
+                                            [statement_descriptor_suffix] => 
+                                            [status] => failed
+                                            [transfer_data] => 
+                                            [transfer_group] => 
+                                        )
+
+                                )
+
+                            [has_more] => 
+                            [total_count] => 1
+                            [url] => /v1/charges?payment_intent=pi_3NFUGlHBYpPUI6mK0yoQ38Q9
+                        )
+
+                    [client_secret] => pi_3NFUGlHBYpPUI6mK0yoQ38Q9_secret_TNbG2LVX3IxHtU7jXRfPmFsT4
+                    [confirmation_method] => automatic
+                    [created] => 1685936387
+                    [currency] => php
+                    [customer] => cus_O1KPMf6OtiAkW9
+                    [description] => Golteb Busters - Order 114
+                    [invoice] => 
+                    [last_payment_error] => stdClass Object
+                        (
+                            [charge] => ch_3NFUGlHBYpPUI6mK03bSxRvh
+                            [code] => card_declined
+                            [decline_code] => insufficient_funds
+                            [doc_url] => https://stripe.com/docs/error-codes/card-declined
+                            [message] => Your card has insufficient funds.
+                            [payment_method] => stdClass Object
+                                (
+                                    [id] => pm_1NFUGjHBYpPUI6mKAsXj8Pgr
+                                    [object] => payment_method
+                                    [billing_details] => stdClass Object
+                                        (
+                                            [address] => stdClass Object
+                                                (
+                                                    [city] => Angeles City
+                                                    [country] => PH
+                                                    [line1] => 39 Doña Agripina Street
+                                                    [line2] => 
+                                                    [postal_code] => 2009
+                                                    [state] => PAM
+                                                )
+
+                                            [email] => dygabriel31@gmail.com
+                                            [name] => Gabriel Dy
+                                            [phone] => 09223042210
+                                        )
+
+                                    [card] => stdClass Object
+                                        (
+                                            [brand] => visa
+                                            [checks] => stdClass Object
+                                                (
+                                                    [address_line1_check] => pass
+                                                    [address_postal_code_check] => pass
+                                                    [cvc_check] => pass
+                                                )
+
+                                            [country] => US
+                                            [exp_month] => 12
+                                            [exp_year] => 2027
+                                            [fingerprint] => ibxO6WQZ1aU2JLLB
+                                            [funding] => credit
+                                            [generated_from] => 
+                                            [last4] => 9995
+                                            [networks] => stdClass Object
+                                                (
+                                                    [available] => Array
+                                                        (
+                                                            [0] => visa
+                                                        )
+
+                                                    [preferred] => 
+                                                )
+
+                                            [three_d_secure_usage] => stdClass Object
+                                                (
+                                                    [supported] => 1
+                                                )
+
+                                            [wallet] => 
+                                        )
+
+                                    [created] => 1685936385
+                                    [customer] => 
+                                    [livemode] => 
+                                    [metadata] => stdClass Object
+                                        (
+                                        )
+
+                                    [type] => card
+                                )
+
+                            [type] => card_error
+                        )
+
+                    [latest_charge] => ch_3NFUGlHBYpPUI6mK03bSxRvh
+                    [livemode] => 
+                    [metadata] => stdClass Object
+                        (
+                            [order_id] => 114
+                            [site_url] => https://www.goltebbusters.store
+                            [customer_email] => dygabriel31@gmail.com
+                            [customer_name] => Gabriel Dy
+                        )
+
+                    [next_action] => 
+                    [on_behalf_of] => 
+                    [payment_method] => 
+                    [payment_method_options] => stdClass Object
+                        (
+                            [card] => stdClass Object
+                                (
+                                    [installments] => 
+                                    [mandate_options] => 
+                                    [network] => 
+                                    [request_three_d_secure] => automatic
+                                )
+
+                        )
+
+                    [payment_method_types] => Array
+                        (
+                            [0] => card
+                        )
+
+                    [processing] => 
+                    [receipt_email] => 
+                    [review] => 
+                    [setup_future_usage] => 
+                    [shipping] => stdClass Object
+                        (
+                            [address] => stdClass Object
+                                (
+                                    [city] => Angeles City
+                                    [country] => PH
+                                    [line1] => 39 Doña Agripina Street
+                                    [line2] => 
+                                    [postal_code] => 2009
+                                    [state] => PAM
+                                )
+
+                            [carrier] => 
+                            [name] => Gabriel Dy
+                            [phone] => 
+                            [tracking_number] => 
+                        )
+
+                    [source] => 
+                    [statement_descriptor] => 
+                    [statement_descriptor_suffix] => 
+                    [status] => requires_payment_method
+                    [transfer_data] => 
+                    [transfer_group] => 
+                )
+
+            [payment_method] => stdClass Object
+                (
+                    [id] => pm_1NFUGjHBYpPUI6mKAsXj8Pgr
+                    [object] => payment_method
+                    [billing_details] => stdClass Object
+                        (
+                            [address] => stdClass Object
+                                (
+                                    [city] => Angeles City
+                                    [country] => PH
+                                    [line1] => 39 Doña Agripina Street
+                                    [line2] => 
+                                    [postal_code] => 2009
+                                    [state] => PAM
+                                )
+
+                            [email] => dygabriel31@gmail.com
+                            [name] => Gabriel Dy
+                            [phone] => 09223042210
+                        )
+
+                    [card] => stdClass Object
+                        (
+                            [brand] => visa
+                            [checks] => stdClass Object
+                                (
+                                    [address_line1_check] => pass
+                                    [address_postal_code_check] => pass
+                                    [cvc_check] => pass
+                                )
+
+                            [country] => US
+                            [exp_month] => 12
+                            [exp_year] => 2027
+                            [fingerprint] => ibxO6WQZ1aU2JLLB
+                            [funding] => credit
+                            [generated_from] => 
+                            [last4] => 9995
+                            [networks] => stdClass Object
+                                (
+                                    [available] => Array
+                                        (
+                                            [0] => visa
+                                        )
+
+                                    [preferred] => 
+                                )
+
+                            [three_d_secure_usage] => stdClass Object
+                                (
+                                    [supported] => 1
+                                )
+
+                            [wallet] => 
+                        )
+
+                    [created] => 1685936385
+                    [customer] => 
+                    [livemode] => 
+                    [metadata] => stdClass Object
+                        (
+                        )
+
+                    [type] => card
+                )
+
+            [request_log_url] => https://dashboard.stripe.com/test/logs/req_nFyXzCrksVO0vA?t=1685936387
+            [type] => card_error
+        )
+
+)
+
+====End Log====
+
+
+2023-06-05T03:46:31+00:00 DEBUG 
+====Stripe Version: 7.4.1====
+====Start Log====
+customers/cus_O1KPMf6OtiAkW9/payment_methods request: Array
+(
+    [limit] => 100
+)
+
+====End Log====
+
+
+2023-06-05T03:54:51+00:00 DEBUG 
+====Stripe Version: 7.4.1====
+====Start Log====
+payment_intents/pi_3NFUGlHBYpPUI6mK0yoQ38Q9?expand[]=payment_method request: Array
+(
+)
+
+====End Log====
+
+
+2023-06-05T03:54:52+00:00 DEBUG 
+====Stripe Version: 7.4.1====
+====Start Log====
+payment_methods/pm_1NFUVKHBYpPUI6mKPDcskbAQ
+====End Log====
+
+
+2023-06-05T03:54:52+00:00 DEBUG 
+====Stripe Version: 7.4.1====
+====Start Log====
+customers/cus_O1KPMf6OtiAkW9 request: Array
+(
+    [email] => dygabriel31@gmail.com
+    [description] => Name: Gabriel Dy, Username: gabriel.dy
+    [name] => Gabriel Dy
+    [metadata] => Array
+        (
+        )
+
+    [preferred_locales] => Array
+        (
+            [0] => en-US
+        )
+
+)
+
+====End Log====
+
+
+2023-06-05T03:54:52+00:00 DEBUG 
+====Stripe Version: 7.4.1====
+====Start Log====
+Info: Begin processing payment for order 114 for the amount of 749.00
+====End Log====
+
+
+2023-06-05T03:54:52+00:00 DEBUG 
+====Stripe Version: 7.4.1====
+====Start Log====
+payment_intents/pi_3NFUGlHBYpPUI6mK0yoQ38Q9 request: Array
+(
+    [payment_method] => pm_1NFUVKHBYpPUI6mKPDcskbAQ
+    [payment_method_types] => Array
+        (
+            [0] => card
+        )
+
+)
+
+====End Log====
+
+
+2023-06-05T03:54:53+00:00 DEBUG 
+====Stripe Version: 7.4.1====
+====Start Log====
+payment_intents/pi_3NFUGlHBYpPUI6mK0yoQ38Q9/confirm request: Array
+(
+    [payment_method] => pm_1NFUVKHBYpPUI6mKPDcskbAQ
+)
+
+====End Log====
+
+
+2023-06-05T03:54:54+00:00 DEBUG 
+====Stripe Version: 7.4.1====
+====Start Log====
+Stripe PaymentIntent pi_3NFUGlHBYpPUI6mK0yoQ38Q9 succeeded for order 114
+====End Log====
+
+
+2023-06-05T03:54:54+00:00 DEBUG 
+====Stripe Version: 7.4.1====
+====Start Log====
+Processing response: stdClass Object
+(
+    [id] => ch_3NFUGlHBYpPUI6mK0NmXmY0y
+    [object] => charge
+    [amount] => 74900
+    [amount_captured] => 74900
+    [amount_refunded] => 0
+    [application] => 
+    [application_fee] => 
+    [application_fee_amount] => 
+    [balance_transaction] => txn_3NFUGlHBYpPUI6mK0dTdmxD7
+    [billing_details] => stdClass Object
+        (
+            [address] => stdClass Object
+                (
+                    [city] => Angeles City
+                    [country] => PH
+                    [line1] => 39 Doña Agripina Street
+                    [line2] => 
+                    [postal_code] => 2009
+                    [state] => PAM
+                )
+
+            [email] => dygabriel31@gmail.com
+            [name] => Gabriel Dy
+            [phone] => 09223042210
+        )
+
+    [calculated_statement_descriptor] => WWW.GOLTEBBUSTERS.STOR
+    [captured] => 1
+    [created] => 1685937293
+    [currency] => php
+    [customer] => cus_O1KPMf6OtiAkW9
+    [description] => Golteb Busters - Order 114
+    [destination] => 
+    [dispute] => 
+    [disputed] => 
+    [failure_balance_transaction] => 
+    [failure_code] => 
+    [failure_message] => 
+    [fraud_details] => stdClass Object
+        (
+        )
+
+    [invoice] => 
+    [livemode] => 
+    [metadata] => stdClass Object
+        (
+            [customer_email] => dygabriel31@gmail.com
+            [customer_name] => Gabriel Dy
+            [order_id] => 114
+            [site_url] => https://www.goltebbusters.store
+        )
+
+    [on_behalf_of] => 
+    [order] => 
+    [outcome] => stdClass Object
+        (
+            [network_status] => approved_by_network
+            [reason] => 
+            [risk_level] => normal
+            [risk_score] => 13
+            [seller_message] => Payment complete.
+            [type] => authorized
+        )
+
+    [paid] => 1
+    [payment_intent] => pi_3NFUGlHBYpPUI6mK0yoQ38Q9
+    [payment_method] => pm_1NFUVKHBYpPUI6mKPDcskbAQ
+    [payment_method_details] => stdClass Object
+        (
+            [card] => stdClass Object
+                (
+                    [brand] => visa
+                    [checks] => stdClass Object
+                        (
+                            [address_line1_check] => pass
+                            [address_postal_code_check] => pass
+                            [cvc_check] => pass
+                        )
+
+                    [country] => US
+                    [exp_month] => 12
+                    [exp_year] => 2027
+                    [fingerprint] => rMOeY3L9Lgt9E2VS
+                    [funding] => credit
+                    [installments] => 
+                    [last4] => 4242
+                    [mandate] => 
+                    [network] => visa
+                    [network_token] => stdClass Object
+                        (
+                            [used] => 
+                        )
+
+                    [three_d_secure] => 
+                    [wallet] => 
+                )
+
+            [type] => card
+        )
+
+    [receipt_email] => 
+    [receipt_number] => 
+    [receipt_url] => https://pay.stripe.com/receipts/payment/CAcaFwoVYWNjdF8xTkZHSWVIQllwUFVJNm1LKI659aMGMgZrWrPDhy06LBbjvlKWWy3LnLifnGsLEcvHebAv-W70j63IDp9VCvqGqbezAq6NRaok9m2C
+    [refunded] => 
+    [refunds] => stdClass Object
+        (
+            [object] => list
+            [data] => Array
+                (
+                )
+
+            [has_more] => 
+            [total_count] => 0
+            [url] => /v1/charges/ch_3NFUGlHBYpPUI6mK0NmXmY0y/refunds
+        )
+
+    [review] => 
+    [shipping] => stdClass Object
+        (
+            [address] => stdClass Object
+                (
+                    [city] => Angeles City
+                    [country] => PH
+                    [line1] => 39 Doña Agripina Street
+                    [line2] => 
+                    [postal_code] => 2009
+                    [state] => PAM
+                )
+
+            [carrier] => 
+            [name] => Gabriel Dy
+            [phone] => 
+            [tracking_number] => 
+        )
+
+    [source] => 
+    [source_transfer] => 
+    [statement_descriptor] => 
+    [statement_descriptor_suffix] => 
+    [status] => succeeded
+    [transfer_data] => 
+    [transfer_group] => 
+)
+
+====End Log====
+
+
+2023-06-05T03:54:54+00:00 DEBUG 
+====Stripe Version: 7.4.1====
+====Start Log====
+balance/history/txn_3NFUGlHBYpPUI6mK0dTdmxD7
+====End Log====
+
+
+2023-06-05T07:41:41+00:00 DEBUG 
+====Stripe Version: 7.4.1====
+====Start Log====
+account
+====End Log====
+
+
+2023-06-05T08:01:48+00:00 DEBUG 
+====Stripe Version: 7.4.1====
+====Start Log====
+payment_methods/pm_1NFYMJHBYpPUI6mKKvBw24TL
+====End Log====
+
+
+2023-06-05T08:01:49+00:00 DEBUG 
+====Stripe Version: 7.4.1====
+====Start Log====
+customers/cus_O1X7sWrhS3eddJ request: Array
+(
+    [email] => sia.quiambao.jeremiah@gmail.com
+    [description] => Name: Guren Quiambao, Username: guren.quiambao
+    [name] => Guren Quiambao
+    [metadata] => Array
+        (
+        )
+
+    [preferred_locales] => Array
+        (
+            [0] => en-US
+        )
+
+)
+
+====End Log====
+
+
+2023-06-05T08:01:49+00:00 DEBUG 
+====Stripe Version: 7.4.1====
+====Start Log====
+Info: Begin processing payment for order 115 for the amount of 250.00
+====End Log====
+
+
+2023-06-05T08:01:49+00:00 DEBUG 
+====Stripe Version: 7.4.1====
+====Start Log====
+payment_intents request: Array
+(
+    [amount] => 25000
+    [currency] => php
+    [description] => Golteb Busters - Order 115
+    [metadata] => Array
+        (
+            [customer_name] => Guren Quiambao
+            [customer_email] => sia.quiambao.jeremiah@gmail.com
+            [order_id] => 115
+            [site_url] => https://www.goltebbusters.store
+        )
+
+    [capture_method] => automatic
+    [payment_method_types] => Array
+        (
+            [0] => card
+        )
+
+    [payment_method] => pm_1NFYMJHBYpPUI6mKKvBw24TL
+    [customer] => cus_O1X7sWrhS3eddJ
+    [shipping] => Array
+        (
+            [name] => Guren Quiambao
+            [address] => Array
+                (
+                    [line1] => 3977 General Tinio Street
+                    [line2] => 
+                    [city] => Dau, Mabalacat City
+                    [country] => PH
+                    [postal_code] => 2010
+                    [state] => PAM
+                )
+
+        )
+
+)
+
+====End Log====
+
+
+2023-06-05T08:01:49+00:00 DEBUG 
+====Stripe Version: 7.4.1====
+====Start Log====
+Stripe PaymentIntent pi_3NFYMLHBYpPUI6mK1wRtzm0f initiated for order 115
+====End Log====
+
+
+2023-06-05T08:01:50+00:00 DEBUG 
+====Stripe Version: 7.4.1====
+====Start Log====
+payment_intents/pi_3NFYMLHBYpPUI6mK1wRtzm0f/confirm request: Array
+(
+    [payment_method] => pm_1NFYMJHBYpPUI6mKKvBw24TL
+)
+
+====End Log====
+
+
+2023-06-05T08:01:51+00:00 DEBUG 
+====Stripe Version: 7.4.1====
+====Start Log====
+Error: stdClass Object
+(
+    [error] => stdClass Object
+        (
+            [charge] => ch_3NFYMLHBYpPUI6mK14kEBIwa
+            [code] => incorrect_cvc
+            [doc_url] => https://stripe.com/docs/error-codes/incorrect-cvc
+            [message] => Your card's security code is incorrect.
+            [param] => cvc
+            [payment_intent] => stdClass Object
+                (
+                    [id] => pi_3NFYMLHBYpPUI6mK1wRtzm0f
+                    [object] => payment_intent
+                    [amount] => 25000
+                    [amount_capturable] => 0
+                    [amount_details] => stdClass Object
+                        (
+                            [tip] => stdClass Object
+                                (
+                                )
+
+                        )
+
+                    [amount_received] => 0
+                    [application] => 
+                    [application_fee_amount] => 
+                    [automatic_payment_methods] => 
+                    [canceled_at] => 
+                    [cancellation_reason] => 
+                    [capture_method] => automatic
+                    [charges] => stdClass Object
+                        (
+                            [object] => list
+                            [data] => Array
+                                (
+                                    [0] => stdClass Object
+                                        (
+                                            [id] => ch_3NFYMLHBYpPUI6mK14kEBIwa
+                                            [object] => charge
+                                            [amount] => 25000
+                                            [amount_captured] => 0
+                                            [amount_refunded] => 0
+                                            [application] => 
+                                            [application_fee] => 
+                                            [application_fee_amount] => 
+                                            [balance_transaction] => 
+                                            [billing_details] => stdClass Object
+                                                (
+                                                    [address] => stdClass Object
+                                                        (
+                                                            [city] => Dau, Mabalacat City
+                                                            [country] => PH
+                                                            [line1] => 3977 General Tinio Street
+                                                            [line2] => 
+                                                            [postal_code] => 2010
+                                                            [state] => PAM
+                                                        )
+
+                                                    [email] => sia.quiambao.jeremiah@gmail.com
+                                                    [name] => Guren Quiambao
+                                                    [phone] => 09435381366
+                                                )
+
+                                            [calculated_statement_descriptor] => WWW.GOLTEBBUSTERS.STOR
+                                            [captured] => 
+                                            [created] => 1685952110
+                                            [currency] => php
+                                            [customer] => cus_O1X7sWrhS3eddJ
+                                            [description] => Golteb Busters - Order 115
+                                            [destination] => 
+                                            [dispute] => 
+                                            [disputed] => 
+                                            [failure_balance_transaction] => 
+                                            [failure_code] => incorrect_cvc
+                                            [failure_message] => Your card's security code is incorrect.
+                                            [fraud_details] => stdClass Object
+                                                (
+                                                )
+
+                                            [invoice] => 
+                                            [livemode] => 
+                                            [metadata] => stdClass Object
+                                                (
+                                                    [order_id] => 115
+                                                    [site_url] => https://www.goltebbusters.store
+                                                    [customer_email] => sia.quiambao.jeremiah@gmail.com
+                                                    [customer_name] => Guren Quiambao
+                                                )
+
+                                            [on_behalf_of] => 
+                                            [order] => 
+                                            [outcome] => stdClass Object
+                                                (
+                                                    [network_status] => declined_by_network
+                                                    [reason] => incorrect_cvc
+                                                    [risk_level] => normal
+                                                    [risk_score] => 55
+                                                    [seller_message] => The bank returned the decline code `incorrect_cvc`.
+                                                    [type] => issuer_declined
+                                                )
+
+                                            [paid] => 
+                                            [payment_intent] => pi_3NFYMLHBYpPUI6mK1wRtzm0f
+                                            [payment_method] => pm_1NFYMJHBYpPUI6mKKvBw24TL
+                                            [payment_method_details] => stdClass Object
+                                                (
+                                                    [card] => stdClass Object
+                                                        (
+                                                            [brand] => visa
+                                                            [checks] => stdClass Object
+                                                                (
+                                                                    [address_line1_check] => pass
+                                                                    [address_postal_code_check] => pass
+                                                                    [cvc_check] => fail
+                                                                )
+
+                                                            [country] => US
+                                                            [exp_month] => 12
+                                                            [exp_year] => 2034
+                                                            [fingerprint] => AKN3KHsDcdXa40tr
+                                                            [funding] => credit
+                                                            [installments] => 
+                                                            [last4] => 0127
+                                                            [mandate] => 
+                                                            [network] => visa
+                                                            [network_token] => stdClass Object
+                                                                (
+                                                                    [used] => 
+                                                                )
+
+                                                            [three_d_secure] => 
+                                                            [wallet] => 
+                                                        )
+
+                                                    [type] => card
+                                                )
+
+                                            [receipt_email] => 
+                                            [receipt_number] => 
+                                            [receipt_url] => 
+                                            [refunded] => 
+                                            [refunds] => stdClass Object
+                                                (
+                                                    [object] => list
+                                                    [data] => Array
+                                                        (
+                                                        )
+
+                                                    [has_more] => 
+                                                    [total_count] => 0
+                                                    [url] => /v1/charges/ch_3NFYMLHBYpPUI6mK14kEBIwa/refunds
+                                                )
+
+                                            [review] => 
+                                            [shipping] => stdClass Object
+                                                (
+                                                    [address] => stdClass Object
+                                                        (
+                                                            [city] => Dau, Mabalacat City
+                                                            [country] => PH
+                                                            [line1] => 3977 General Tinio Street
+                                                            [line2] => 
+                                                            [postal_code] => 2010
+                                                            [state] => PAM
+                                                        )
+
+                                                    [carrier] => 
+                                                    [name] => Guren Quiambao
+                                                    [phone] => 
+                                                    [tracking_number] => 
+                                                )
+
+                                            [source] => 
+                                            [source_transfer] => 
+                                            [statement_descriptor] => 
+                                            [statement_descriptor_suffix] => 
+                                            [status] => failed
+                                            [transfer_data] => 
+                                            [transfer_group] => 
+                                        )
+
+                                )
+
+                            [has_more] => 
+                            [total_count] => 1
+                            [url] => /v1/charges?payment_intent=pi_3NFYMLHBYpPUI6mK1wRtzm0f
+                        )
+
+                    [client_secret] => pi_3NFYMLHBYpPUI6mK1wRtzm0f_secret_uHbsXkJYmWdUAwT3gmOR2uSo2
+                    [confirmation_method] => automatic
+                    [created] => 1685952109
+                    [currency] => php
+                    [customer] => cus_O1X7sWrhS3eddJ
+                    [description] => Golteb Busters - Order 115
+                    [invoice] => 
+                    [last_payment_error] => stdClass Object
+                        (
+                            [charge] => ch_3NFYMLHBYpPUI6mK14kEBIwa
+                            [code] => incorrect_cvc
+                            [doc_url] => https://stripe.com/docs/error-codes/incorrect-cvc
+                            [message] => Your card's security code is incorrect.
+                            [param] => cvc
+                            [payment_method] => stdClass Object
+                                (
+                                    [id] => pm_1NFYMJHBYpPUI6mKKvBw24TL
+                                    [object] => payment_method
+                                    [billing_details] => stdClass Object
+                                        (
+                                            [address] => stdClass Object
+                                                (
+                                                    [city] => Dau, Mabalacat City
+                                                    [country] => PH
+                                                    [line1] => 3977 General Tinio Street
+                                                    [line2] => 
+                                                    [postal_code] => 2010
+                                                    [state] => PAM
+                                                )
+
+                                            [email] => sia.quiambao.jeremiah@gmail.com
+                                            [name] => Guren Quiambao
+                                            [phone] => 09435381366
+                                        )
+
+                                    [card] => stdClass Object
+                                        (
+                                            [brand] => visa
+                                            [checks] => stdClass Object
+                                                (
+                                                    [address_line1_check] => pass
+                                                    [address_postal_code_check] => pass
+                                                    [cvc_check] => fail
+                                                )
+
+                                            [country] => US
+                                            [exp_month] => 12
+                                            [exp_year] => 2034
+                                            [fingerprint] => AKN3KHsDcdXa40tr
+                                            [funding] => credit
+                                            [generated_from] => 
+                                            [last4] => 0127
+                                            [networks] => stdClass Object
+                                                (
+                                                    [available] => Array
+                                                        (
+                                                            [0] => visa
+                                                        )
+
+                                                    [preferred] => 
+                                                )
+
+                                            [three_d_secure_usage] => stdClass Object
+                                                (
+                                                    [supported] => 1
+                                                )
+
+                                            [wallet] => 
+                                        )
+
+                                    [created] => 1685952107
+                                    [customer] => 
+                                    [livemode] => 
+                                    [metadata] => stdClass Object
+                                        (
+                                        )
+
+                                    [type] => card
+                                )
+
+                            [type] => card_error
+                        )
+
+                    [latest_charge] => ch_3NFYMLHBYpPUI6mK14kEBIwa
+                    [livemode] => 
+                    [metadata] => stdClass Object
+                        (
+                            [order_id] => 115
+                            [site_url] => https://www.goltebbusters.store
+                            [customer_email] => sia.quiambao.jeremiah@gmail.com
+                            [customer_name] => Guren Quiambao
+                        )
+
+                    [next_action] => 
+                    [on_behalf_of] => 
+                    [payment_method] => 
+                    [payment_method_options] => stdClass Object
+                        (
+                            [card] => stdClass Object
+                                (
+                                    [installments] => 
+                                    [mandate_options] => 
+                                    [network] => 
+                                    [request_three_d_secure] => automatic
+                                )
+
+                        )
+
+                    [payment_method_types] => Array
+                        (
+                            [0] => card
+                        )
+
+                    [processing] => 
+                    [receipt_email] => 
+                    [review] => 
+                    [setup_future_usage] => 
+                    [shipping] => stdClass Object
+                        (
+                            [address] => stdClass Object
+                                (
+                                    [city] => Dau, Mabalacat City
+                                    [country] => PH
+                                    [line1] => 3977 General Tinio Street
+                                    [line2] => 
+                                    [postal_code] => 2010
+                                    [state] => PAM
+                                )
+
+                            [carrier] => 
+                            [name] => Guren Quiambao
+                            [phone] => 
+                            [tracking_number] => 
+                        )
+
+                    [source] => 
+                    [statement_descriptor] => 
+                    [statement_descriptor_suffix] => 
+                    [status] => requires_payment_method
+                    [transfer_data] => 
+                    [transfer_group] => 
+                )
+
+            [payment_method] => stdClass Object
+                (
+                    [id] => pm_1NFYMJHBYpPUI6mKKvBw24TL
+                    [object] => payment_method
+                    [billing_details] => stdClass Object
+                        (
+                            [address] => stdClass Object
+                                (
+                                    [city] => Dau, Mabalacat City
+                                    [country] => PH
+                                    [line1] => 3977 General Tinio Street
+                                    [line2] => 
+                                    [postal_code] => 2010
+                                    [state] => PAM
+                                )
+
+                            [email] => sia.quiambao.jeremiah@gmail.com
+                            [name] => Guren Quiambao
+                            [phone] => 09435381366
+                        )
+
+                    [card] => stdClass Object
+                        (
+                            [brand] => visa
+                            [checks] => stdClass Object
+                                (
+                                    [address_line1_check] => pass
+                                    [address_postal_code_check] => pass
+                                    [cvc_check] => fail
+                                )
+
+                            [country] => US
+                            [exp_month] => 12
+                            [exp_year] => 2034
+                            [fingerprint] => AKN3KHsDcdXa40tr
+                            [funding] => credit
+                            [generated_from] => 
+                            [last4] => 0127
+                            [networks] => stdClass Object
+                                (
+                                    [available] => Array
+                                        (
+                                            [0] => visa
+                                        )
+
+                                    [preferred] => 
+                                )
+
+                            [three_d_secure_usage] => stdClass Object
+                                (
+                                    [supported] => 1
+                                )
+
+                            [wallet] => 
+                        )
+
+                    [created] => 1685952107
+                    [customer] => 
+                    [livemode] => 
+                    [metadata] => stdClass Object
+                        (
+                        )
+
+                    [type] => card
+                )
+
+            [request_log_url] => https://dashboard.stripe.com/test/logs/req_rU2C1p10Z93tu0?t=1685952110
+            [type] => card_error
+        )
+
+)
+
+====End Log====
+
+
+2023-06-05T08:02:04+00:00 DEBUG 
+====Stripe Version: 7.4.1====
+====Start Log====
+payment_intents/pi_3NFYMLHBYpPUI6mK1wRtzm0f?expand[]=payment_method request: Array
+(
+)
+
+====End Log====
+
+
+2023-06-05T08:02:04+00:00 DEBUG 
+====Stripe Version: 7.4.1====
+====Start Log====
+payment_methods/pm_1NFYMZHBYpPUI6mKvVjRndjL
+====End Log====
+
+
+2023-06-05T08:02:04+00:00 DEBUG 
+====Stripe Version: 7.4.1====
+====Start Log====
+customers/cus_O1X7sWrhS3eddJ request: Array
+(
+    [email] => sia.quiambao.jeremiah@gmail.com
+    [description] => Name: Guren Quiambao, Username: guren.quiambao
+    [name] => Guren Quiambao
+    [metadata] => Array
+        (
+        )
+
+    [preferred_locales] => Array
+        (
+            [0] => en-US
+        )
+
+)
+
+====End Log====
+
+
+2023-06-05T08:02:05+00:00 DEBUG 
+====Stripe Version: 7.4.1====
+====Start Log====
+Info: Begin processing payment for order 115 for the amount of 250.00
+====End Log====
+
+
+2023-06-05T08:02:05+00:00 DEBUG 
+====Stripe Version: 7.4.1====
+====Start Log====
+payment_intents/pi_3NFYMLHBYpPUI6mK1wRtzm0f request: Array
+(
+    [payment_method] => pm_1NFYMZHBYpPUI6mKvVjRndjL
+    [payment_method_types] => Array
+        (
+            [0] => card
+        )
+
+)
+
+====End Log====
+
+
+2023-06-05T08:02:05+00:00 DEBUG 
+====Stripe Version: 7.4.1====
+====Start Log====
+payment_intents/pi_3NFYMLHBYpPUI6mK1wRtzm0f/confirm request: Array
+(
+    [payment_method] => pm_1NFYMZHBYpPUI6mKvVjRndjL
+)
+
+====End Log====
+
+
+2023-06-05T08:02:06+00:00 DEBUG 
+====Stripe Version: 7.4.1====
+====Start Log====
+Error: stdClass Object
+(
+    [error] => stdClass Object
+        (
+            [charge] => ch_3NFYMLHBYpPUI6mK1nCSS1aT
+            [code] => card_declined
+            [decline_code] => stolen_card
+            [doc_url] => https://stripe.com/docs/error-codes/card-declined
+            [message] => Your card was declined.
+            [payment_intent] => stdClass Object
+                (
+                    [id] => pi_3NFYMLHBYpPUI6mK1wRtzm0f
+                    [object] => payment_intent
+                    [amount] => 25000
+                    [amount_capturable] => 0
+                    [amount_details] => stdClass Object
+                        (
+                            [tip] => stdClass Object
+                                (
+                                )
+
+                        )
+
+                    [amount_received] => 0
+                    [application] => 
+                    [application_fee_amount] => 
+                    [automatic_payment_methods] => 
+                    [canceled_at] => 
+                    [cancellation_reason] => 
+                    [capture_method] => automatic
+                    [charges] => stdClass Object
+                        (
+                            [object] => list
+                            [data] => Array
+                                (
+                                    [0] => stdClass Object
+                                        (
+                                            [id] => ch_3NFYMLHBYpPUI6mK1nCSS1aT
+                                            [object] => charge
+                                            [amount] => 25000
+                                            [amount_captured] => 0
+                                            [amount_refunded] => 0
+                                            [application] => 
+                                            [application_fee] => 
+                                            [application_fee_amount] => 
+                                            [balance_transaction] => 
+                                            [billing_details] => stdClass Object
+                                                (
+                                                    [address] => stdClass Object
+                                                        (
+                                                            [city] => Dau, Mabalacat City
+                                                            [country] => PH
+                                                            [line1] => 3977 General Tinio Street
+                                                            [line2] => 
+                                                            [postal_code] => 2010
+                                                            [state] => PAM
+                                                        )
+
+                                                    [email] => sia.quiambao.jeremiah@gmail.com
+                                                    [name] => Guren Quiambao
+                                                    [phone] => 09435381366
+                                                )
+
+                                            [calculated_statement_descriptor] => WWW.GOLTEBBUSTERS.STOR
+                                            [captured] => 
+                                            [created] => 1685952126
+                                            [currency] => php
+                                            [customer] => cus_O1X7sWrhS3eddJ
+                                            [description] => Golteb Busters - Order 115
+                                            [destination] => 
+                                            [dispute] => 
+                                            [disputed] => 
+                                            [failure_balance_transaction] => 
+                                            [failure_code] => card_declined
+                                            [failure_message] => Your card was declined.
+                                            [fraud_details] => stdClass Object
+                                                (
+                                                )
+
+                                            [invoice] => 
+                                            [livemode] => 
+                                            [metadata] => stdClass Object
+                                                (
+                                                    [order_id] => 115
+                                                    [site_url] => https://www.goltebbusters.store
+                                                    [customer_email] => sia.quiambao.jeremiah@gmail.com
+                                                    [customer_name] => Guren Quiambao
+                                                )
+
+                                            [on_behalf_of] => 
+                                            [order] => 
+                                            [outcome] => stdClass Object
+                                                (
+                                                    [network_status] => declined_by_network
+                                                    [reason] => stolen_card
+                                                    [risk_level] => normal
+                                                    [risk_score] => 59
+                                                    [seller_message] => The bank returned the decline code `stolen_card`.
+                                                    [type] => issuer_declined
+                                                )
+
+                                            [paid] => 
+                                            [payment_intent] => pi_3NFYMLHBYpPUI6mK1wRtzm0f
+                                            [payment_method] => pm_1NFYMZHBYpPUI6mKvVjRndjL
+                                            [payment_method_details] => stdClass Object
+                                                (
+                                                    [card] => stdClass Object
+                                                        (
+                                                            [brand] => visa
+                                                            [checks] => stdClass Object
+                                                                (
+                                                                    [address_line1_check] => pass
+                                                                    [address_postal_code_check] => pass
+                                                                    [cvc_check] => pass
+                                                                )
+
+                                                            [country] => US
+                                                            [exp_month] => 12
+                                                            [exp_year] => 2034
+                                                            [fingerprint] => bb6GFN2sNwjAwUof
+                                                            [funding] => credit
+                                                            [installments] => 
+                                                            [last4] => 9979
+                                                            [mandate] => 
+                                                            [network] => visa
+                                                            [network_token] => stdClass Object
+                                                                (
+                                                                    [used] => 
+                                                                )
+
+                                                            [three_d_secure] => 
+                                                            [wallet] => 
+                                                        )
+
+                                                    [type] => card
+                                                )
+
+                                            [receipt_email] => 
+                                            [receipt_number] => 
+                                            [receipt_url] => 
+                                            [refunded] => 
+                                            [refunds] => stdClass Object
+                                                (
+                                                    [object] => list
+                                                    [data] => Array
+                                                        (
+                                                        )
+
+                                                    [has_more] => 
+                                                    [total_count] => 0
+                                                    [url] => /v1/charges/ch_3NFYMLHBYpPUI6mK1nCSS1aT/refunds
+                                                )
+
+                                            [review] => 
+                                            [shipping] => stdClass Object
+                                                (
+                                                    [address] => stdClass Object
+                                                        (
+                                                            [city] => Dau, Mabalacat City
+                                                            [country] => PH
+                                                            [line1] => 3977 General Tinio Street
+                                                            [line2] => 
+                                                            [postal_code] => 2010
+                                                            [state] => PAM
+                                                        )
+
+                                                    [carrier] => 
+                                                    [name] => Guren Quiambao
+                                                    [phone] => 
+                                                    [tracking_number] => 
+                                                )
+
+                                            [source] => 
+                                            [source_transfer] => 
+                                            [statement_descriptor] => 
+                                            [statement_descriptor_suffix] => 
+                                            [status] => failed
+                                            [transfer_data] => 
+                                            [transfer_group] => 
+                                        )
+
+                                )
+
+                            [has_more] => 1
+                            [total_count] => 2
+                            [url] => /v1/charges?payment_intent=pi_3NFYMLHBYpPUI6mK1wRtzm0f
+                        )
+
+                    [client_secret] => pi_3NFYMLHBYpPUI6mK1wRtzm0f_secret_uHbsXkJYmWdUAwT3gmOR2uSo2
+                    [confirmation_method] => automatic
+                    [created] => 1685952109
+                    [currency] => php
+                    [customer] => cus_O1X7sWrhS3eddJ
+                    [description] => Golteb Busters - Order 115
+                    [invoice] => 
+                    [last_payment_error] => stdClass Object
+                        (
+                            [charge] => ch_3NFYMLHBYpPUI6mK1nCSS1aT
+                            [code] => card_declined
+                            [decline_code] => stolen_card
+                            [doc_url] => https://stripe.com/docs/error-codes/card-declined
+                            [message] => Your card was declined.
+                            [payment_method] => stdClass Object
+                                (
+                                    [id] => pm_1NFYMZHBYpPUI6mKvVjRndjL
+                                    [object] => payment_method
+                                    [billing_details] => stdClass Object
+                                        (
+                                            [address] => stdClass Object
+                                                (
+                                                    [city] => Dau, Mabalacat City
+                                                    [country] => PH
+                                                    [line1] => 3977 General Tinio Street
+                                                    [line2] => 
+                                                    [postal_code] => 2010
+                                                    [state] => PAM
+                                                )
+
+                                            [email] => sia.quiambao.jeremiah@gmail.com
+                                            [name] => Guren Quiambao
+                                            [phone] => 09435381366
+                                        )
+
+                                    [card] => stdClass Object
+                                        (
+                                            [brand] => visa
+                                            [checks] => stdClass Object
+                                                (
+                                                    [address_line1_check] => pass
+                                                    [address_postal_code_check] => pass
+                                                    [cvc_check] => pass
+                                                )
+
+                                            [country] => US
+                                            [exp_month] => 12
+                                            [exp_year] => 2034
+                                            [fingerprint] => bb6GFN2sNwjAwUof
+                                            [funding] => credit
+                                            [generated_from] => 
+                                            [last4] => 9979
+                                            [networks] => stdClass Object
+                                                (
+                                                    [available] => Array
+                                                        (
+                                                            [0] => visa
+                                                        )
+
+                                                    [preferred] => 
+                                                )
+
+                                            [three_d_secure_usage] => stdClass Object
+                                                (
+                                                    [supported] => 1
+                                                )
+
+                                            [wallet] => 
+                                        )
+
+                                    [created] => 1685952123
+                                    [customer] => 
+                                    [livemode] => 
+                                    [metadata] => stdClass Object
+                                        (
+                                        )
+
+                                    [type] => card
+                                )
+
+                            [type] => card_error
+                        )
+
+                    [latest_charge] => ch_3NFYMLHBYpPUI6mK1nCSS1aT
+                    [livemode] => 
+                    [metadata] => stdClass Object
+                        (
+                            [order_id] => 115
+                            [site_url] => https://www.goltebbusters.store
+                            [customer_email] => sia.quiambao.jeremiah@gmail.com
+                            [customer_name] => Guren Quiambao
+                        )
+
+                    [next_action] => 
+                    [on_behalf_of] => 
+                    [payment_method] => 
+                    [payment_method_options] => stdClass Object
+                        (
+                            [card] => stdClass Object
+                                (
+                                    [installments] => 
+                                    [mandate_options] => 
+                                    [network] => 
+                                    [request_three_d_secure] => automatic
+                                )
+
+                        )
+
+                    [payment_method_types] => Array
+                        (
+                            [0] => card
+                        )
+
+                    [processing] => 
+                    [receipt_email] => 
+                    [review] => 
+                    [setup_future_usage] => 
+                    [shipping] => stdClass Object
+                        (
+                            [address] => stdClass Object
+                                (
+                                    [city] => Dau, Mabalacat City
+                                    [country] => PH
+                                    [line1] => 3977 General Tinio Street
+                                    [line2] => 
+                                    [postal_code] => 2010
+                                    [state] => PAM
+                                )
+
+                            [carrier] => 
+                            [name] => Guren Quiambao
+                            [phone] => 
+                            [tracking_number] => 
+                        )
+
+                    [source] => 
+                    [statement_descriptor] => 
+                    [statement_descriptor_suffix] => 
+                    [status] => requires_payment_method
+                    [transfer_data] => 
+                    [transfer_group] => 
+                )
+
+            [payment_method] => stdClass Object
+                (
+                    [id] => pm_1NFYMZHBYpPUI6mKvVjRndjL
+                    [object] => payment_method
+                    [billing_details] => stdClass Object
+                        (
+                            [address] => stdClass Object
+                                (
+                                    [city] => Dau, Mabalacat City
+                                    [country] => PH
+                                    [line1] => 3977 General Tinio Street
+                                    [line2] => 
+                                    [postal_code] => 2010
+                                    [state] => PAM
+                                )
+
+                            [email] => sia.quiambao.jeremiah@gmail.com
+                            [name] => Guren Quiambao
+                            [phone] => 09435381366
+                        )
+
+                    [card] => stdClass Object
+                        (
+                            [brand] => visa
+                            [checks] => stdClass Object
+                                (
+                                    [address_line1_check] => pass
+                                    [address_postal_code_check] => pass
+                                    [cvc_check] => pass
+                                )
+
+                            [country] => US
+                            [exp_month] => 12
+                            [exp_year] => 2034
+                            [fingerprint] => bb6GFN2sNwjAwUof
+                            [funding] => credit
+                            [generated_from] => 
+                            [last4] => 9979
+                            [networks] => stdClass Object
+                                (
+                                    [available] => Array
+                                        (
+                                            [0] => visa
+                                        )
+
+                                    [preferred] => 
+                                )
+
+                            [three_d_secure_usage] => stdClass Object
+                                (
+                                    [supported] => 1
+                                )
+
+                            [wallet] => 
+                        )
+
+                    [created] => 1685952123
+                    [customer] => 
+                    [livemode] => 
+                    [metadata] => stdClass Object
+                        (
+                        )
+
+                    [type] => card
+                )
+
+            [request_log_url] => https://dashboard.stripe.com/test/logs/req_tVSArnyhuv65Zk?t=1685952125
+            [type] => card_error
+        )
+
+)
+
+====End Log====
+
+
+2023-06-05T08:02:48+00:00 DEBUG 
+====Stripe Version: 7.4.1====
+====Start Log====
+payment_intents/pi_3NFYMLHBYpPUI6mK1wRtzm0f?expand[]=payment_method request: Array
+(
+)
+
+====End Log====
+
+
+2023-06-05T08:02:49+00:00 DEBUG 
+====Stripe Version: 7.4.1====
+====Start Log====
+payment_methods/pm_1NFYNIHBYpPUI6mKVIAoi1Su
+====End Log====
+
+
+2023-06-05T08:02:49+00:00 DEBUG 
+====Stripe Version: 7.4.1====
+====Start Log====
+customers/cus_O1X7sWrhS3eddJ request: Array
+(
+    [email] => sia.quiambao.jeremiah@gmail.com
+    [description] => Name: Guren Quiambao, Username: guren.quiambao
+    [name] => Guren Quiambao
+    [metadata] => Array
+        (
+        )
+
+    [preferred_locales] => Array
+        (
+            [0] => en-US
+        )
+
+)
+
+====End Log====
+
+
+2023-06-05T08:02:49+00:00 DEBUG 
+====Stripe Version: 7.4.1====
+====Start Log====
+Info: Begin processing payment for order 115 for the amount of 250.00
+====End Log====
+
+
+2023-06-05T08:02:49+00:00 DEBUG 
+====Stripe Version: 7.4.1====
+====Start Log====
+payment_intents/pi_3NFYMLHBYpPUI6mK1wRtzm0f request: Array
+(
+    [payment_method] => pm_1NFYNIHBYpPUI6mKVIAoi1Su
+    [payment_method_types] => Array
+        (
+            [0] => card
+        )
+
+)
+
+====End Log====
+
+
+2023-06-05T08:02:50+00:00 DEBUG 
+====Stripe Version: 7.4.1====
+====Start Log====
+payment_intents/pi_3NFYMLHBYpPUI6mK1wRtzm0f/confirm request: Array
+(
+    [payment_method] => pm_1NFYNIHBYpPUI6mKVIAoi1Su
+)
+
+====End Log====
+
+
+2023-06-05T08:02:51+00:00 DEBUG 
+====Stripe Version: 7.4.1====
+====Start Log====
+Error: stdClass Object
+(
+    [error] => stdClass Object
+        (
+            [charge] => ch_3NFYMLHBYpPUI6mK1oJA3Z5S
+            [code] => card_declined
+            [decline_code] => lost_card
+            [doc_url] => https://stripe.com/docs/error-codes/card-declined
+            [message] => Your card was declined.
+            [payment_intent] => stdClass Object
+                (
+                    [id] => pi_3NFYMLHBYpPUI6mK1wRtzm0f
+                    [object] => payment_intent
+                    [amount] => 25000
+                    [amount_capturable] => 0
+                    [amount_details] => stdClass Object
+                        (
+                            [tip] => stdClass Object
+                                (
+                                )
+
+                        )
+
+                    [amount_received] => 0
+                    [application] => 
+                    [application_fee_amount] => 
+                    [automatic_payment_methods] => 
+                    [canceled_at] => 
+                    [cancellation_reason] => 
+                    [capture_method] => automatic
+                    [charges] => stdClass Object
+                        (
+                            [object] => list
+                            [data] => Array
+                                (
+                                    [0] => stdClass Object
+                                        (
+                                            [id] => ch_3NFYMLHBYpPUI6mK1oJA3Z5S
+                                            [object] => charge
+                                            [amount] => 25000
+                                            [amount_captured] => 0
+                                            [amount_refunded] => 0
+                                            [application] => 
+                                            [application_fee] => 
+                                            [application_fee_amount] => 
+                                            [balance_transaction] => 
+                                            [billing_details] => stdClass Object
+                                                (
+                                                    [address] => stdClass Object
+                                                        (
+                                                            [city] => Dau, Mabalacat City
+                                                            [country] => PH
+                                                            [line1] => 3977 General Tinio Street
+                                                            [line2] => 
+                                                            [postal_code] => 2010
+                                                            [state] => PAM
+                                                        )
+
+                                                    [email] => sia.quiambao.jeremiah@gmail.com
+                                                    [name] => Guren Quiambao
+                                                    [phone] => 09435381366
+                                                )
+
+                                            [calculated_statement_descriptor] => WWW.GOLTEBBUSTERS.STOR
+                                            [captured] => 
+                                            [created] => 1685952170
+                                            [currency] => php
+                                            [customer] => cus_O1X7sWrhS3eddJ
+                                            [description] => Golteb Busters - Order 115
+                                            [destination] => 
+                                            [dispute] => 
+                                            [disputed] => 
+                                            [failure_balance_transaction] => 
+                                            [failure_code] => card_declined
+                                            [failure_message] => Your card was declined.
+                                            [fraud_details] => stdClass Object
+                                                (
+                                                )
+
+                                            [invoice] => 
+                                            [livemode] => 
+                                            [metadata] => stdClass Object
+                                                (
+                                                    [order_id] => 115
+                                                    [site_url] => https://www.goltebbusters.store
+                                                    [customer_email] => sia.quiambao.jeremiah@gmail.com
+                                                    [customer_name] => Guren Quiambao
+                                                )
+
+                                            [on_behalf_of] => 
+                                            [order] => 
+                                            [outcome] => stdClass Object
+                                                (
+                                                    [network_status] => declined_by_network
+                                                    [reason] => lost_card
+                                                    [risk_level] => normal
+                                                    [risk_score] => 7
+                                                    [seller_message] => The bank returned the decline code `lost_card`.
+                                                    [type] => issuer_declined
+                                                )
+
+                                            [paid] => 
+                                            [payment_intent] => pi_3NFYMLHBYpPUI6mK1wRtzm0f
+                                            [payment_method] => pm_1NFYNIHBYpPUI6mKVIAoi1Su
+                                            [payment_method_details] => stdClass Object
+                                                (
+                                                    [card] => stdClass Object
+                                                        (
+                                                            [brand] => visa
+                                                            [checks] => stdClass Object
+                                                                (
+                                                                    [address_line1_check] => pass
+                                                                    [address_postal_code_check] => pass
+                                                                    [cvc_check] => pass
+                                                                )
+
+                                                            [country] => US
+                                                            [exp_month] => 12
+                                                            [exp_year] => 2034
+                                                            [fingerprint] => vMkhCu8UGX96xLZq
+                                                            [funding] => credit
+                                                            [installments] => 
+                                                            [last4] => 9987
+                                                            [mandate] => 
+                                                            [network] => visa
+                                                            [network_token] => stdClass Object
+                                                                (
+                                                                    [used] => 
+                                                                )
+
+                                                            [three_d_secure] => 
+                                                            [wallet] => 
+                                                        )
+
+                                                    [type] => card
+                                                )
+
+                                            [receipt_email] => 
+                                            [receipt_number] => 
+                                            [receipt_url] => 
+                                            [refunded] => 
+                                            [refunds] => stdClass Object
+                                                (
+                                                    [object] => list
+                                                    [data] => Array
+                                                        (
+                                                        )
+
+                                                    [has_more] => 
+                                                    [total_count] => 0
+                                                    [url] => /v1/charges/ch_3NFYMLHBYpPUI6mK1oJA3Z5S/refunds
+                                                )
+
+                                            [review] => 
+                                            [shipping] => stdClass Object
+                                                (
+                                                    [address] => stdClass Object
+                                                        (
+                                                            [city] => Dau, Mabalacat City
+                                                            [country] => PH
+                                                            [line1] => 3977 General Tinio Street
+                                                            [line2] => 
+                                                            [postal_code] => 2010
+                                                            [state] => PAM
+                                                        )
+
+                                                    [carrier] => 
+                                                    [name] => Guren Quiambao
+                                                    [phone] => 
+                                                    [tracking_number] => 
+                                                )
+
+                                            [source] => 
+                                            [source_transfer] => 
+                                            [statement_descriptor] => 
+                                            [statement_descriptor_suffix] => 
+                                            [status] => failed
+                                            [transfer_data] => 
+                                            [transfer_group] => 
+                                        )
+
+                                )
+
+                            [has_more] => 1
+                            [total_count] => 2
+                            [url] => /v1/charges?payment_intent=pi_3NFYMLHBYpPUI6mK1wRtzm0f
+                        )
+
+                    [client_secret] => pi_3NFYMLHBYpPUI6mK1wRtzm0f_secret_uHbsXkJYmWdUAwT3gmOR2uSo2
+                    [confirmation_method] => automatic
+                    [created] => 1685952109
+                    [currency] => php
+                    [customer] => cus_O1X7sWrhS3eddJ
+                    [description] => Golteb Busters - Order 115
+                    [invoice] => 
+                    [last_payment_error] => stdClass Object
+                        (
+                            [charge] => ch_3NFYMLHBYpPUI6mK1oJA3Z5S
+                            [code] => card_declined
+                            [decline_code] => lost_card
+                            [doc_url] => https://stripe.com/docs/error-codes/card-declined
+                            [message] => Your card was declined.
+                            [payment_method] => stdClass Object
+                                (
+                                    [id] => pm_1NFYNIHBYpPUI6mKVIAoi1Su
+                                    [object] => payment_method
+                                    [billing_details] => stdClass Object
+                                        (
+                                            [address] => stdClass Object
+                                                (
+                                                    [city] => Dau, Mabalacat City
+                                                    [country] => PH
+                                                    [line1] => 3977 General Tinio Street
+                                                    [line2] => 
+                                                    [postal_code] => 2010
+                                                    [state] => PAM
+                                                )
+
+                                            [email] => sia.quiambao.jeremiah@gmail.com
+                                            [name] => Guren Quiambao
+                                            [phone] => 09435381366
+                                        )
+
+                                    [card] => stdClass Object
+                                        (
+                                            [brand] => visa
+                                            [checks] => stdClass Object
+                                                (
+                                                    [address_line1_check] => pass
+                                                    [address_postal_code_check] => pass
+                                                    [cvc_check] => pass
+                                                )
+
+                                            [country] => US
+                                            [exp_month] => 12
+                                            [exp_year] => 2034
+                                            [fingerprint] => vMkhCu8UGX96xLZq
+                                            [funding] => credit
+                                            [generated_from] => 
+                                            [last4] => 9987
+                                            [networks] => stdClass Object
+                                                (
+                                                    [available] => Array
+                                                        (
+                                                            [0] => visa
+                                                        )
+
+                                                    [preferred] => 
+                                                )
+
+                                            [three_d_secure_usage] => stdClass Object
+                                                (
+                                                    [supported] => 1
+                                                )
+
+                                            [wallet] => 
+                                        )
+
+                                    [created] => 1685952168
+                                    [customer] => 
+                                    [livemode] => 
+                                    [metadata] => stdClass Object
+                                        (
+                                        )
+
+                                    [type] => card
+                                )
+
+                            [type] => card_error
+                        )
+
+                    [latest_charge] => ch_3NFYMLHBYpPUI6mK1oJA3Z5S
+                    [livemode] => 
+                    [metadata] => stdClass Object
+                        (
+                            [order_id] => 115
+                            [site_url] => https://www.goltebbusters.store
+                            [customer_email] => sia.quiambao.jeremiah@gmail.com
+                            [customer_name] => Guren Quiambao
+                        )
+
+                    [next_action] => 
+                    [on_behalf_of] => 
+                    [payment_method] => 
+                    [payment_method_options] => stdClass Object
+                        (
+                            [card] => stdClass Object
+                                (
+                                    [installments] => 
+                                    [mandate_options] => 
+                                    [network] => 
+                                    [request_three_d_secure] => automatic
+                                )
+
+                        )
+
+                    [payment_method_types] => Array
+                        (
+                            [0] => card
+                        )
+
+                    [processing] => 
+                    [receipt_email] => 
+                    [review] => 
+                    [setup_future_usage] => 
+                    [shipping] => stdClass Object
+                        (
+                            [address] => stdClass Object
+                                (
+                                    [city] => Dau, Mabalacat City
+                                    [country] => PH
+                                    [line1] => 3977 General Tinio Street
+                                    [line2] => 
+                                    [postal_code] => 2010
+                                    [state] => PAM
+                                )
+
+                            [carrier] => 
+                            [name] => Guren Quiambao
+                            [phone] => 
+                            [tracking_number] => 
+                        )
+
+                    [source] => 
+                    [statement_descriptor] => 
+                    [statement_descriptor_suffix] => 
+                    [status] => requires_payment_method
+                    [transfer_data] => 
+                    [transfer_group] => 
+                )
+
+            [payment_method] => stdClass Object
+                (
+                    [id] => pm_1NFYNIHBYpPUI6mKVIAoi1Su
+                    [object] => payment_method
+                    [billing_details] => stdClass Object
+                        (
+                            [address] => stdClass Object
+                                (
+                                    [city] => Dau, Mabalacat City
+                                    [country] => PH
+                                    [line1] => 3977 General Tinio Street
+                                    [line2] => 
+                                    [postal_code] => 2010
+                                    [state] => PAM
+                                )
+
+                            [email] => sia.quiambao.jeremiah@gmail.com
+                            [name] => Guren Quiambao
+                            [phone] => 09435381366
+                        )
+
+                    [card] => stdClass Object
+                        (
+                            [brand] => visa
+                            [checks] => stdClass Object
+                                (
+                                    [address_line1_check] => pass
+                                    [address_postal_code_check] => pass
+                                    [cvc_check] => pass
+                                )
+
+                            [country] => US
+                            [exp_month] => 12
+                            [exp_year] => 2034
+                            [fingerprint] => vMkhCu8UGX96xLZq
+                            [funding] => credit
+                            [generated_from] => 
+                            [last4] => 9987
+                            [networks] => stdClass Object
+                                (
+                                    [available] => Array
+                                        (
+                                            [0] => visa
+                                        )
+
+                                    [preferred] => 
+                                )
+
+                            [three_d_secure_usage] => stdClass Object
+                                (
+                                    [supported] => 1
+                                )
+
+                            [wallet] => 
+                        )
+
+                    [created] => 1685952168
+                    [customer] => 
+                    [livemode] => 
+                    [metadata] => stdClass Object
+                        (
+                        )
+
+                    [type] => card
+                )
+
+            [request_log_url] => https://dashboard.stripe.com/test/logs/req_tMEJ2WUnVvCU1U?t=1685952170
+            [type] => card_error
+        )
+
+)
+
+====End Log====
+
+
+2023-06-05T08:03:05+00:00 DEBUG 
+====Stripe Version: 7.4.1====
+====Start Log====
+payment_intents/pi_3NFYMLHBYpPUI6mK1wRtzm0f?expand[]=payment_method request: Array
+(
+)
+
+====End Log====
+
+
+2023-06-05T08:03:05+00:00 DEBUG 
+====Stripe Version: 7.4.1====
+====Start Log====
+payment_methods/pm_1NFYNYHBYpPUI6mKugmLQt8B
+====End Log====
+
+
+2023-06-05T08:03:05+00:00 DEBUG 
+====Stripe Version: 7.4.1====
+====Start Log====
+customers/cus_O1X7sWrhS3eddJ request: Array
+(
+    [email] => sia.quiambao.jeremiah@gmail.com
+    [description] => Name: Guren Quiambao, Username: guren.quiambao
+    [name] => Guren Quiambao
+    [metadata] => Array
+        (
+        )
+
+    [preferred_locales] => Array
+        (
+            [0] => en-US
+        )
+
+)
+
+====End Log====
+
+
+2023-06-05T08:03:06+00:00 DEBUG 
+====Stripe Version: 7.4.1====
+====Start Log====
+Info: Begin processing payment for order 115 for the amount of 250.00
+====End Log====
+
+
+2023-06-05T08:03:06+00:00 DEBUG 
+====Stripe Version: 7.4.1====
+====Start Log====
+payment_intents/pi_3NFYMLHBYpPUI6mK1wRtzm0f request: Array
+(
+    [payment_method] => pm_1NFYNYHBYpPUI6mKugmLQt8B
+    [payment_method_types] => Array
+        (
+            [0] => card
+        )
+
+)
+
+====End Log====
+
+
+2023-06-05T08:03:06+00:00 DEBUG 
+====Stripe Version: 7.4.1====
+====Start Log====
+payment_intents/pi_3NFYMLHBYpPUI6mK1wRtzm0f/confirm request: Array
+(
+    [payment_method] => pm_1NFYNYHBYpPUI6mKugmLQt8B
+)
+
+====End Log====
+
+
+2023-06-05T08:03:07+00:00 DEBUG 
+====Stripe Version: 7.4.1====
+====Start Log====
+Error: stdClass Object
+(
+    [error] => stdClass Object
+        (
+            [charge] => ch_3NFYMLHBYpPUI6mK1I7yrViN
+            [code] => processing_error
+            [doc_url] => https://stripe.com/docs/error-codes/processing-error
+            [message] => An error occurred while processing your card. Try again in a little bit.
+            [payment_intent] => stdClass Object
+                (
+                    [id] => pi_3NFYMLHBYpPUI6mK1wRtzm0f
+                    [object] => payment_intent
+                    [amount] => 25000
+                    [amount_capturable] => 0
+                    [amount_details] => stdClass Object
+                        (
+                            [tip] => stdClass Object
+                                (
+                                )
+
+                        )
+
+                    [amount_received] => 0
+                    [application] => 
+                    [application_fee_amount] => 
+                    [automatic_payment_methods] => 
+                    [canceled_at] => 
+                    [cancellation_reason] => 
+                    [capture_method] => automatic
+                    [charges] => stdClass Object
+                        (
+                            [object] => list
+                            [data] => Array
+                                (
+                                    [0] => stdClass Object
+                                        (
+                                            [id] => ch_3NFYMLHBYpPUI6mK1I7yrViN
+                                            [object] => charge
+                                            [amount] => 25000
+                                            [amount_captured] => 0
+                                            [amount_refunded] => 0
+                                            [application] => 
+                                            [application_fee] => 
+                                            [application_fee_amount] => 
+                                            [balance_transaction] => 
+                                            [billing_details] => stdClass Object
+                                                (
+                                                    [address] => stdClass Object
+                                                        (
+                                                            [city] => Dau, Mabalacat City
+                                                            [country] => PH
+                                                            [line1] => 3977 General Tinio Street
+                                                            [line2] => 
+                                                            [postal_code] => 2010
+                                                            [state] => PAM
+                                                        )
+
+                                                    [email] => sia.quiambao.jeremiah@gmail.com
+                                                    [name] => Guren Quiambao
+                                                    [phone] => 09435381366
+                                                )
+
+                                            [calculated_statement_descriptor] => WWW.GOLTEBBUSTERS.STOR
+                                            [captured] => 
+                                            [created] => 1685952187
+                                            [currency] => php
+                                            [customer] => cus_O1X7sWrhS3eddJ
+                                            [description] => Golteb Busters - Order 115
+                                            [destination] => 
+                                            [dispute] => 
+                                            [disputed] => 
+                                            [failure_balance_transaction] => 
+                                            [failure_code] => processing_error
+                                            [failure_message] => An error occurred while processing your card. Try again in a little bit.
+                                            [fraud_details] => stdClass Object
+                                                (
+                                                )
+
+                                            [invoice] => 
+                                            [livemode] => 
+                                            [metadata] => stdClass Object
+                                                (
+                                                    [order_id] => 115
+                                                    [site_url] => https://www.goltebbusters.store
+                                                    [customer_email] => sia.quiambao.jeremiah@gmail.com
+                                                    [customer_name] => Guren Quiambao
+                                                )
+
+                                            [on_behalf_of] => 
+                                            [order] => 
+                                            [outcome] => stdClass Object
+                                                (
+                                                    [network_status] => declined_by_network
+                                                    [reason] => processing_error
+                                                    [risk_level] => normal
+                                                    [risk_score] => 42
+                                                    [seller_message] => The bank returned the decline code `processing_error`.
+                                                    [type] => issuer_declined
+                                                )
+
+                                            [paid] => 
+                                            [payment_intent] => pi_3NFYMLHBYpPUI6mK1wRtzm0f
+                                            [payment_method] => pm_1NFYNYHBYpPUI6mKugmLQt8B
+                                            [payment_method_details] => stdClass Object
+                                                (
+                                                    [card] => stdClass Object
+                                                        (
+                                                            [brand] => visa
+                                                            [checks] => stdClass Object
+                                                                (
+                                                                    [address_line1_check] => pass
+                                                                    [address_postal_code_check] => pass
+                                                                    [cvc_check] => pass
+                                                                )
+
+                                                            [country] => US
+                                                            [exp_month] => 12
+                                                            [exp_year] => 2034
+                                                            [fingerprint] => cqLiJSggpUp5V6FW
+                                                            [funding] => credit
+                                                            [installments] => 
+                                                            [last4] => 0119
+                                                            [mandate] => 
+                                                            [network] => visa
+                                                            [network_token] => stdClass Object
+                                                                (
+                                                                    [used] => 
+                                                                )
+
+                                                            [three_d_secure] => 
+                                                            [wallet] => 
+                                                        )
+
+                                                    [type] => card
+                                                )
+
+                                            [receipt_email] => 
+                                            [receipt_number] => 
+                                            [receipt_url] => 
+                                            [refunded] => 
+                                            [refunds] => stdClass Object
+                                                (
+                                                    [object] => list
+                                                    [data] => Array
+                                                        (
+                                                        )
+
+                                                    [has_more] => 
+                                                    [total_count] => 0
+                                                    [url] => /v1/charges/ch_3NFYMLHBYpPUI6mK1I7yrViN/refunds
+                                                )
+
+                                            [review] => 
+                                            [shipping] => stdClass Object
+                                                (
+                                                    [address] => stdClass Object
+                                                        (
+                                                            [city] => Dau, Mabalacat City
+                                                            [country] => PH
+                                                            [line1] => 3977 General Tinio Street
+                                                            [line2] => 
+                                                            [postal_code] => 2010
+                                                            [state] => PAM
+                                                        )
+
+                                                    [carrier] => 
+                                                    [name] => Guren Quiambao
+                                                    [phone] => 
+                                                    [tracking_number] => 
+                                                )
+
+                                            [source] => 
+                                            [source_transfer] => 
+                                            [statement_descriptor] => 
+                                            [statement_descriptor_suffix] => 
+                                            [status] => failed
+                                            [transfer_data] => 
+                                            [transfer_group] => 
+                                        )
+
+                                )
+
+                            [has_more] => 1
+                            [total_count] => 2
+                            [url] => /v1/charges?payment_intent=pi_3NFYMLHBYpPUI6mK1wRtzm0f
+                        )
+
+                    [client_secret] => pi_3NFYMLHBYpPUI6mK1wRtzm0f_secret_uHbsXkJYmWdUAwT3gmOR2uSo2
+                    [confirmation_method] => automatic
+                    [created] => 1685952109
+                    [currency] => php
+                    [customer] => cus_O1X7sWrhS3eddJ
+                    [description] => Golteb Busters - Order 115
+                    [invoice] => 
+                    [last_payment_error] => stdClass Object
+                        (
+                            [charge] => ch_3NFYMLHBYpPUI6mK1I7yrViN
+                            [code] => processing_error
+                            [doc_url] => https://stripe.com/docs/error-codes/processing-error
+                            [message] => An error occurred while processing your card. Try again in a little bit.
+                            [payment_method] => stdClass Object
+                                (
+                                    [id] => pm_1NFYNYHBYpPUI6mKugmLQt8B
+                                    [object] => payment_method
+                                    [billing_details] => stdClass Object
+                                        (
+                                            [address] => stdClass Object
+                                                (
+                                                    [city] => Dau, Mabalacat City
+                                                    [country] => PH
+                                                    [line1] => 3977 General Tinio Street
+                                                    [line2] => 
+                                                    [postal_code] => 2010
+                                                    [state] => PAM
+                                                )
+
+                                            [email] => sia.quiambao.jeremiah@gmail.com
+                                            [name] => Guren Quiambao
+                                            [phone] => 09435381366
+                                        )
+
+                                    [card] => stdClass Object
+                                        (
+                                            [brand] => visa
+                                            [checks] => stdClass Object
+                                                (
+                                                    [address_line1_check] => pass
+                                                    [address_postal_code_check] => pass
+                                                    [cvc_check] => pass
+                                                )
+
+                                            [country] => US
+                                            [exp_month] => 12
+                                            [exp_year] => 2034
+                                            [fingerprint] => cqLiJSggpUp5V6FW
+                                            [funding] => credit
+                                            [generated_from] => 
+                                            [last4] => 0119
+                                            [networks] => stdClass Object
+                                                (
+                                                    [available] => Array
+                                                        (
+                                                            [0] => visa
+                                                        )
+
+                                                    [preferred] => 
+                                                )
+
+                                            [three_d_secure_usage] => stdClass Object
+                                                (
+                                                    [supported] => 1
+                                                )
+
+                                            [wallet] => 
+                                        )
+
+                                    [created] => 1685952184
+                                    [customer] => 
+                                    [livemode] => 
+                                    [metadata] => stdClass Object
+                                        (
+                                        )
+
+                                    [type] => card
+                                )
+
+                            [type] => card_error
+                        )
+
+                    [latest_charge] => ch_3NFYMLHBYpPUI6mK1I7yrViN
+                    [livemode] => 
+                    [metadata] => stdClass Object
+                        (
+                            [order_id] => 115
+                            [site_url] => https://www.goltebbusters.store
+                            [customer_email] => sia.quiambao.jeremiah@gmail.com
+                            [customer_name] => Guren Quiambao
+                        )
+
+                    [next_action] => 
+                    [on_behalf_of] => 
+                    [payment_method] => 
+                    [payment_method_options] => stdClass Object
+                        (
+                            [card] => stdClass Object
+                                (
+                                    [installments] => 
+                                    [mandate_options] => 
+                                    [network] => 
+                                    [request_three_d_secure] => automatic
+                                )
+
+                        )
+
+                    [payment_method_types] => Array
+                        (
+                            [0] => card
+                        )
+
+                    [processing] => 
+                    [receipt_email] => 
+                    [review] => 
+                    [setup_future_usage] => 
+                    [shipping] => stdClass Object
+                        (
+                            [address] => stdClass Object
+                                (
+                                    [city] => Dau, Mabalacat City
+                                    [country] => PH
+                                    [line1] => 3977 General Tinio Street
+                                    [line2] => 
+                                    [postal_code] => 2010
+                                    [state] => PAM
+                                )
+
+                            [carrier] => 
+                            [name] => Guren Quiambao
+                            [phone] => 
+                            [tracking_number] => 
+                        )
+
+                    [source] => 
+                    [statement_descriptor] => 
+                    [statement_descriptor_suffix] => 
+                    [status] => requires_payment_method
+                    [transfer_data] => 
+                    [transfer_group] => 
+                )
+
+            [payment_method] => stdClass Object
+                (
+                    [id] => pm_1NFYNYHBYpPUI6mKugmLQt8B
+                    [object] => payment_method
+                    [billing_details] => stdClass Object
+                        (
+                            [address] => stdClass Object
+                                (
+                                    [city] => Dau, Mabalacat City
+                                    [country] => PH
+                                    [line1] => 3977 General Tinio Street
+                                    [line2] => 
+                                    [postal_code] => 2010
+                                    [state] => PAM
+                                )
+
+                            [email] => sia.quiambao.jeremiah@gmail.com
+                            [name] => Guren Quiambao
+                            [phone] => 09435381366
+                        )
+
+                    [card] => stdClass Object
+                        (
+                            [brand] => visa
+                            [checks] => stdClass Object
+                                (
+                                    [address_line1_check] => pass
+                                    [address_postal_code_check] => pass
+                                    [cvc_check] => pass
+                                )
+
+                            [country] => US
+                            [exp_month] => 12
+                            [exp_year] => 2034
+                            [fingerprint] => cqLiJSggpUp5V6FW
+                            [funding] => credit
+                            [generated_from] => 
+                            [last4] => 0119
+                            [networks] => stdClass Object
+                                (
+                                    [available] => Array
+                                        (
+                                            [0] => visa
+                                        )
+
+                                    [preferred] => 
+                                )
+
+                            [three_d_secure_usage] => stdClass Object
+                                (
+                                    [supported] => 1
+                                )
+
+                            [wallet] => 
+                        )
+
+                    [created] => 1685952184
+                    [customer] => 
+                    [livemode] => 
+                    [metadata] => stdClass Object
+                        (
+                        )
+
+                    [type] => card
+                )
+
+            [request_log_url] => https://dashboard.stripe.com/test/logs/req_oWJp3jpvuLxAv7?t=1685952186
+            [type] => card_error
+        )
+
+)
+
+====End Log====
+
+
+2023-06-05T08:03:40+00:00 DEBUG 
+====Stripe Version: 7.4.1====
+====Start Log====
+payment_intents/pi_3NFYMLHBYpPUI6mK1wRtzm0f?expand[]=payment_method request: Array
+(
+)
+
+====End Log====
+
+
+2023-06-05T08:03:41+00:00 DEBUG 
+====Stripe Version: 7.4.1====
+====Start Log====
+payment_methods/pm_1NFYO7HBYpPUI6mKuEpbZmRl
+====End Log====
+
+
+2023-06-05T08:03:41+00:00 DEBUG 
+====Stripe Version: 7.4.1====
+====Start Log====
+customers/cus_O1X7sWrhS3eddJ request: Array
+(
+    [email] => sia.quiambao.jeremiah@gmail.com
+    [description] => Name: Guren Quiambao, Username: guren.quiambao
+    [name] => Guren Quiambao
+    [metadata] => Array
+        (
+        )
+
+    [preferred_locales] => Array
+        (
+            [0] => en-US
+        )
+
+)
+
+====End Log====
+
+
+2023-06-05T08:03:41+00:00 DEBUG 
+====Stripe Version: 7.4.1====
+====Start Log====
+Info: Begin processing payment for order 115 for the amount of 250.00
+====End Log====
+
+
+2023-06-05T08:03:41+00:00 DEBUG 
+====Stripe Version: 7.4.1====
+====Start Log====
+payment_intents/pi_3NFYMLHBYpPUI6mK1wRtzm0f request: Array
+(
+    [payment_method] => pm_1NFYO7HBYpPUI6mKuEpbZmRl
+    [payment_method_types] => Array
+        (
+            [0] => card
+        )
+
+)
+
+====End Log====
+
+
+2023-06-05T08:03:42+00:00 DEBUG 
+====Stripe Version: 7.4.1====
+====Start Log====
+payment_intents/pi_3NFYMLHBYpPUI6mK1wRtzm0f/confirm request: Array
+(
+    [payment_method] => pm_1NFYO7HBYpPUI6mKuEpbZmRl
+)
+
+====End Log====
+
+
+2023-06-05T08:03:43+00:00 DEBUG 
+====Stripe Version: 7.4.1====
+====Start Log====
+Error: stdClass Object
+(
+    [error] => stdClass Object
+        (
+            [charge] => ch_3NFYMLHBYpPUI6mK1CqySjgC
+            [code] => card_declined
+            [decline_code] => fraudulent
+            [doc_url] => https://stripe.com/docs/error-codes/card-declined
+            [message] => Your card was declined.
+            [payment_intent] => stdClass Object
+                (
+                    [id] => pi_3NFYMLHBYpPUI6mK1wRtzm0f
+                    [object] => payment_intent
+                    [amount] => 25000
+                    [amount_capturable] => 0
+                    [amount_details] => stdClass Object
+                        (
+                            [tip] => stdClass Object
+                                (
+                                )
+
+                        )
+
+                    [amount_received] => 0
+                    [application] => 
+                    [application_fee_amount] => 
+                    [automatic_payment_methods] => 
+                    [canceled_at] => 
+                    [cancellation_reason] => 
+                    [capture_method] => automatic
+                    [charges] => stdClass Object
+                        (
+                            [object] => list
+                            [data] => Array
+                                (
+                                    [0] => stdClass Object
+                                        (
+                                            [id] => ch_3NFYMLHBYpPUI6mK1CqySjgC
+                                            [object] => charge
+                                            [amount] => 25000
+                                            [amount_captured] => 0
+                                            [amount_refunded] => 0
+                                            [application] => 
+                                            [application_fee] => 
+                                            [application_fee_amount] => 
+                                            [balance_transaction] => 
+                                            [billing_details] => stdClass Object
+                                                (
+                                                    [address] => stdClass Object
+                                                        (
+                                                            [city] => Dau, Mabalacat City
+                                                            [country] => PH
+                                                            [line1] => 3977 General Tinio Street
+                                                            [line2] => 
+                                                            [postal_code] => 2010
+                                                            [state] => PAM
+                                                        )
+
+                                                    [email] => sia.quiambao.jeremiah@gmail.com
+                                                    [name] => Guren Quiambao
+                                                    [phone] => 09435381366
+                                                )
+
+                                            [calculated_statement_descriptor] => 
+                                            [captured] => 
+                                            [created] => 1685952222
+                                            [currency] => php
+                                            [customer] => cus_O1X7sWrhS3eddJ
+                                            [description] => Golteb Busters - Order 115
+                                            [destination] => 
+                                            [dispute] => 
+                                            [disputed] => 
+                                            [failure_balance_transaction] => 
+                                            [failure_code] => card_declined
+                                            [failure_message] => Your card was declined.
+                                            [fraud_details] => stdClass Object
+                                                (
+                                                    [stripe_report] => fraudulent
+                                                )
+
+                                            [invoice] => 
+                                            [livemode] => 
+                                            [metadata] => stdClass Object
+                                                (
+                                                    [order_id] => 115
+                                                    [site_url] => https://www.goltebbusters.store
+                                                    [customer_email] => sia.quiambao.jeremiah@gmail.com
+                                                    [customer_name] => Guren Quiambao
+                                                )
+
+                                            [on_behalf_of] => 
+                                            [order] => 
+                                            [outcome] => stdClass Object
+                                                (
+                                                    [network_status] => not_sent_to_network
+                                                    [reason] => merchant_blacklist
+                                                    [risk_level] => highest
+                                                    [risk_score] => 99
+                                                    [seller_message] => Stripe blocked this payment.
+                                                    [type] => blocked
+                                                )
+
+                                            [paid] => 
+                                            [payment_intent] => pi_3NFYMLHBYpPUI6mK1wRtzm0f
+                                            [payment_method] => pm_1NFYO7HBYpPUI6mKuEpbZmRl
+                                            [payment_method_details] => stdClass Object
+                                                (
+                                                    [card] => stdClass Object
+                                                        (
+                                                            [brand] => visa
+                                                            [checks] => stdClass Object
+                                                                (
+                                                                    [address_line1_check] => unavailable
+                                                                    [address_postal_code_check] => unavailable
+                                                                    [cvc_check] => unavailable
+                                                                )
+
+                                                            [country] => US
+                                                            [exp_month] => 12
+                                                            [exp_year] => 2034
+                                                            [fingerprint] => UGi6AJRUtFyAqdSW
+                                                            [funding] => credit
+                                                            [installments] => 
+                                                            [last4] => 0019
+                                                            [mandate] => 
+                                                            [network] => visa
+                                                            [network_token] => stdClass Object
+                                                                (
+                                                                    [used] => 
+                                                                )
+
+                                                            [three_d_secure] => 
+                                                            [wallet] => 
+                                                        )
+
+                                                    [type] => card
+                                                )
+
+                                            [receipt_email] => 
+                                            [receipt_number] => 
+                                            [receipt_url] => 
+                                            [refunded] => 
+                                            [refunds] => stdClass Object
+                                                (
+                                                    [object] => list
+                                                    [data] => Array
+                                                        (
+                                                        )
+
+                                                    [has_more] => 
+                                                    [total_count] => 0
+                                                    [url] => /v1/charges/ch_3NFYMLHBYpPUI6mK1CqySjgC/refunds
+                                                )
+
+                                            [review] => 
+                                            [shipping] => stdClass Object
+                                                (
+                                                    [address] => stdClass Object
+                                                        (
+                                                            [city] => Dau, Mabalacat City
+                                                            [country] => PH
+                                                            [line1] => 3977 General Tinio Street
+                                                            [line2] => 
+                                                            [postal_code] => 2010
+                                                            [state] => PAM
+                                                        )
+
+                                                    [carrier] => 
+                                                    [name] => Guren Quiambao
+                                                    [phone] => 
+                                                    [tracking_number] => 
+                                                )
+
+                                            [source] => 
+                                            [source_transfer] => 
+                                            [statement_descriptor] => 
+                                            [statement_descriptor_suffix] => 
+                                            [status] => failed
+                                            [transfer_data] => 
+                                            [transfer_group] => 
+                                        )
+
+                                )
+
+                            [has_more] => 1
+                            [total_count] => 2
+                            [url] => /v1/charges?payment_intent=pi_3NFYMLHBYpPUI6mK1wRtzm0f
+                        )
+
+                    [client_secret] => pi_3NFYMLHBYpPUI6mK1wRtzm0f_secret_uHbsXkJYmWdUAwT3gmOR2uSo2
+                    [confirmation_method] => automatic
+                    [created] => 1685952109
+                    [currency] => php
+                    [customer] => cus_O1X7sWrhS3eddJ
+                    [description] => Golteb Busters - Order 115
+                    [invoice] => 
+                    [last_payment_error] => stdClass Object
+                        (
+                            [charge] => ch_3NFYMLHBYpPUI6mK1CqySjgC
+                            [code] => card_declined
+                            [decline_code] => fraudulent
+                            [doc_url] => https://stripe.com/docs/error-codes/card-declined
+                            [message] => Your card was declined.
+                            [payment_method] => stdClass Object
+                                (
+                                    [id] => pm_1NFYO7HBYpPUI6mKuEpbZmRl
+                                    [object] => payment_method
+                                    [billing_details] => stdClass Object
+                                        (
+                                            [address] => stdClass Object
+                                                (
+                                                    [city] => Dau, Mabalacat City
+                                                    [country] => PH
+                                                    [line1] => 3977 General Tinio Street
+                                                    [line2] => 
+                                                    [postal_code] => 2010
+                                                    [state] => PAM
+                                                )
+
+                                            [email] => sia.quiambao.jeremiah@gmail.com
+                                            [name] => Guren Quiambao
+                                            [phone] => 09435381366
+                                        )
+
+                                    [card] => stdClass Object
+                                        (
+                                            [brand] => visa
+                                            [checks] => stdClass Object
+                                                (
+                                                    [address_line1_check] => unchecked
+                                                    [address_postal_code_check] => unchecked
+                                                    [cvc_check] => unchecked
+                                                )
+
+                                            [country] => US
+                                            [exp_month] => 12
+                                            [exp_year] => 2034
+                                            [fingerprint] => UGi6AJRUtFyAqdSW
+                                            [funding] => credit
+                                            [generated_from] => 
+                                            [last4] => 0019
+                                            [networks] => stdClass Object
+                                                (
+                                                    [available] => Array
+                                                        (
+                                                            [0] => visa
+                                                        )
+
+                                                    [preferred] => 
+                                                )
+
+                                            [three_d_secure_usage] => stdClass Object
+                                                (
+                                                    [supported] => 1
+                                                )
+
+                                            [wallet] => 
+                                        )
+
+                                    [created] => 1685952219
+                                    [customer] => 
+                                    [livemode] => 
+                                    [metadata] => stdClass Object
+                                        (
+                                        )
+
+                                    [type] => card
+                                )
+
+                            [type] => card_error
+                        )
+
+                    [latest_charge] => ch_3NFYMLHBYpPUI6mK1CqySjgC
+                    [livemode] => 
+                    [metadata] => stdClass Object
+                        (
+                            [order_id] => 115
+                            [site_url] => https://www.goltebbusters.store
+                            [customer_email] => sia.quiambao.jeremiah@gmail.com
+                            [customer_name] => Guren Quiambao
+                        )
+
+                    [next_action] => 
+                    [on_behalf_of] => 
+                    [payment_method] => 
+                    [payment_method_options] => stdClass Object
+                        (
+                            [card] => stdClass Object
+                                (
+                                    [installments] => 
+                                    [mandate_options] => 
+                                    [network] => 
+                                    [request_three_d_secure] => automatic
+                                )
+
+                        )
+
+                    [payment_method_types] => Array
+                        (
+                            [0] => card
+                        )
+
+                    [processing] => 
+                    [receipt_email] => 
+                    [review] => 
+                    [setup_future_usage] => 
+                    [shipping] => stdClass Object
+                        (
+                            [address] => stdClass Object
+                                (
+                                    [city] => Dau, Mabalacat City
+                                    [country] => PH
+                                    [line1] => 3977 General Tinio Street
+                                    [line2] => 
+                                    [postal_code] => 2010
+                                    [state] => PAM
+                                )
+
+                            [carrier] => 
+                            [name] => Guren Quiambao
+                            [phone] => 
+                            [tracking_number] => 
+                        )
+
+                    [source] => 
+                    [statement_descriptor] => 
+                    [statement_descriptor_suffix] => 
+                    [status] => requires_payment_method
+                    [transfer_data] => 
+                    [transfer_group] => 
+                )
+
+            [payment_method] => stdClass Object
+                (
+                    [id] => pm_1NFYO7HBYpPUI6mKuEpbZmRl
+                    [object] => payment_method
+                    [billing_details] => stdClass Object
+                        (
+                            [address] => stdClass Object
+                                (
+                                    [city] => Dau, Mabalacat City
+                                    [country] => PH
+                                    [line1] => 3977 General Tinio Street
+                                    [line2] => 
+                                    [postal_code] => 2010
+                                    [state] => PAM
+                                )
+
+                            [email] => sia.quiambao.jeremiah@gmail.com
+                            [name] => Guren Quiambao
+                            [phone] => 09435381366
+                        )
+
+                    [card] => stdClass Object
+                        (
+                            [brand] => visa
+                            [checks] => stdClass Object
+                                (
+                                    [address_line1_check] => unchecked
+                                    [address_postal_code_check] => unchecked
+                                    [cvc_check] => unchecked
+                                )
+
+                            [country] => US
+                            [exp_month] => 12
+                            [exp_year] => 2034
+                            [fingerprint] => UGi6AJRUtFyAqdSW
+                            [funding] => credit
+                            [generated_from] => 
+                            [last4] => 0019
+                            [networks] => stdClass Object
+                                (
+                                    [available] => Array
+                                        (
+                                            [0] => visa
+                                        )
+
+                                    [preferred] => 
+                                )
+
+                            [three_d_secure_usage] => stdClass Object
+                                (
+                                    [supported] => 1
+                                )
+
+                            [wallet] => 
+                        )
+
+                    [created] => 1685952219
+                    [customer] => 
+                    [livemode] => 
+                    [metadata] => stdClass Object
+                        (
+                        )
+
+                    [type] => card
+                )
+
+            [request_log_url] => https://dashboard.stripe.com/test/logs/req_tuaFclcLx2LbRF?t=1685952222
+            [type] => card_error
+        )
+
+)
+
+====End Log====
+
+
+2023-06-05T08:03:57+00:00 DEBUG 
+====Stripe Version: 7.4.1====
+====Start Log====
+payment_intents/pi_3NFYMLHBYpPUI6mK1wRtzm0f?expand[]=payment_method request: Array
+(
+)
+
+====End Log====
+
+
+2023-06-05T08:03:57+00:00 DEBUG 
+====Stripe Version: 7.4.1====
+====Start Log====
+payment_methods/pm_1NFYOOHBYpPUI6mKTYNHDZsm
+====End Log====
+
+
+2023-06-05T08:03:57+00:00 DEBUG 
+====Stripe Version: 7.4.1====
+====Start Log====
+customers/cus_O1X7sWrhS3eddJ request: Array
+(
+    [email] => sia.quiambao.jeremiah@gmail.com
+    [description] => Name: Guren Quiambao, Username: guren.quiambao
+    [name] => Guren Quiambao
+    [metadata] => Array
+        (
+        )
+
+    [preferred_locales] => Array
+        (
+            [0] => en-US
+        )
+
+)
+
+====End Log====
+
+
+2023-06-05T08:03:58+00:00 DEBUG 
+====Stripe Version: 7.4.1====
+====Start Log====
+Info: Begin processing payment for order 115 for the amount of 250.00
+====End Log====
+
+
+2023-06-05T08:03:58+00:00 DEBUG 
+====Stripe Version: 7.4.1====
+====Start Log====
+payment_intents/pi_3NFYMLHBYpPUI6mK1wRtzm0f request: Array
+(
+    [payment_method] => pm_1NFYOOHBYpPUI6mKTYNHDZsm
+    [payment_method_types] => Array
+        (
+            [0] => card
+        )
+
+)
+
+====End Log====
+
+
+2023-06-05T08:03:58+00:00 DEBUG 
+====Stripe Version: 7.4.1====
+====Start Log====
+payment_intents/pi_3NFYMLHBYpPUI6mK1wRtzm0f/confirm request: Array
+(
+    [payment_method] => pm_1NFYOOHBYpPUI6mKTYNHDZsm
+)
+
+====End Log====
+
+
+2023-06-05T08:03:59+00:00 DEBUG 
+====Stripe Version: 7.4.1====
+====Start Log====
+Stripe PaymentIntent pi_3NFYMLHBYpPUI6mK1wRtzm0f succeeded for order 115
+====End Log====
+
+
+2023-06-05T08:03:59+00:00 DEBUG 
+====Stripe Version: 7.4.1====
+====Start Log====
+Processing response: stdClass Object
+(
+    [id] => ch_3NFYMLHBYpPUI6mK1vw76p2D
+    [object] => charge
+    [amount] => 25000
+    [amount_captured] => 25000
+    [amount_refunded] => 0
+    [application] => 
+    [application_fee] => 
+    [application_fee_amount] => 
+    [balance_transaction] => txn_3NFYMLHBYpPUI6mK1SUhhdLj
+    [billing_details] => stdClass Object
+        (
+            [address] => stdClass Object
+                (
+                    [city] => Dau, Mabalacat City
+                    [country] => PH
+                    [line1] => 3977 General Tinio Street
+                    [line2] => 
+                    [postal_code] => 2010
+                    [state] => PAM
+                )
+
+            [email] => sia.quiambao.jeremiah@gmail.com
+            [name] => Guren Quiambao
+            [phone] => 09435381366
+        )
+
+    [calculated_statement_descriptor] => WWW.GOLTEBBUSTERS.STOR
+    [captured] => 1
+    [created] => 1685952239
+    [currency] => php
+    [customer] => cus_O1X7sWrhS3eddJ
+    [description] => Golteb Busters - Order 115
+    [destination] => 
+    [dispute] => 
+    [disputed] => 
+    [failure_balance_transaction] => 
+    [failure_code] => 
+    [failure_message] => 
+    [fraud_details] => stdClass Object
+        (
+        )
+
+    [invoice] => 
+    [livemode] => 
+    [metadata] => stdClass Object
+        (
+            [customer_email] => sia.quiambao.jeremiah@gmail.com
+            [customer_name] => Guren Quiambao
+            [order_id] => 115
+            [site_url] => https://www.goltebbusters.store
+        )
+
+    [on_behalf_of] => 
+    [order] => 
+    [outcome] => stdClass Object
+        (
+            [network_status] => approved_by_network
+            [reason] => 
+            [risk_level] => elevated
+            [risk_score] => 71
+            [seller_message] => Payment complete.
+            [type] => authorized
+        )
+
+    [paid] => 1
+    [payment_intent] => pi_3NFYMLHBYpPUI6mK1wRtzm0f
+    [payment_method] => pm_1NFYOOHBYpPUI6mKTYNHDZsm
+    [payment_method_details] => stdClass Object
+        (
+            [card] => stdClass Object
+                (
+                    [brand] => visa
+                    [checks] => stdClass Object
+                        (
+                            [address_line1_check] => pass
+                            [address_postal_code_check] => pass
+                            [cvc_check] => pass
+                        )
+
+                    [country] => US
+                    [exp_month] => 12
+                    [exp_year] => 2034
+                    [fingerprint] => UB53254jA5R9E1lF
+                    [funding] => credit
+                    [installments] => 
+                    [last4] => 9235
+                    [mandate] => 
+                    [network] => visa
+                    [network_token] => stdClass Object
+                        (
+                            [used] => 
+                        )
+
+                    [three_d_secure] => 
+                    [wallet] => 
+                )
+
+            [type] => card
+        )
+
+    [receipt_email] => 
+    [receipt_number] => 
+    [receipt_url] => https://pay.stripe.com/receipts/payment/CAcaFwoVYWNjdF8xTkZHSWVIQllwUFVJNm1LKO-t9qMGMgbNj5cr6y06LBY7MM_WoRUD8eHzAiJyfPlbGo4_HK47NY4hrRKklDgjgac3KhOjOKusfYwB
+    [refunded] => 
+    [refunds] => stdClass Object
+        (
+            [object] => list
+            [data] => Array
+                (
+                )
+
+            [has_more] => 
+            [total_count] => 0
+            [url] => /v1/charges/ch_3NFYMLHBYpPUI6mK1vw76p2D/refunds
+        )
+
+    [review] => 
+    [shipping] => stdClass Object
+        (
+            [address] => stdClass Object
+                (
+                    [city] => Dau, Mabalacat City
+                    [country] => PH
+                    [line1] => 3977 General Tinio Street
+                    [line2] => 
+                    [postal_code] => 2010
+                    [state] => PAM
+                )
+
+            [carrier] => 
+            [name] => Guren Quiambao
+            [phone] => 
+            [tracking_number] => 
+        )
+
+    [source] => 
+    [source_transfer] => 
+    [statement_descriptor] => 
+    [statement_descriptor_suffix] => 
+    [status] => succeeded
+    [transfer_data] => 
+    [transfer_group] => 
+)
+
+====End Log====
+
+
+2023-06-05T08:03:59+00:00 DEBUG 
+====Stripe Version: 7.4.1====
+====Start Log====
+balance/history/txn_3NFYMLHBYpPUI6mK1SUhhdLj
+====End Log====
+
+
